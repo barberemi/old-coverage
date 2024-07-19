@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/SEO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">SEO</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EuronewsTwitterCard.php.html#7">App\Component\SEO\EuronewsTwitterCard</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOTwig.php.html#8">App\Component\SEO\SEOTwig</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="EuronewsOpenGraph.php.html#7">App\Component\SEO\EuronewsOpenGraph</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#23">App\Component\SEO\SchemaBuilder</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="SEOManager.php.html#26">App\Component\SEO\SEOManager</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SEOManager.php.html#26">App\Component\SEO\SEOManager</a></td><td class="text-right">158</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#23">App\Component\SEO\SchemaBuilder</a></td><td class="text-right">124</td></tr>
+       <tr><td><a href="EuronewsOpenGraph.php.html#7">App\Component\SEO\EuronewsOpenGraph</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SEOTwig.php.html#8">App\Component\SEO\SEOTwig</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EuronewsTwitterCard.php.html#9"><abbr title="App\Component\SEO\EuronewsTwitterCard::getValues">getValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsTwitterCard.php.html#14"><abbr title="App\Component\SEO\EuronewsTwitterCard::getImages">getImages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOManager.php.html#80"><abbr title="App\Component\SEO\SEOManager::disbaleCommonAlternates">disbaleCommonAlternates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOManager.php.html#149"><abbr title="App\Component\SEO\SEOManager::buildLogin">buildLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOManager.php.html#800"><abbr title="App\Component\SEO\SEOManager::buildCity">buildCity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOTwig.php.html#34"><abbr title="App\Component\SEO\SEOTwig::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#63"><abbr title="App\Component\SEO\SchemaBuilder::buildStaticSchema">buildStaticSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#338"><abbr title="App\Component\SEO\SchemaBuilder::getOrganizationSchema">getOrganizationSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#397"><abbr title="App\Component\SEO\SchemaBuilder::getProgramApi">getProgramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#428"><abbr title="App\Component\SEO\SchemaBuilder::getRouter">getRouter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#446"><abbr title="App\Component\SEO\SchemaBuilder::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#473"><abbr title="App\Component\SEO\SchemaBuilder::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEOTwig.php.html#20"><abbr title="App\Component\SEO\SEOTwig::seoMeta">seoMeta</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#454"><abbr title="App\Component\SEO\SchemaBuilder::getTwitterUrl">getTwitterUrl</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#264"><abbr title="App\Component\SEO\SchemaBuilder::getImageCaption">getImageCaption</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#626"><abbr title="App\Component\SEO\SchemaBuilder::getUploadDate">getUploadDate</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#92"><abbr title="App\Component\SEO\SchemaBuilder::generateJson">generateJson</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="SEOTools.php.html#248"><abbr title="App\Component\SEO\SEOTools::setRobotsNoIndex">setRobotsNoIndex</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="SEOManager.php.html#510"><abbr title="App\Component\SEO\SEOManager::isSponsoredProgram">isSponsoredProgram</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="EuronewsOpenGraph.php.html#40"><abbr title="App\Component\SEO\EuronewsOpenGraph::eachProperties">eachProperties</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="SEOManager.php.html#36"><abbr title="App\Component\SEO\SEOManager::__construct">__construct</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="SEOTools.php.html#46"><abbr title="App\Component\SEO\SEOTools::setDefaultCanonical">setDefaultCanonical</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#534"><abbr title="App\Component\SEO\SchemaBuilder::getBroadcastEventSchema">getBroadcastEventSchema</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="SEOManager.php.html#333"><abbr title="App\Component\SEO\SEOManager::buildArticle">buildArticle</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SEOManager.php.html#149"><abbr title="App\Component\SEO\SEOManager::buildLogin">buildLogin</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="SEOManager.php.html#333"><abbr title="App\Component\SEO\SEOManager::buildArticle">buildArticle</abbr></a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="EuronewsOpenGraph.php.html#40"><abbr title="App\Component\SEO\EuronewsOpenGraph::eachProperties">eachProperties</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#534"><abbr title="App\Component\SEO\SchemaBuilder::getBroadcastEventSchema">getBroadcastEventSchema</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#264"><abbr title="App\Component\SEO\SchemaBuilder::getImageCaption">getImageCaption</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="SEOManager.php.html#510"><abbr title="App\Component\SEO\SEOManager::isSponsoredProgram">isSponsoredProgram</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SEOManager.php.html#36"><abbr title="App\Component\SEO\SEOManager::__construct">__construct</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#454"><abbr title="App\Component\SEO\SchemaBuilder::getTwitterUrl">getTwitterUrl</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#92"><abbr title="App\Component\SEO\SchemaBuilder::generateJson">generateJson</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="SEOTwig.php.html#20"><abbr title="App\Component\SEO\SEOTwig::seoMeta">seoMeta</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SchemaBuilder.php.html#626"><abbr title="App\Component\SEO\SchemaBuilder::getUploadDate">getUploadDate</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SEOTools.php.html#248"><abbr title="App\Component\SEO\SEOTools::setRobotsNoIndex">setRobotsNoIndex</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SEOTools.php.html#46"><abbr title="App\Component\SEO\SEOTools::setDefaultCanonical">setDefaultCanonical</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,1,0,0,3,1,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,4,5,3,5,73], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"EuronewsJsonLdMulti.php.html#7\">App\\Component\\SEO\\EuronewsJsonLdMulti<\/a>"],[81.48148148148148,12,"<a href=\"EuronewsOpenGraph.php.html#7\">App\\Component\\SEO\\EuronewsOpenGraph<\/a>"],[0,2,"<a href=\"EuronewsTwitterCard.php.html#7\">App\\Component\\SEO\\EuronewsTwitterCard<\/a>"],[88.04554079696395,130,"<a href=\"SEOManager.php.html#26\">App\\Component\\SEO\\SEOManager<\/a>"],[97.40259740259741,44,"<a href=\"SEOTools.php.html#16\">App\\Component\\SEO\\SEOTools<\/a>"],[57.14285714285714,4,"<a href=\"SEOTwig.php.html#8\">App\\Component\\SEO\\SEOTwig<\/a>"],[85.42372881355932,96,"<a href=\"SchemaBuilder.php.html#23\">App\\Component\\SEO\\SchemaBuilder<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"EuronewsJsonLdMulti.php.html#9\">App\\Component\\SEO\\EuronewsJsonLdMulti::generate<\/a>"],[100,1,"<a href=\"EuronewsOpenGraph.php.html#9\">App\\Component\\SEO\\EuronewsOpenGraph::getProperties<\/a>"],[100,2,"<a href=\"EuronewsOpenGraph.php.html#20\">App\\Component\\SEO\\EuronewsOpenGraph::generate<\/a>"],[78.26086956521739,9,"<a href=\"EuronewsOpenGraph.php.html#40\">App\\Component\\SEO\\EuronewsOpenGraph::eachProperties<\/a>"],[0,1,"<a href=\"EuronewsTwitterCard.php.html#9\">App\\Component\\SEO\\EuronewsTwitterCard::getValues<\/a>"],[0,1,"<a href=\"EuronewsTwitterCard.php.html#14\">App\\Component\\SEO\\EuronewsTwitterCard::getImages<\/a>"],[78.57142857142857,5,"<a href=\"SEOManager.php.html#36\">App\\Component\\SEO\\SEOManager::__construct<\/a>"],[100,1,"<a href=\"SEOManager.php.html#73\">App\\Component\\SEO\\SEOManager::disableRobotsIndexing<\/a>"],[0,1,"<a href=\"SEOManager.php.html#80\">App\\Component\\SEO\\SEOManager::disbaleCommonAlternates<\/a>"],[92.85714285714286,3,"<a href=\"SEOManager.php.html#87\">App\\Component\\SEO\\SEOManager::preBuild<\/a>"],[100,1,"<a href=\"SEOManager.php.html#109\">App\\Component\\SEO\\SEOManager::buildHome<\/a>"],[94.73684210526315,2,"<a href=\"SEOManager.php.html#120\">App\\Component\\SEO\\SEOManager::buildVertical<\/a>"],[0,10,"<a href=\"SEOManager.php.html#149\">App\\Component\\SEO\\SEOManager::buildLogin<\/a>"],[95,3,"<a href=\"SEOManager.php.html#197\">App\\Component\\SEO\\SEOManager::buildTheme<\/a>"],[100,3,"<a href=\"SEOManager.php.html#231\">App\\Component\\SEO\\SEOManager::buildProgram<\/a>"],[100,1,"<a href=\"SEOManager.php.html#258\">App\\Component\\SEO\\SEOManager::buildHubPage<\/a>"],[100,4,"<a href=\"SEOManager.php.html#282\">App\\Component\\SEO\\SEOManager::buildTag<\/a>"],[100,1,"<a href=\"SEOManager.php.html#307\">App\\Component\\SEO\\SEOManager::buildLandingNoComment<\/a>"],[100,1,"<a href=\"SEOManager.php.html#319\">App\\Component\\SEO\\SEOManager::buildIndexProgram<\/a>"],[88.33333333333333,34,"<a href=\"SEOManager.php.html#333\">App\\Component\\SEO\\SEOManager::buildArticle<\/a>"],[77.77777777777779,6,"<a href=\"SEOManager.php.html#510\">App\\Component\\SEO\\SEOManager::isSponsoredProgram<\/a>"],[100,4,"<a href=\"SEOManager.php.html#534\">App\\Component\\SEO\\SEOManager::overloadArticleWires<\/a>"],[95,7,"<a href=\"SEOManager.php.html#554\">App\\Component\\SEO\\SEOManager::buildVideoArticle<\/a>"],[100,1,"<a href=\"SEOManager.php.html#590\">App\\Component\\SEO\\SEOManager::buildImageMetas<\/a>"],[100,1,"<a href=\"SEOManager.php.html#608\">App\\Component\\SEO\\SEOManager::buildVideoNbcuArticle<\/a>"],[100,1,"<a href=\"SEOManager.php.html#616\">App\\Component\\SEO\\SEOManager::buildStatic<\/a>"],[100,1,"<a href=\"SEOManager.php.html#635\">App\\Component\\SEO\\SEOManager::buildVideoLanding<\/a>"],[100,1,"<a href=\"SEOManager.php.html#646\">App\\Component\\SEO\\SEOManager::buildVideoLive<\/a>"],[100,1,"<a href=\"SEOManager.php.html#660\">App\\Component\\SEO\\SEOManager::buildVideoBulletin<\/a>"],[100,6,"<a href=\"SEOManager.php.html#674\">App\\Component\\SEO\\SEOManager::buildWeather<\/a>"],[100,1,"<a href=\"SEOManager.php.html#724\">App\\Component\\SEO\\SEOManager::buildFixture<\/a>"],[100,1,"<a href=\"SEOManager.php.html#739\">App\\Component\\SEO\\SEOManager::buildResult<\/a>"],[100,1,"<a href=\"SEOManager.php.html#754\">App\\Component\\SEO\\SEOManager::buildRanking<\/a>"],[100,1,"<a href=\"SEOManager.php.html#769\">App\\Component\\SEO\\SEOManager::buildContinent<\/a>"],[100,1,"<a href=\"SEOManager.php.html#788\">App\\Component\\SEO\\SEOManager::buildCountry<\/a>"],[0,1,"<a href=\"SEOManager.php.html#800\">App\\Component\\SEO\\SEOManager::buildCity<\/a>"],[100,1,"<a href=\"SEOManager.php.html#811\">App\\Component\\SEO\\SEOManager::buildTimeline<\/a>"],[100,4,"<a href=\"SEOManager.php.html#827\">App\\Component\\SEO\\SEOManager::buildArchive<\/a>"],[100,1,"<a href=\"SEOManager.php.html#857\">App\\Component\\SEO\\SEOManager::buildSearch<\/a>"],[100,1,"<a href=\"SEOManager.php.html#868\">App\\Component\\SEO\\SEOManager::getManager<\/a>"],[100,1,"<a href=\"SEOManager.php.html#875\">App\\Component\\SEO\\SEOManager::generate<\/a>"],[100,3,"<a href=\"SEOManager.php.html#882\">App\\Component\\SEO\\SEOManager::setCanonicalFirstPaginationPage<\/a>"],[100,7,"<a href=\"SEOManager.php.html#891\">App\\Component\\SEO\\SEOManager::addCommonAlternate<\/a>"],[100,2,"<a href=\"SEOManager.php.html#923\">App\\Component\\SEO\\SEOManager::addSeoCanonical<\/a>"],[100,1,"<a href=\"SEOManager.php.html#933\">App\\Component\\SEO\\SEOManager::checkTransKey<\/a>"],[100,4,"<a href=\"SEOManager.php.html#938\">App\\Component\\SEO\\SEOManager::addMeta<\/a>"],[100,1,"<a href=\"SEOTools.php.html#28\">App\\Component\\SEO\\SEOTools::__construct<\/a>"],[100,1,"<a href=\"SEOTools.php.html#32\">App\\Component\\SEO\\SEOTools::setRequestStack<\/a>"],[100,1,"<a href=\"SEOTools.php.html#39\">App\\Component\\SEO\\SEOTools::setSuffix<\/a>"],[80,2,"<a href=\"SEOTools.php.html#46\">App\\Component\\SEO\\SEOTools::setDefaultCanonical<\/a>"],[100,1,"<a href=\"SEOTools.php.html#59\">App\\Component\\SEO\\SEOTools::disableCanonical<\/a>"],[100,1,"<a href=\"SEOTools.php.html#66\">App\\Component\\SEO\\SEOTools::metatags<\/a>"],[100,1,"<a href=\"SEOTools.php.html#72\">App\\Component\\SEO\\SEOTools::opengraph<\/a>"],[100,1,"<a href=\"SEOTools.php.html#78\">App\\Component\\SEO\\SEOTools::twitter<\/a>"],[100,1,"<a href=\"SEOTools.php.html#84\">App\\Component\\SEO\\SEOTools::jsonLdMulti<\/a>"],[100,2,"<a href=\"SEOTools.php.html#93\">App\\Component\\SEO\\SEOTools::setTitle<\/a>"],[100,2,"<a href=\"SEOTools.php.html#106\">App\\Component\\SEO\\SEOTools::setArticleTitle<\/a>"],[100,1,"<a href=\"SEOTools.php.html#125\">App\\Component\\SEO\\SEOTools::setDescription<\/a>"],[100,1,"<a href=\"SEOTools.php.html#131\">App\\Component\\SEO\\SEOTools::setMetaOg<\/a>"],[100,1,"<a href=\"SEOTools.php.html#143\">App\\Component\\SEO\\SEOTools::setCanonical<\/a>"],[100,13,"<a href=\"SEOTools.php.html#151\">App\\Component\\SEO\\SEOTools::setUrlCanonical<\/a>"],[100,2,"<a href=\"SEOTools.php.html#191\">App\\Component\\SEO\\SEOTools::addMetaGeneric<\/a>"],[100,8,"<a href=\"SEOTools.php.html#206\">App\\Component\\SEO\\SEOTools::generate<\/a>"],[100,2,"<a href=\"SEOTools.php.html#236\">App\\Component\\SEO\\SEOTools::setRobotsMetaTags<\/a>"],[75,2,"<a href=\"SEOTools.php.html#248\">App\\Component\\SEO\\SEOTools::setRobotsNoIndex<\/a>"],[100,1,"<a href=\"SEOTwig.php.html#10\">App\\Component\\SEO\\SEOTwig::getFunctions<\/a>"],[60,2,"<a href=\"SEOTwig.php.html#20\">App\\Component\\SEO\\SEOTwig::seoMeta<\/a>"],[0,1,"<a href=\"SEOTwig.php.html#34\">App\\Component\\SEO\\SEOTwig::getName<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#28\">App\\Component\\SEO\\SchemaBuilder::__construct<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#43\">App\\Component\\SEO\\SchemaBuilder::buildArticleSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#53\">App\\Component\\SEO\\SchemaBuilder::buildCarouselSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#58\">App\\Component\\SEO\\SchemaBuilder::buildGenericSchema<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#63\">App\\Component\\SEO\\SchemaBuilder::buildStaticSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#68\">App\\Component\\SEO\\SchemaBuilder::buildVideoSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#73\">App\\Component\\SEO\\SchemaBuilder::buildLivePageSchema<\/a>"],[72.72727272727273,4,"<a href=\"SchemaBuilder.php.html#92\">App\\Component\\SEO\\SchemaBuilder::generateJson<\/a>"],[100,3,"<a href=\"SchemaBuilder.php.html#117\">App\\Component\\SEO\\SchemaBuilder::getSchema<\/a>"],[100,14,"<a href=\"SchemaBuilder.php.html#135\">App\\Component\\SEO\\SchemaBuilder::getArticleSchema<\/a>"],[100,2,"<a href=\"SchemaBuilder.php.html#222\">App\\Component\\SEO\\SchemaBuilder::getCarouselSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#240\">App\\Component\\SEO\\SchemaBuilder::getGenericSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#254\">App\\Component\\SEO\\SchemaBuilder::getHeader<\/a>"],[66.66666666666666,6,"<a href=\"SchemaBuilder.php.html#264\">App\\Component\\SEO\\SchemaBuilder::getImageCaption<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#282\">App\\Component\\SEO\\SchemaBuilder::getImageSchema<\/a>"],[100,2,"<a href=\"SchemaBuilder.php.html#298\">App\\Component\\SEO\\SchemaBuilder::getImagePublisherSchema<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#338\">App\\Component\\SEO\\SchemaBuilder::getOrganizationSchema<\/a>"],[100,5,"<a href=\"SchemaBuilder.php.html#368\">App\\Component\\SEO\\SchemaBuilder::getPersonSchema<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#397\">App\\Component\\SEO\\SchemaBuilder::getProgramApi<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#402\">App\\Component\\SEO\\SchemaBuilder::getPotentialActionSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#411\">App\\Component\\SEO\\SchemaBuilder::getPublisherSchema<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#428\">App\\Component\\SEO\\SchemaBuilder::getRouter<\/a>"],[100,2,"<a href=\"SchemaBuilder.php.html#436\">App\\Component\\SEO\\SchemaBuilder::getSocial<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#446\">App\\Component\\SEO\\SchemaBuilder::getTranslator<\/a>"],[60,4,"<a href=\"SchemaBuilder.php.html#454\">App\\Component\\SEO\\SchemaBuilder::getTwitterUrl<\/a>"],[0,1,"<a href=\"SchemaBuilder.php.html#473\">App\\Component\\SEO\\SchemaBuilder::getVerticalHierarchyStore<\/a>"],[100,4,"<a href=\"SchemaBuilder.php.html#478\">App\\Component\\SEO\\SchemaBuilder::getArticleVideoSchemaName<\/a>"],[100,10,"<a href=\"SchemaBuilder.php.html#488\">App\\Component\\SEO\\SchemaBuilder::getArticleVideoSchema<\/a>"],[83.33333333333334,9,"<a href=\"SchemaBuilder.php.html#534\">App\\Component\\SEO\\SchemaBuilder::getBroadcastEventSchema<\/a>"],[100,1,"<a href=\"SchemaBuilder.php.html#563\">App\\Component\\SEO\\SchemaBuilder::getLanguageSchema<\/a>"],[93.33333333333333,7,"<a href=\"SchemaBuilder.php.html#578\">App\\Component\\SEO\\SchemaBuilder::getDurationISO8601<\/a>"],[100,2,"<a href=\"SchemaBuilder.php.html#605\">App\\Component\\SEO\\SchemaBuilder::getImageUrl<\/a>"],[100,2,"<a href=\"SchemaBuilder.php.html#614\">App\\Component\\SEO\\SchemaBuilder::getThumbnailUrl<\/a>"],[66.66666666666666,2,"<a href=\"SchemaBuilder.php.html#626\">App\\Component\\SEO\\SchemaBuilder::getUploadDate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/EuronewsBundle/Controller/API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">EuronewsBundle</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Controller</a></li>
+         <li class="breadcrumb-item"><a href="index.html">API</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DigitalDataController.php.html#26">App\EuronewsBundle\Controller\API\DigitalDataController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#21">App\EuronewsBundle\Controller\API\IrisDeepLinkController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#15">App\EuronewsBundle\Controller\API\PageBuilderValidationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisFlushController.php.html#20">App\EuronewsBundle\Controller\API\RedisFlushController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#13">App\EuronewsBundle\Controller\API\VersionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#20">App\EuronewsBundle\Controller\API\GeoblockingController</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#18">App\EuronewsBundle\Controller\API\MenuBuilderValidationController</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="SearchController.php.html#22">App\EuronewsBundle\Controller\API\SearchController</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="WeatherController.php.html#23">App\EuronewsBundle\Controller\API\WeatherController</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="AdvertisingDataController.php.html#27">App\EuronewsBundle\Controller\API\AdvertisingDataController</a></td><td class="text-right">89%</td></tr>
+       <tr><td><a href="JustInController.php.html#25">App\EuronewsBundle\Controller\API\JustInController</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuBuilderValidationController.php.html#18">App\EuronewsBundle\Controller\API\MenuBuilderValidationController</a></td><td class="text-right">312</td></tr>
+       <tr><td><a href="VersionController.php.html#13">App\EuronewsBundle\Controller\API\VersionController</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#21">App\EuronewsBundle\Controller\API\IrisDeepLinkController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="DigitalDataController.php.html#26">App\EuronewsBundle\Controller\API\DigitalDataController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#15">App\EuronewsBundle\Controller\API\PageBuilderValidationController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#20">App\EuronewsBundle\Controller\API\GeoblockingController</a></td><td class="text-right">53</td></tr>
+       <tr><td><a href="SearchController.php.html#22">App\EuronewsBundle\Controller\API\SearchController</a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="WeatherController.php.html#23">App\EuronewsBundle\Controller\API\WeatherController</a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="RedisFlushController.php.html#20">App\EuronewsBundle\Controller\API\RedisFlushController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="JustInController.php.html#25">App\EuronewsBundle\Controller\API\JustInController</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="AdvertisingDataController.php.html#27">App\EuronewsBundle\Controller\API\AdvertisingDataController</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdvertisingDataController.php.html#91"><abbr title="App\EuronewsBundle\Controller\API\AdvertisingDataController::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DigitalDataController.php.html#28"><abbr title="App\EuronewsBundle\Controller\API\DigitalDataController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DigitalDataController.php.html#58"><abbr title="App\EuronewsBundle\Controller\API\DigitalDataController::generateDigitalData">generateDigitalData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#95"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::getPlayerGeoblocking">getPlayerGeoblocking</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#23"><abbr title="App\EuronewsBundle\Controller\API\IrisDeepLinkController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#52"><abbr title="App\EuronewsBundle\Controller\API\IrisDeepLinkController::generateAssetLinks">generateAssetLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#113"><abbr title="App\EuronewsBundle\Controller\API\IrisDeepLinkController::resolve">resolve</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#22"><abbr title="App\EuronewsBundle\Controller\API\PageBuilderValidationController::addFactory">addFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#32"><abbr title="App\EuronewsBundle\Controller\API\PageBuilderValidationController::getFactory">getFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#37"><abbr title="App\EuronewsBundle\Controller\API\PageBuilderValidationController::returnResponse">returnResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#47"><abbr title="App\EuronewsBundle\Controller\API\PageBuilderValidationController::indexAction">indexAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisFlushController.php.html#22"><abbr title="App\EuronewsBundle\Controller\API\RedisFlushController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisFlushController.php.html#51"><abbr title="App\EuronewsBundle\Controller\API\RedisFlushController::indexAction">indexAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchController.php.html#71"><abbr title="App\EuronewsBundle\Controller\API\SearchController::tagAction">tagAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchController.php.html#84"><abbr title="App\EuronewsBundle\Controller\API\SearchController::archiveAction">archiveAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchController.php.html#97"><abbr title="App\EuronewsBundle\Controller\API\SearchController::programAction">programAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#17"><abbr title="App\EuronewsBundle\Controller\API\VersionController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#34"><abbr title="App\EuronewsBundle\Controller\API\VersionController::indexAction">indexAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#53"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getRevision">getRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#65"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getApc">getApc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#73"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getOpcache">getOpcache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#81"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getReleaseDate">getReleaseDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VersionController.php.html#102"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getApiVersion">getApiVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WeatherController.php.html#120"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::cityListAction">cityListAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#147"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateEntry">validateEntry</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#54"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::geoblockingAction">geoblockingAction</abbr></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#317"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateLocalizedConfiguration">validateLocalizedConfiguration</abbr></a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#368"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateConfigList">validateConfigList</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#76"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::getLiveGeoblocking">getLiveGeoblocking</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="WeatherController.php.html#57"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::indexAction">indexAction</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="SearchController.php.html#110"><abbr title="App\EuronewsBundle\Controller\API\SearchController::commonTreatment">commonTreatment</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="WeatherController.php.html#71"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::searchAction">searchAction</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="SearchController.php.html#130"><abbr title="App\EuronewsBundle\Controller\API\SearchController::autocompleteAction">autocompleteAction</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="JustInController.php.html#78"><abbr title="App\EuronewsBundle\Controller\API\JustInController::indexAction">indexAction</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#125"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::indexAction">indexAction</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="WeatherController.php.html#132"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::myWeatherAction">myWeatherAction</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="AdvertisingDataController.php.html#66"><abbr title="App\EuronewsBundle\Controller\API\AdvertisingDataController::generateAdvertisingData">generateAdvertisingData</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#439"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::extractTypeConfigList">extractTypeConfigList</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuBuilderValidationController.php.html#147"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateEntry">validateEntry</abbr></a></td><td class="text-right">150</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#95"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::getPlayerGeoblocking">getPlayerGeoblocking</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="DigitalDataController.php.html#58"><abbr title="App\EuronewsBundle\Controller\API\DigitalDataController::generateDigitalData">generateDigitalData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#113"><abbr title="App\EuronewsBundle\Controller\API\IrisDeepLinkController::resolve">resolve</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PageBuilderValidationController.php.html#47"><abbr title="App\EuronewsBundle\Controller\API\PageBuilderValidationController::indexAction">indexAction</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="VersionController.php.html#17"><abbr title="App\EuronewsBundle\Controller\API\VersionController::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#368"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateConfigList">validateConfigList</abbr></a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#317"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::validateLocalizedConfiguration">validateLocalizedConfiguration</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="IrisDeepLinkController.php.html#52"><abbr title="App\EuronewsBundle\Controller\API\IrisDeepLinkController::generateAssetLinks">generateAssetLinks</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RedisFlushController.php.html#51"><abbr title="App\EuronewsBundle\Controller\API\RedisFlushController::indexAction">indexAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="VersionController.php.html#81"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getReleaseDate">getReleaseDate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="WeatherController.php.html#71"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::searchAction">searchAction</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#76"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::getLiveGeoblocking">getLiveGeoblocking</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="JustInController.php.html#78"><abbr title="App\EuronewsBundle\Controller\API\JustInController::indexAction">indexAction</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="GeoblockingController.php.html#54"><abbr title="App\EuronewsBundle\Controller\API\GeoblockingController::geoblockingAction">geoblockingAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchController.php.html#110"><abbr title="App\EuronewsBundle\Controller\API\SearchController::commonTreatment">commonTreatment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="WeatherController.php.html#132"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::myWeatherAction">myWeatherAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VersionController.php.html#34"><abbr title="App\EuronewsBundle\Controller\API\VersionController::indexAction">indexAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VersionController.php.html#53"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getRevision">getRevision</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VersionController.php.html#65"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getApc">getApc</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VersionController.php.html#73"><abbr title="App\EuronewsBundle\Controller\API\VersionController::getOpcache">getOpcache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#439"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::extractTypeConfigList">extractTypeConfigList</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="SearchController.php.html#130"><abbr title="App\EuronewsBundle\Controller\API\SearchController::autocompleteAction">autocompleteAction</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="MenuBuilderValidationController.php.html#125"><abbr title="App\EuronewsBundle\Controller\API\MenuBuilderValidationController::indexAction">indexAction</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="WeatherController.php.html#57"><abbr title="App\EuronewsBundle\Controller\API\WeatherController::indexAction">indexAction</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="AdvertisingDataController.php.html#66"><abbr title="App\EuronewsBundle\Controller\API\AdvertisingDataController::generateAdvertisingData">generateAdvertisingData</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,3,0,1,2,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([24,0,0,0,1,2,2,3,3,3,0,14], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[89.28571428571429,4,"<a href=\"AdvertisingDataController.php.html#27\">App\\EuronewsBundle\\Controller\\API\\AdvertisingDataController<\/a>"],[100,6,"<a href=\"BreakingNewsController.php.html#23\">App\\EuronewsBundle\\Controller\\API\\BreakingNewsController<\/a>"],[0,7,"<a href=\"DigitalDataController.php.html#26\">App\\EuronewsBundle\\Controller\\API\\DigitalDataController<\/a>"],[52.17391304347826,18,"<a href=\"GeoblockingController.php.html#20\">App\\EuronewsBundle\\Controller\\API\\GeoblockingController<\/a>"],[0,8,"<a href=\"IrisDeepLinkController.php.html#21\">App\\EuronewsBundle\\Controller\\API\\IrisDeepLinkController<\/a>"],[89.36170212765957,8,"<a href=\"JustInController.php.html#25\">App\\EuronewsBundle\\Controller\\API\\JustInController<\/a>"],[52.820512820512825,50,"<a href=\"MenuBuilderValidationController.php.html#18\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController<\/a>"],[0,7,"<a href=\"PageBuilderValidationController.php.html#15\">App\\EuronewsBundle\\Controller\\API\\PageBuilderValidationController<\/a>"],[100,2,"<a href=\"PartnersController.php.html#10\">App\\EuronewsBundle\\Controller\\API\\PartnersController<\/a>"],[0,4,"<a href=\"RedisFlushController.php.html#20\">App\\EuronewsBundle\\Controller\\API\\RedisFlushController<\/a>"],[55.55555555555556,14,"<a href=\"SearchController.php.html#22\">App\\EuronewsBundle\\Controller\\API\\SearchController<\/a>"],[0,16,"<a href=\"VersionController.php.html#13\">App\\EuronewsBundle\\Controller\\API\\VersionController<\/a>"],[70.51282051282051,18,"<a href=\"WeatherController.php.html#23\">App\\EuronewsBundle\\Controller\\API\\WeatherController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AdvertisingDataController.php.html#31\">App\\EuronewsBundle\\Controller\\API\\AdvertisingDataController::__construct<\/a>"],[85.71428571428571,2,"<a href=\"AdvertisingDataController.php.html#66\">App\\EuronewsBundle\\Controller\\API\\AdvertisingDataController::generateAdvertisingData<\/a>"],[0,1,"<a href=\"AdvertisingDataController.php.html#91\">App\\EuronewsBundle\\Controller\\API\\AdvertisingDataController::getKeywordApi<\/a>"],[100,1,"<a href=\"BreakingNewsController.php.html#25\">App\\EuronewsBundle\\Controller\\API\\BreakingNewsController::__construct<\/a>"],[100,4,"<a href=\"BreakingNewsController.php.html#55\">App\\EuronewsBundle\\Controller\\API\\BreakingNewsController::indexAction<\/a>"],[100,1,"<a href=\"BreakingNewsController.php.html#76\">App\\EuronewsBundle\\Controller\\API\\BreakingNewsController::checkTransKey<\/a>"],[0,1,"<a href=\"DigitalDataController.php.html#28\">App\\EuronewsBundle\\Controller\\API\\DigitalDataController::__construct<\/a>"],[0,6,"<a href=\"DigitalDataController.php.html#58\">App\\EuronewsBundle\\Controller\\API\\DigitalDataController::generateDigitalData<\/a>"],[100,1,"<a href=\"GeoblockingController.php.html#22\">App\\EuronewsBundle\\Controller\\API\\GeoblockingController::__construct<\/a>"],[45.45454545454545,4,"<a href=\"GeoblockingController.php.html#54\">App\\EuronewsBundle\\Controller\\API\\GeoblockingController::geoblockingAction<\/a>"],[54.54545454545454,6,"<a href=\"GeoblockingController.php.html#76\">App\\EuronewsBundle\\Controller\\API\\GeoblockingController::getLiveGeoblocking<\/a>"],[0,7,"<a href=\"GeoblockingController.php.html#95\">App\\EuronewsBundle\\Controller\\API\\GeoblockingController::getPlayerGeoblocking<\/a>"],[0,1,"<a href=\"IrisDeepLinkController.php.html#23\">App\\EuronewsBundle\\Controller\\API\\IrisDeepLinkController::__construct<\/a>"],[0,3,"<a href=\"IrisDeepLinkController.php.html#52\">App\\EuronewsBundle\\Controller\\API\\IrisDeepLinkController::generateAssetLinks<\/a>"],[0,4,"<a href=\"IrisDeepLinkController.php.html#113\">App\\EuronewsBundle\\Controller\\API\\IrisDeepLinkController::resolve<\/a>"],[100,1,"<a href=\"JustInController.php.html#29\">App\\EuronewsBundle\\Controller\\API\\JustInController::__construct<\/a>"],[70.58823529411765,7,"<a href=\"JustInController.php.html#78\">App\\EuronewsBundle\\Controller\\API\\JustInController::indexAction<\/a>"],[100,1,"<a href=\"MenuBuilderValidationController.php.html#97\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::__construct<\/a>"],[77.77777777777779,3,"<a href=\"MenuBuilderValidationController.php.html#125\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::indexAction<\/a>"],[37.77777777777778,23,"<a href=\"MenuBuilderValidationController.php.html#147\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::validateEntry<\/a>"],[100,2,"<a href=\"MenuBuilderValidationController.php.html#307\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::getPath<\/a>"],[48.38709677419355,7,"<a href=\"MenuBuilderValidationController.php.html#317\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::validateLocalizedConfiguration<\/a>"],[50,8,"<a href=\"MenuBuilderValidationController.php.html#368\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::validateConfigList<\/a>"],[88.88888888888889,5,"<a href=\"MenuBuilderValidationController.php.html#439\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::extractTypeConfigList<\/a>"],[100,1,"<a href=\"MenuBuilderValidationController.php.html#460\">App\\EuronewsBundle\\Controller\\API\\MenuBuilderValidationController::returnResponse<\/a>"],[0,1,"<a href=\"PageBuilderValidationController.php.html#22\">App\\EuronewsBundle\\Controller\\API\\PageBuilderValidationController::addFactory<\/a>"],[0,1,"<a href=\"PageBuilderValidationController.php.html#32\">App\\EuronewsBundle\\Controller\\API\\PageBuilderValidationController::getFactory<\/a>"],[0,1,"<a href=\"PageBuilderValidationController.php.html#37\">App\\EuronewsBundle\\Controller\\API\\PageBuilderValidationController::returnResponse<\/a>"],[0,4,"<a href=\"PageBuilderValidationController.php.html#47\">App\\EuronewsBundle\\Controller\\API\\PageBuilderValidationController::indexAction<\/a>"],[100,1,"<a href=\"PartnersController.php.html#15\">App\\EuronewsBundle\\Controller\\API\\PartnersController::getHeaderAction<\/a>"],[100,1,"<a href=\"PartnersController.php.html#40\">App\\EuronewsBundle\\Controller\\API\\PartnersController::getFooterAction<\/a>"],[0,1,"<a href=\"RedisFlushController.php.html#22\">App\\EuronewsBundle\\Controller\\API\\RedisFlushController::__construct<\/a>"],[0,3,"<a href=\"RedisFlushController.php.html#51\">App\\EuronewsBundle\\Controller\\API\\RedisFlushController::indexAction<\/a>"],[100,1,"<a href=\"SearchController.php.html#29\">App\\EuronewsBundle\\Controller\\API\\SearchController::__construct<\/a>"],[100,1,"<a href=\"SearchController.php.html#59\">App\\EuronewsBundle\\Controller\\API\\SearchController::indexAction<\/a>"],[0,1,"<a href=\"SearchController.php.html#71\">App\\EuronewsBundle\\Controller\\API\\SearchController::tagAction<\/a>"],[0,1,"<a href=\"SearchController.php.html#84\">App\\EuronewsBundle\\Controller\\API\\SearchController::archiveAction<\/a>"],[0,1,"<a href=\"SearchController.php.html#97\">App\\EuronewsBundle\\Controller\\API\\SearchController::programAction<\/a>"],[62.5,5,"<a href=\"SearchController.php.html#110\">App\\EuronewsBundle\\Controller\\API\\SearchController::commonTreatment<\/a>"],[70,4,"<a href=\"SearchController.php.html#130\">App\\EuronewsBundle\\Controller\\API\\SearchController::autocompleteAction<\/a>"],[0,4,"<a href=\"VersionController.php.html#17\">App\\EuronewsBundle\\Controller\\API\\VersionController::__construct<\/a>"],[0,2,"<a href=\"VersionController.php.html#34\">App\\EuronewsBundle\\Controller\\API\\VersionController::indexAction<\/a>"],[0,2,"<a href=\"VersionController.php.html#53\">App\\EuronewsBundle\\Controller\\API\\VersionController::getRevision<\/a>"],[0,2,"<a href=\"VersionController.php.html#65\">App\\EuronewsBundle\\Controller\\API\\VersionController::getApc<\/a>"],[0,2,"<a href=\"VersionController.php.html#73\">App\\EuronewsBundle\\Controller\\API\\VersionController::getOpcache<\/a>"],[0,3,"<a href=\"VersionController.php.html#81\">App\\EuronewsBundle\\Controller\\API\\VersionController::getReleaseDate<\/a>"],[0,1,"<a href=\"VersionController.php.html#102\">App\\EuronewsBundle\\Controller\\API\\VersionController::getApiVersion<\/a>"],[100,1,"<a href=\"WeatherController.php.html#25\">App\\EuronewsBundle\\Controller\\API\\WeatherController::__construct<\/a>"],[60,2,"<a href=\"WeatherController.php.html#57\">App\\EuronewsBundle\\Controller\\API\\WeatherController::indexAction<\/a>"],[63.63636363636363,8,"<a href=\"WeatherController.php.html#71\">App\\EuronewsBundle\\Controller\\API\\WeatherController::searchAction<\/a>"],[0,1,"<a href=\"WeatherController.php.html#120\">App\\EuronewsBundle\\Controller\\API\\WeatherController::cityListAction<\/a>"],[81.81818181818183,6,"<a href=\"WeatherController.php.html#132\">App\\EuronewsBundle\\Controller\\API\\WeatherController::myWeatherAction<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

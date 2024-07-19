@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Services</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/Google/GoogleClientApi.php.html#7">App\Services\API\Google\GoogleClientApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Google/YoutubeApi.php.html#11">App\Services\API\Google\YoutubeApi</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#7">App\Services\GlobeCast\GlobeCastTokenGenerator</a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="Serializer/VideoEnumNormalizer.php.html#8">App\Services\Serializer\VideoEnumNormalizer</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#22">App\Services\Mapping\DeepLinkMapper</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#12">App\Services\Article\ArticleBusinessRulesHandler</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#16">App\Services\Theme\ThemeTranslator</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Serializer/JsEntitySerializer.php.html#15">App\Services\Serializer\JsEntitySerializer</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#5">App\Services\Ads\Dfp\DFPManager</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#9">App\Services\Vertical\VerticalContextHandler</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Gigya/NewsletterKeyMapper.php.html#8">App\Services\Gigya\NewsletterKeyMapper</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#15">App\Services\Program\ProgramUrlTranslator</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#21">App\Services\Article\ArticleTechnicalManager</a></td><td class="text-right">89%</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#8">App\Services\Article\ArticleJsonEncoder</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#22">App\Services\Mapping\DeepLinkMapper</a></td><td class="text-right">107</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#21">App\Services\Article\ArticleTechnicalManager</a></td><td class="text-right">70</td></tr>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#12">App\Services\Article\ArticleBusinessRulesHandler</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#16">App\Services\Theme\ThemeTranslator</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#8">App\Services\Article\ArticleJsonEncoder</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#7">App\Services\GlobeCast\GlobeCastTokenGenerator</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#9">App\Services\Vertical\VerticalContextHandler</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#5">App\Services\Ads\Dfp\DFPManager</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#15">App\Services\Program\ProgramUrlTranslator</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="API/Google/GoogleClientApi.php.html#7">App\Services\API\Google\GoogleClientApi</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="API/Google/YoutubeApi.php.html#11">App\Services\API\Google\YoutubeApi</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Gigya/NewsletterKeyMapper.php.html#8">App\Services\Gigya\NewsletterKeyMapper</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Serializer/JsEntitySerializer.php.html#15">App\Services\Serializer\JsEntitySerializer</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/Google/GoogleClientApi.php.html#9"><abbr title="App\Services\API\Google\GoogleClientApi::getLiveId">getLiveId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#83"><abbr title="App\Services\Ads\Dfp\DFPManager::setLevel1">setLevel1</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#95"><abbr title="App\Services\Ads\Dfp\DFPManager::setAutomatadEnabled">setAutomatadEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#102"><abbr title="App\Services\Ads\Dfp\DFPManager::isAutomatadEnabled">isAutomatadEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#107"><abbr title="App\Services\Ads\Dfp\DFPManager::addDisabledAdSlot">addDisabledAdSlot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#81"><abbr title="App\Services\Article\ArticleBusinessRulesHandler::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#34"><abbr title="App\Services\Article\ArticleJsonEncoder::jsonArticle">jsonArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#194"><abbr title="App\Services\Mapping\DeepLinkMapper::getWireArticle">getWireArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#248"><abbr title="App\Services\Mapping\DeepLinkMapper::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#253"><abbr title="App\Services\Mapping\DeepLinkMapper::getProgramApi">getProgramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#258"><abbr title="App\Services\Mapping\DeepLinkMapper::getKeyValueApi">getKeyValueApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#263"><abbr title="App\Services\Mapping\DeepLinkMapper::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#268"><abbr title="App\Services\Mapping\DeepLinkMapper::getLocaleString">getLocaleString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Serializer/VideoEnumNormalizer.php.html#22"><abbr title="App\Services\Serializer\VideoEnumNormalizer::supportsDenormalization">supportsDenormalization</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Serializer/VideoEnumNormalizer.php.html#32"><abbr title="App\Services\Serializer\VideoEnumNormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template/BodyClassListBuilder.php.html#33"><abbr title="App\Services\Template\BodyClassListBuilder::buildAccountOther">buildAccountOther</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template/TemplateService.php.html#52"><abbr title="App\Services\Template\TemplateService::isVerticalArticle">isVerticalArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdParty/PooolConfigurationBuilder.php.html#139"><abbr title="App\Services\ThirdParty\PooolConfigurationBuilder::hasTestPageType">hasTestPageType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#73"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::calculateHMAC">calculateHMAC</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#59"><abbr title="App\Services\Program\ProgramUrlTranslator::generateFallback">generateFallback</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="API/Google/YoutubeApi.php.html#27"><abbr title="App\Services\API\Google\YoutubeApi::getYoutubeLiveId">getYoutubeLiveId</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#112"><abbr title="App\Services\Ads\Dfp\DFPManager::addDisabledAdSlots">addDisabledAdSlots</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#142"><abbr title="App\Services\Mapping\DeepLinkMapper::mapArticle">mapArticle</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Serializer/JsEntitySerializer.php.html#36"><abbr title="App\Services\Serializer\JsEntitySerializer::normalize">normalize</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#27"><abbr title="App\Services\Vertical\VerticalContextHandler::getCurrentVerticalData">getCurrentVerticalData</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#47"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::h2b">h2b</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#33"><abbr title="App\Services\Theme\ThemeTranslator::translateThemeUrl">translateThemeUrl</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#257"><abbr title="App\Services\Article\ArticleTechnicalManager::getUpcomingArticleByProgram">getUpcomingArticleByProgram</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#22"><abbr title="App\Services\Theme\ThemeTranslator::translateThemeName">translateThemeName</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Vertical/VerticalConfigurationStore.php.html#130"><abbr title="App\Services\Vertical\VerticalConfigurationStore::getSocialNetworks">getSocialNetworks</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#119"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addHubPage">addHubPage</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Gigya/NewsletterKeyMapper.php.html#41"><abbr title="App\Services\Gigya\NewsletterKeyMapper::getGigyaKeyFromDynamicNewsletterKey">getGigyaKeyFromDynamicNewsletterKey</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="GlobeCast/AkamaiEdgeAuthConfig.php.html#29"><abbr title="App\Services\GlobeCast\AkamaiEdgeAuthConfig::encode">encode</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="GlobeCast/AkamaiEdgeAuthConfig.php.html#81"><abbr title="App\Services\GlobeCast\AkamaiEdgeAuthConfig::getAclField">getAclField</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#64"><abbr title="App\Services\Vertical\VerticalContextHandler::isThemeVerticalSite">isThemeVerticalSite</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#248"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getVerticalHierarchy">getVerticalHierarchy</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#276"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getThemeHierarchy">getThemeHierarchy</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#157"><abbr title="App\Services\Mapping\DeepLinkMapper::mapVideoArticle">mapVideoArticle</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#10"><abbr title="App\Services\Article\ArticleJsonEncoder::jsonArticleList">jsonArticleList</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#101"><abbr title="App\Services\Article\ArticleBusinessRulesHandler::addWireAuthor">addWireAuthor</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#85"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addProgram">addProgram</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#62"><abbr title="App\Services\Theme\ThemeTranslator::getFallbackRoute">getFallbackRoute</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#18"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::generateAkamaiToken">generateAkamaiToken</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#213"><abbr title="App\Services\Mapping\DeepLinkMapper::getMappingArray">getMappingArray</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#72"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addVertical">addVertical</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#175"><abbr title="App\Services\Mapping\DeepLinkMapper::getArticle">getArticle</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#95"><abbr title="App\Services\Program\ProgramUrlTranslator::defineURLProgramArticle">defineURLProgramArticle</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#302"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getProgramHierarchyByLocale">getProgramHierarchyByLocale</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#321"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getOnlineProgramHierarchyByLocale">getOnlineProgramHierarchyByLocale</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Navigation/RedirectionHandler.php.html#38"><abbr title="App\Services\Navigation\RedirectionHandler::checkUrl">checkUrl</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#74"><abbr title="App\Services\Article\ArticleTechnicalManager::constructUrl">constructUrl</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#101"><abbr title="App\Services\Vertical\VerticalHierarchyStore::loadVerticalHierarchy">loadVerticalHierarchy</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Article/ArticleContentUpdater.php.html#42"><abbr title="App\Services\Article\ArticleContentUpdater::getContentNormal">getContentNormal</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#81"><abbr title="App\Services\Theme\ThemeTranslator::translateThemesArticle">translateThemesArticle</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#799"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getVerticalKeys">getVerticalKeys</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#825"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getThemeKeys">getThemeKeys</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#851"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getProgramKeys">getProgramKeys</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#81"><abbr title="App\Services\Article\ArticleBusinessRulesHandler::getTemplate">getTemplate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="API/Google/GoogleClientApi.php.html#9"><abbr title="App\Services\API\Google\GoogleClientApi::getLiveId">getLiveId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#74"><abbr title="App\Services\Article\ArticleTechnicalManager::constructUrl">constructUrl</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#10"><abbr title="App\Services\Article\ArticleJsonEncoder::jsonArticleList">jsonArticleList</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#33"><abbr title="App\Services\Theme\ThemeTranslator::translateThemeUrl">translateThemeUrl</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="API/Google/YoutubeApi.php.html#27"><abbr title="App\Services\API\Google\YoutubeApi::getYoutubeLiveId">getYoutubeLiveId</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#81"><abbr title="App\Services\Theme\ThemeTranslator::translateThemesArticle">translateThemesArticle</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Article/ArticleTechnicalManager.php.html#257"><abbr title="App\Services\Article\ArticleTechnicalManager::getUpcomingArticleByProgram">getUpcomingArticleByProgram</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#18"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::generateAkamaiToken">generateAkamaiToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Article/ArticleContentUpdater.php.html#42"><abbr title="App\Services\Article\ArticleContentUpdater::getContentNormal">getContentNormal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Article/ArticleJsonEncoder.php.html#34"><abbr title="App\Services\Article\ArticleJsonEncoder::jsonArticle">jsonArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#142"><abbr title="App\Services\Mapping\DeepLinkMapper::mapArticle">mapArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#194"><abbr title="App\Services\Mapping\DeepLinkMapper::getWireArticle">getWireArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#47"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::h2b">h2b</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Article/ArticleBusinessRulesHandler.php.html#101"><abbr title="App\Services\Article\ArticleBusinessRulesHandler::addWireAuthor">addWireAuthor</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Navigation/RedirectionHandler.php.html#38"><abbr title="App\Services\Navigation\RedirectionHandler::checkUrl">checkUrl</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Vertical/VerticalConfigurationStore.php.html#130"><abbr title="App\Services\Vertical\VerticalConfigurationStore::getSocialNetworks">getSocialNetworks</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#64"><abbr title="App\Services\Vertical\VerticalContextHandler::isThemeVerticalSite">isThemeVerticalSite</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Serializer/JsEntitySerializer.php.html#36"><abbr title="App\Services\Serializer\JsEntitySerializer::normalize">normalize</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#213"><abbr title="App\Services\Mapping\DeepLinkMapper::getMappingArray">getMappingArray</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#101"><abbr title="App\Services\Vertical\VerticalHierarchyStore::loadVerticalHierarchy">loadVerticalHierarchy</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#157"><abbr title="App\Services\Mapping\DeepLinkMapper::mapVideoArticle">mapVideoArticle</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="GlobeCast/GlobeCastTokenGenerator.php.html#73"><abbr title="App\Services\GlobeCast\GlobeCastTokenGenerator::calculateHMAC">calculateHMAC</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#59"><abbr title="App\Services\Program\ProgramUrlTranslator::generateFallback">generateFallback</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#85"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addProgram">addProgram</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#72"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addVertical">addVertical</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#302"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getProgramHierarchyByLocale">getProgramHierarchyByLocale</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#321"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getOnlineProgramHierarchyByLocale">getOnlineProgramHierarchyByLocale</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#799"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getVerticalKeys">getVerticalKeys</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#825"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getThemeKeys">getThemeKeys</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#851"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getProgramKeys">getProgramKeys</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Ads/Dfp/DFPManager.php.html#112"><abbr title="App\Services\Ads\Dfp\DFPManager::addDisabledAdSlots">addDisabledAdSlots</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Vertical/VerticalContextHandler.php.html#27"><abbr title="App\Services\Vertical\VerticalContextHandler::getCurrentVerticalData">getCurrentVerticalData</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#22"><abbr title="App\Services\Theme\ThemeTranslator::translateThemeName">translateThemeName</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="DataBuilder/ServerDataBuilder.php.html#119"><abbr title="App\Services\DataBuilder\ServerDataBuilder::addHubPage">addHubPage</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Gigya/NewsletterKeyMapper.php.html#41"><abbr title="App\Services\Gigya\NewsletterKeyMapper::getGigyaKeyFromDynamicNewsletterKey">getGigyaKeyFromDynamicNewsletterKey</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="GlobeCast/AkamaiEdgeAuthConfig.php.html#29"><abbr title="App\Services\GlobeCast\AkamaiEdgeAuthConfig::encode">encode</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="GlobeCast/AkamaiEdgeAuthConfig.php.html#81"><abbr title="App\Services\GlobeCast\AkamaiEdgeAuthConfig::getAclField">getAclField</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#248"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getVerticalHierarchy">getVerticalHierarchy</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Vertical/VerticalHierarchyStore.php.html#276"><abbr title="App\Services\Vertical\VerticalHierarchyStore::getThemeHierarchy">getThemeHierarchy</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Theme/ThemeTranslator.php.html#62"><abbr title="App\Services\Theme\ThemeTranslator::getFallbackRoute">getFallbackRoute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Mapping/DeepLinkMapper.php.html#175"><abbr title="App\Services\Mapping\DeepLinkMapper::getArticle">getArticle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Program/ProgramUrlTranslator.php.html#95"><abbr title="App\Services\Program\ProgramUrlTranslator::defineURLProgramArticle">defineURLProgramArticle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,1,1,4,7,9,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,2,0,8,9,5,15,10,228], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"API\/Google\/GoogleClientApi.php.html#7\">App\\Services\\API\\Google\\GoogleClientApi<\/a>"],[51.42857142857142,6,"<a href=\"API\/Google\/YoutubeApi.php.html#11\">App\\Services\\API\\Google\\YoutubeApi<\/a>"],[100,4,"<a href=\"Ads\/AdSlotService.php.html#11\">App\\Services\\Ads\\AdSlotService<\/a>"],[81.57894736842105,15,"<a href=\"Ads\/Dfp\/DFPManager.php.html#5\">App\\Services\\Ads\\Dfp\\DFPManager<\/a>"],[73.80952380952381,22,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#12\">App\\Services\\Article\\ArticleBusinessRulesHandler<\/a>"],[93.75,10,"<a href=\"Article\/ArticleContentUpdater.php.html#10\">App\\Services\\Article\\ArticleContentUpdater<\/a>"],[89.79591836734694,21,"<a href=\"Article\/ArticleJsonEncoder.php.html#8\">App\\Services\\Article\\ArticleJsonEncoder<\/a>"],[89.36170212765957,65,"<a href=\"Article\/ArticleTechnicalManager.php.html#21\">App\\Services\\Article\\ArticleTechnicalManager<\/a>"],[98.30508474576271,89,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#23\">App\\Services\\DataBuilder\\ServerDataBuilder<\/a>"],[100,1,"<a href=\"Envs\/EnvsService.php.html#8\">App\\Services\\Envs\\EnvsService<\/a>"],[100,0,"<a href=\"Exception\/InvalidServiceConfigurationException.php.html#5\">App\\Services\\Exception\\InvalidServiceConfigurationException<\/a>"],[86.66666666666667,7,"<a href=\"Gigya\/NewsletterKeyMapper.php.html#8\">App\\Services\\Gigya\\NewsletterKeyMapper<\/a>"],[100,4,"<a href=\"Gigya\/ScreenManager.php.html#9\">App\\Services\\Gigya\\ScreenManager<\/a>"],[92.85714285714286,22,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#10\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig<\/a>"],[67.74193548387096,14,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#7\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator<\/a>"],[100,4,"<a href=\"GlobeCast\/GlobeCastUrlMapper.php.html#7\">App\\Services\\GlobeCast\\GlobeCastUrlMapper<\/a>"],[73.6,54,"<a href=\"Mapping\/DeepLinkMapper.php.html#22\">App\\Services\\Mapping\\DeepLinkMapper<\/a>"],[92.3076923076923,9,"<a href=\"Navigation\/RedirectionHandler.php.html#13\">App\\Services\\Navigation\\RedirectionHandler<\/a>"],[88.88888888888889,15,"<a href=\"Program\/ProgramUrlTranslator.php.html#15\">App\\Services\\Program\\ProgramUrlTranslator<\/a>"],[80,4,"<a href=\"Serializer\/JsEntitySerializer.php.html#15\">App\\Services\\Serializer\\JsEntitySerializer<\/a>"],[71.42857142857143,5,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#8\">App\\Services\\Serializer\\VideoEnumNormalizer<\/a>"],[94,52,"<a href=\"Template\/BodyClassListBuilder.php.html#13\">App\\Services\\Template\\BodyClassListBuilder<\/a>"],[96.07843137254902,25,"<a href=\"Template\/TemplateService.php.html#9\">App\\Services\\Template\\TemplateService<\/a>"],[77.08333333333334,22,"<a href=\"Theme\/ThemeTranslator.php.html#16\">App\\Services\\Theme\\ThemeTranslator<\/a>"],[98.4126984126984,31,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#12\">App\\Services\\ThirdParty\\PooolConfigurationBuilder<\/a>"],[100,3,"<a href=\"Vertical\/CurrentVerticalStore.php.html#5\">App\\Services\\Vertical\\CurrentVerticalStore<\/a>"],[93.61702127659575,28,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#8\">App\\Services\\Vertical\\VerticalConfigurationStore<\/a>"],[86.48648648648648,16,"<a href=\"Vertical\/VerticalContextHandler.php.html#9\">App\\Services\\Vertical\\VerticalContextHandler<\/a>"],[95.20295202952029,127,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#23\">App\\Services\\Vertical\\VerticalHierarchyStore<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"API\/Google\/GoogleClientApi.php.html#9\">App\\Services\\API\\Google\\GoogleClientApi::getLiveId<\/a>"],[100,1,"<a href=\"API\/Google\/YoutubeApi.php.html#16\">App\\Services\\API\\Google\\YoutubeApi::__construct<\/a>"],[50,5,"<a href=\"API\/Google\/YoutubeApi.php.html#27\">App\\Services\\API\\Google\\YoutubeApi::getYoutubeLiveId<\/a>"],[100,1,"<a href=\"Ads\/AdSlotService.php.html#17\">App\\Services\\Ads\\AdSlotService::__construct<\/a>"],[100,3,"<a href=\"Ads\/AdSlotService.php.html#24\">App\\Services\\Ads\\AdSlotService::getArticleDisabledAdSlots<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#20\">App\\Services\\Ads\\Dfp\\DFPManager::__construct<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#30\">App\\Services\\Ads\\Dfp\\DFPManager::setLocale<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#37\">App\\Services\\Ads\\Dfp\\DFPManager::setLazyLoadingOffset<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#44\">App\\Services\\Ads\\Dfp\\DFPManager::setHasSwipe<\/a>"],[100,2,"<a href=\"Ads\/Dfp\/DFPManager.php.html#51\">App\\Services\\Ads\\Dfp\\DFPManager::generate<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#69\">App\\Services\\Ads\\Dfp\\DFPManager::addKeyValue<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#76\">App\\Services\\Ads\\Dfp\\DFPManager::setAdUnit<\/a>"],[0,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#83\">App\\Services\\Ads\\Dfp\\DFPManager::setLevel1<\/a>"],[100,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#90\">App\\Services\\Ads\\Dfp\\DFPManager::getAdUnit<\/a>"],[0,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#95\">App\\Services\\Ads\\Dfp\\DFPManager::setAutomatadEnabled<\/a>"],[0,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#102\">App\\Services\\Ads\\Dfp\\DFPManager::isAutomatadEnabled<\/a>"],[0,1,"<a href=\"Ads\/Dfp\/DFPManager.php.html#107\">App\\Services\\Ads\\Dfp\\DFPManager::addDisabledAdSlot<\/a>"],[50,2,"<a href=\"Ads\/Dfp\/DFPManager.php.html#112\">App\\Services\\Ads\\Dfp\\DFPManager::addDisabledAdSlots<\/a>"],[100,1,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#25\">App\\Services\\Article\\ArticleBusinessRulesHandler::__construct<\/a>"],[100,5,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#29\">App\\Services\\Article\\ArticleBusinessRulesHandler::updateDetails<\/a>"],[100,1,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#57\">App\\Services\\Article\\ArticleBusinessRulesHandler::checkTags<\/a>"],[100,1,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#63\">App\\Services\\Article\\ArticleBusinessRulesHandler::setPlayer<\/a>"],[100,3,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#68\">App\\Services\\Article\\ArticleBusinessRulesHandler::checkAutoplay<\/a>"],[0,5,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#81\">App\\Services\\Article\\ArticleBusinessRulesHandler::getTemplate<\/a>"],[75,5,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#101\">App\\Services\\Article\\ArticleBusinessRulesHandler::addWireAuthor<\/a>"],[100,1,"<a href=\"Article\/ArticleBusinessRulesHandler.php.html#116\">App\\Services\\Article\\ArticleBusinessRulesHandler::isSwipeDisableArticle<\/a>"],[100,1,"<a href=\"Article\/ArticleContentUpdater.php.html#16\">App\\Services\\Article\\ArticleContentUpdater::__construct<\/a>"],[100,2,"<a href=\"Article\/ArticleContentUpdater.php.html#22\">App\\Services\\Article\\ArticleContentUpdater::updateContent<\/a>"],[100,1,"<a href=\"Article\/ArticleContentUpdater.php.html#37\">App\\Services\\Article\\ArticleContentUpdater::blackListAds<\/a>"],[88.88888888888889,6,"<a href=\"Article\/ArticleContentUpdater.php.html#42\">App\\Services\\Article\\ArticleContentUpdater::getContentNormal<\/a>"],[72.72727272727273,8,"<a href=\"Article\/ArticleJsonEncoder.php.html#10\">App\\Services\\Article\\ArticleJsonEncoder::jsonArticleList<\/a>"],[0,2,"<a href=\"Article\/ArticleJsonEncoder.php.html#34\">App\\Services\\Article\\ArticleJsonEncoder::jsonArticle<\/a>"],[100,6,"<a href=\"Article\/ArticleJsonEncoder.php.html#41\">App\\Services\\Article\\ArticleJsonEncoder::createStructVideo<\/a>"],[100,3,"<a href=\"Article\/ArticleJsonEncoder.php.html#79\">App\\Services\\Article\\ArticleJsonEncoder::JsonPlaylist<\/a>"],[100,2,"<a href=\"Article\/ArticleJsonEncoder.php.html#91\">App\\Services\\Article\\ArticleJsonEncoder::JsonVideo<\/a>"],[100,1,"<a href=\"Article\/ArticleTechnicalManager.php.html#41\">App\\Services\\Article\\ArticleTechnicalManager::__construct<\/a>"],[100,4,"<a href=\"Article\/ArticleTechnicalManager.php.html#45\">App\\Services\\Article\\ArticleTechnicalManager::getArticleResponse<\/a>"],[100,3,"<a href=\"Article\/ArticleTechnicalManager.php.html#63\">App\\Services\\Article\\ArticleTechnicalManager::getNextOrPreviousArticle<\/a>"],[88.23529411764706,11,"<a href=\"Article\/ArticleTechnicalManager.php.html#74\">App\\Services\\Article\\ArticleTechnicalManager::constructUrl<\/a>"],[100,11,"<a href=\"Article\/ArticleTechnicalManager.php.html#133\">App\\Services\\Article\\ArticleTechnicalManager::getRouteNameAndChangeParams<\/a>"],[97.2972972972973,6,"<a href=\"Article\/ArticleTechnicalManager.php.html#164\">App\\Services\\Article\\ArticleTechnicalManager::extractSocialNetworkCountry<\/a>"],[90.47619047619048,12,"<a href=\"Article\/ArticleTechnicalManager.php.html#212\">App\\Services\\Article\\ArticleTechnicalManager::hydrateArticles<\/a>"],[57.692307692307686,5,"<a href=\"Article\/ArticleTechnicalManager.php.html#257\">App\\Services\\Article\\ArticleTechnicalManager::getUpcomingArticleByProgram<\/a>"],[92.3076923076923,4,"<a href=\"Article\/ArticleTechnicalManager.php.html#299\">App\\Services\\Article\\ArticleTechnicalManager::getUpcomingArticleByVertical<\/a>"],[100,2,"<a href=\"Article\/ArticleTechnicalManager.php.html#342\">App\\Services\\Article\\ArticleTechnicalManager::addArticle<\/a>"],[100,6,"<a href=\"Article\/ArticleTechnicalManager.php.html#348\">App\\Services\\Article\\ArticleTechnicalManager::addCountryUrl<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#28\">App\\Services\\DataBuilder\\ServerDataBuilder::__construct<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#40\">App\\Services\\DataBuilder\\ServerDataBuilder::setPageType<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#45\">App\\Services\\DataBuilder\\ServerDataBuilder::build<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#50\">App\\Services\\DataBuilder\\ServerDataBuilder::addArticle<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#62\">App\\Services\\DataBuilder\\ServerDataBuilder::addVideo<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#67\">App\\Services\\DataBuilder\\ServerDataBuilder::addTheme<\/a>"],[83.33333333333334,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#72\">App\\Services\\DataBuilder\\ServerDataBuilder::addVertical<\/a>"],[75,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#85\">App\\Services\\DataBuilder\\ServerDataBuilder::addProgram<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#94\">App\\Services\\DataBuilder\\ServerDataBuilder::addKeyword<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#99\">App\\Services\\DataBuilder\\ServerDataBuilder::addCity<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#104\">App\\Services\\DataBuilder\\ServerDataBuilder::addCountry<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#109\">App\\Services\\DataBuilder\\ServerDataBuilder::addState<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#114\">App\\Services\\DataBuilder\\ServerDataBuilder::addContinent<\/a>"],[66.66666666666666,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#119\">App\\Services\\DataBuilder\\ServerDataBuilder::addHubPage<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#127\">App\\Services\\DataBuilder\\ServerDataBuilder::build404<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#134\">App\\Services\\DataBuilder\\ServerDataBuilder::buildAccount<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#141\">App\\Services\\DataBuilder\\ServerDataBuilder::buildAccountOther<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#148\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticle<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#158\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticleArchive<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#165\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticleListContinent<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#175\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticleListCountry<\/a>"],[100,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#186\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticleListHotTopic<\/a>"],[100,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#199\">App\\Services\\DataBuilder\\ServerDataBuilder::buildArticleListTag<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#212\">App\\Services\\DataBuilder\\ServerDataBuilder::buildHome<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#219\">App\\Services\\DataBuilder\\ServerDataBuilder::buildHubPage<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#229\">App\\Services\\DataBuilder\\ServerDataBuilder::buildLogin<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#236\">App\\Services\\DataBuilder\\ServerDataBuilder::buildNoCommentIndex<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#246\">App\\Services\\DataBuilder\\ServerDataBuilder::buildPartners<\/a>"],[100,4,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#253\">App\\Services\\DataBuilder\\ServerDataBuilder::buildProgram<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#269\">App\\Services\\DataBuilder\\ServerDataBuilder::buildProgramIndex<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#276\">App\\Services\\DataBuilder\\ServerDataBuilder::buildSearch<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#285\">App\\Services\\DataBuilder\\ServerDataBuilder::buildShowroom<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#292\">App\\Services\\DataBuilder\\ServerDataBuilder::buildSportFixtures<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#299\">App\\Services\\DataBuilder\\ServerDataBuilder::buildSportRanking<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#306\">App\\Services\\DataBuilder\\ServerDataBuilder::buildSportResults<\/a>"],[100,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#313\">App\\Services\\DataBuilder\\ServerDataBuilder::buildTheme<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#326\">App\\Services\\DataBuilder\\ServerDataBuilder::buildTimeline<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#333\">App\\Services\\DataBuilder\\ServerDataBuilder::buildTimelineEmbed<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#340\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVertical<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#350\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideo<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#360\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideoBulletin<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#370\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideoEmbed<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#380\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideoIndex<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#390\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideoLive<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#397\">App\\Services\\DataBuilder\\ServerDataBuilder::buildVideoLiveEmbed<\/a>"],[100,5,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#404\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherCity<\/a>"],[100,5,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#423\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherCityEmbed<\/a>"],[100,2,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#442\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherContinent<\/a>"],[100,3,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#452\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherCountry<\/a>"],[100,1,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#466\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherIndex<\/a>"],[100,4,"<a href=\"DataBuilder\/ServerDataBuilder.php.html#473\">App\\Services\\DataBuilder\\ServerDataBuilder::buildWeatherState<\/a>"],[100,1,"<a href=\"Envs\/EnvsService.php.html#13\">App\\Services\\Envs\\EnvsService::getPublicEnvs<\/a>"],[100,1,"<a href=\"Gigya\/NewsletterKeyMapper.php.html#13\">App\\Services\\Gigya\\NewsletterKeyMapper::__construct<\/a>"],[100,2,"<a href=\"Gigya\/NewsletterKeyMapper.php.html#21\">App\\Services\\Gigya\\NewsletterKeyMapper::initializeNewsletters<\/a>"],[100,2,"<a href=\"Gigya\/NewsletterKeyMapper.php.html#29\">App\\Services\\Gigya\\NewsletterKeyMapper::mapDynamicNewsletterKeys<\/a>"],[66.66666666666666,2,"<a href=\"Gigya\/NewsletterKeyMapper.php.html#41\">App\\Services\\Gigya\\NewsletterKeyMapper::getGigyaKeyFromDynamicNewsletterKey<\/a>"],[100,4,"<a href=\"Gigya\/ScreenManager.php.html#13\">App\\Services\\Gigya\\ScreenManager::shouldOverloadStartScreenForGigyaErrors<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#12\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::__construct<\/a>"],[66.66666666666666,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#29\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::encode<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#38\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getAlgo<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#43\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getIp<\/a>"],[100,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#48\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getStartTime<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#57\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getStartTimeField<\/a>"],[100,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#62\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getIpField<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#71\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getExprField<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#76\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getExpiration<\/a>"],[66.66666666666666,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#81\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getAclField<\/a>"],[100,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#90\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getSessionIdField<\/a>"],[100,2,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#99\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getDataField<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#108\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getKey<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#113\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getFieldDelimiter<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#118\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getTokenName<\/a>"],[100,1,"<a href=\"GlobeCast\/AkamaiEdgeAuthConfig.php.html#123\">App\\Services\\GlobeCast\\AkamaiEdgeAuthConfig::getWindow<\/a>"],[100,1,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#9\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator::__construct<\/a>"],[80,6,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#18\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator::generateAkamaiToken<\/a>"],[100,1,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#42\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator::getTokenName<\/a>"],[54.54545454545454,4,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#47\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator::h2b<\/a>"],[33.33333333333333,2,"<a href=\"GlobeCast\/GlobeCastTokenGenerator.php.html#73\">App\\Services\\GlobeCast\\GlobeCastTokenGenerator::calculateHMAC<\/a>"],[100,1,"<a href=\"GlobeCast\/GlobeCastUrlMapper.php.html#9\">App\\Services\\GlobeCast\\GlobeCastUrlMapper::__construct<\/a>"],[100,1,"<a href=\"GlobeCast\/GlobeCastUrlMapper.php.html#17\">App\\Services\\GlobeCast\\GlobeCastUrlMapper::getGlobeCastUrlByLocale<\/a>"],[100,2,"<a href=\"GlobeCast\/GlobeCastUrlMapper.php.html#32\">App\\Services\\GlobeCast\\GlobeCastUrlMapper::getLiveUrlByLocale<\/a>"],[100,2,"<a href=\"Mapping\/DeepLinkMapper.php.html#29\">App\\Services\\Mapping\\DeepLinkMapper::__construct<\/a>"],[91.52542372881356,27,"<a href=\"Mapping\/DeepLinkMapper.php.html#35\">App\\Services\\Mapping\\DeepLinkMapper::map<\/a>"],[100,2,"<a href=\"Mapping\/DeepLinkMapper.php.html#134\">App\\Services\\Mapping\\DeepLinkMapper::mapSearch<\/a>"],[50,4,"<a href=\"Mapping\/DeepLinkMapper.php.html#142\">App\\Services\\Mapping\\DeepLinkMapper::mapArticle<\/a>"],[70,3,"<a href=\"Mapping\/DeepLinkMapper.php.html#157\">App\\Services\\Mapping\\DeepLinkMapper::mapVideoArticle<\/a>"],[83.33333333333334,2,"<a href=\"Mapping\/DeepLinkMapper.php.html#175\">App\\Services\\Mapping\\DeepLinkMapper::getArticle<\/a>"],[0,2,"<a href=\"Mapping\/DeepLinkMapper.php.html#194\">App\\Services\\Mapping\\DeepLinkMapper::getWireArticle<\/a>"],[81.81818181818183,4,"<a href=\"Mapping\/DeepLinkMapper.php.html#213\">App\\Services\\Mapping\\DeepLinkMapper::getMappingArray<\/a>"],[100,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#233\">App\\Services\\Mapping\\DeepLinkMapper::getMappingLanguageForDomain<\/a>"],[100,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#238\">App\\Services\\Mapping\\DeepLinkMapper::getArticleApi<\/a>"],[100,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#243\">App\\Services\\Mapping\\DeepLinkMapper::getDuplicatedManager<\/a>"],[0,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#248\">App\\Services\\Mapping\\DeepLinkMapper::getLogger<\/a>"],[0,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#253\">App\\Services\\Mapping\\DeepLinkMapper::getProgramApi<\/a>"],[0,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#258\">App\\Services\\Mapping\\DeepLinkMapper::getKeyValueApi<\/a>"],[0,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#263\">App\\Services\\Mapping\\DeepLinkMapper::getMostViewedApi<\/a>"],[0,1,"<a href=\"Mapping\/DeepLinkMapper.php.html#268\">App\\Services\\Mapping\\DeepLinkMapper::getLocaleString<\/a>"],[100,1,"<a href=\"Navigation\/RedirectionHandler.php.html#15\">App\\Services\\Navigation\\RedirectionHandler::__construct<\/a>"],[100,2,"<a href=\"Navigation\/RedirectionHandler.php.html#21\">App\\Services\\Navigation\\RedirectionHandler::getRedirectionFromProgram<\/a>"],[100,1,"<a href=\"Navigation\/RedirectionHandler.php.html#33\">App\\Services\\Navigation\\RedirectionHandler::getRedirectionFromArticle<\/a>"],[85.71428571428571,5,"<a href=\"Navigation\/RedirectionHandler.php.html#38\">App\\Services\\Navigation\\RedirectionHandler::checkUrl<\/a>"],[100,1,"<a href=\"Program\/ProgramUrlTranslator.php.html#17\">App\\Services\\Program\\ProgramUrlTranslator::__construct<\/a>"],[92.5925925925926,5,"<a href=\"Program\/ProgramUrlTranslator.php.html#21\">App\\Services\\Program\\ProgramUrlTranslator::getUrl<\/a>"],[33.33333333333333,2,"<a href=\"Program\/ProgramUrlTranslator.php.html#59\">App\\Services\\Program\\ProgramUrlTranslator::generateFallback<\/a>"],[100,1,"<a href=\"Program\/ProgramUrlTranslator.php.html#71\">App\\Services\\Program\\ProgramUrlTranslator::defineURLProgram<\/a>"],[100,2,"<a href=\"Program\/ProgramUrlTranslator.php.html#83\">App\\Services\\Program\\ProgramUrlTranslator::defineURLProgramList<\/a>"],[83.33333333333334,2,"<a href=\"Program\/ProgramUrlTranslator.php.html#95\">App\\Services\\Program\\ProgramUrlTranslator::defineURLProgramArticle<\/a>"],[100,2,"<a href=\"Program\/ProgramUrlTranslator.php.html#115\">App\\Services\\Program\\ProgramUrlTranslator::defineURLProgramArticleList<\/a>"],[100,1,"<a href=\"Serializer\/JsEntitySerializer.php.html#21\">App\\Services\\Serializer\\JsEntitySerializer::__construct<\/a>"],[50,3,"<a href=\"Serializer\/JsEntitySerializer.php.html#36\">App\\Services\\Serializer\\JsEntitySerializer::normalize<\/a>"],[100,1,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#10\">App\\Services\\Serializer\\VideoEnumNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#15\">App\\Services\\Serializer\\VideoEnumNormalizer::getSupportedTypes<\/a>"],[0,1,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#22\">App\\Services\\Serializer\\VideoEnumNormalizer::supportsDenormalization<\/a>"],[100,1,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#27\">App\\Services\\Serializer\\VideoEnumNormalizer::normalize<\/a>"],[0,1,"<a href=\"Serializer\/VideoEnumNormalizer.php.html#32\">App\\Services\\Serializer\\VideoEnumNormalizer::denormalize<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#15\">App\\Services\\Template\\BodyClassListBuilder::__construct<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#19\">App\\Services\\Template\\BodyClassListBuilder::build404<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#24\">App\\Services\\Template\\BodyClassListBuilder::buildAccount<\/a>"],[0,1,"<a href=\"Template\/BodyClassListBuilder.php.html#33\">App\\Services\\Template\\BodyClassListBuilder::buildAccountOther<\/a>"],[95.23809523809523,11,"<a href=\"Template\/BodyClassListBuilder.php.html#43\">App\\Services\\Template\\BodyClassListBuilder::buildArticle<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#88\">App\\Services\\Template\\BodyClassListBuilder::buildArticleArchive<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#93\">App\\Services\\Template\\BodyClassListBuilder::buildArticleListContinent<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#98\">App\\Services\\Template\\BodyClassListBuilder::buildArticleListCountry<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#103\">App\\Services\\Template\\BodyClassListBuilder::buildArticleListHotTopic<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#108\">App\\Services\\Template\\BodyClassListBuilder::buildArticleListTag<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#113\">App\\Services\\Template\\BodyClassListBuilder::buildHome<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#118\">App\\Services\\Template\\BodyClassListBuilder::buildHubPage<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#126\">App\\Services\\Template\\BodyClassListBuilder::buildLogin<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#135\">App\\Services\\Template\\BodyClassListBuilder::buildNoCommentIndex<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#143\">App\\Services\\Template\\BodyClassListBuilder::buildPartners<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#148\">App\\Services\\Template\\BodyClassListBuilder::buildProgram<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#156\">App\\Services\\Template\\BodyClassListBuilder::buildProgramIndex<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#165\">App\\Services\\Template\\BodyClassListBuilder::buildSearch<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#173\">App\\Services\\Template\\BodyClassListBuilder::buildShowroom<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#181\">App\\Services\\Template\\BodyClassListBuilder::buildSportFixtures<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#186\">App\\Services\\Template\\BodyClassListBuilder::buildSportRanking<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#191\">App\\Services\\Template\\BodyClassListBuilder::buildSportResults<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#196\">App\\Services\\Template\\BodyClassListBuilder::buildTheme<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#201\">App\\Services\\Template\\BodyClassListBuilder::buildTimeline<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#206\">App\\Services\\Template\\BodyClassListBuilder::buildTimelineEmbed<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#211\">App\\Services\\Template\\BodyClassListBuilder::buildVertical<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#216\">App\\Services\\Template\\BodyClassListBuilder::buildVideo<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#224\">App\\Services\\Template\\BodyClassListBuilder::buildVideoBulletin<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#232\">App\\Services\\Template\\BodyClassListBuilder::buildVideoEmbed<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#240\">App\\Services\\Template\\BodyClassListBuilder::buildVideoIndex<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#248\">App\\Services\\Template\\BodyClassListBuilder::buildVideoLive<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#256\">App\\Services\\Template\\BodyClassListBuilder::buildVideoLiveEmbed<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#264\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherCity<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#269\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherCityEmbed<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#274\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherContinent<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#279\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherCountry<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#284\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherIndex<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#289\">App\\Services\\Template\\BodyClassListBuilder::buildWeatherState<\/a>"],[100,1,"<a href=\"Template\/BodyClassListBuilder.php.html#294\">App\\Services\\Template\\BodyClassListBuilder::implodeArrayToString<\/a>"],[100,3,"<a href=\"Template\/BodyClassListBuilder.php.html#299\">App\\Services\\Template\\BodyClassListBuilder::build<\/a>"],[100,1,"<a href=\"Template\/TemplateService.php.html#39\">App\\Services\\Template\\TemplateService::__construct<\/a>"],[100,2,"<a href=\"Template\/TemplateService.php.html#43\">App\\Services\\Template\\TemplateService::getDesignedVertical<\/a>"],[0,1,"<a href=\"Template\/TemplateService.php.html#52\">App\\Services\\Template\\TemplateService::isVerticalArticle<\/a>"],[100,4,"<a href=\"Template\/TemplateService.php.html#57\">App\\Services\\Template\\TemplateService::getHeaderTemplate<\/a>"],[100,2,"<a href=\"Template\/TemplateService.php.html#72\">App\\Services\\Template\\TemplateService::getFooterTemplate<\/a>"],[100,7,"<a href=\"Template\/TemplateService.php.html#81\">App\\Services\\Template\\TemplateService::getArticleTemplate<\/a>"],[90.9090909090909,6,"<a href=\"Template\/TemplateService.php.html#109\">App\\Services\\Template\\TemplateService::getSwipeArticleTemplate<\/a>"],[100,1,"<a href=\"Template\/TemplateService.php.html#136\">App\\Services\\Template\\TemplateService::getProgramTemplate<\/a>"],[100,1,"<a href=\"Template\/TemplateService.php.html#145\">App\\Services\\Template\\TemplateService::getTagTemplate<\/a>"],[100,1,"<a href=\"Theme\/ThemeTranslator.php.html#18\">App\\Services\\Theme\\ThemeTranslator::__construct<\/a>"],[60,2,"<a href=\"Theme\/ThemeTranslator.php.html#22\">App\\Services\\Theme\\ThemeTranslator::translateThemeName<\/a>"],[57.14285714285714,6,"<a href=\"Theme\/ThemeTranslator.php.html#33\">App\\Services\\Theme\\ThemeTranslator::translateThemeUrl<\/a>"],[75,2,"<a href=\"Theme\/ThemeTranslator.php.html#62\">App\\Services\\Theme\\ThemeTranslator::getFallbackRoute<\/a>"],[100,1,"<a href=\"Theme\/ThemeTranslator.php.html#72\">App\\Services\\Theme\\ThemeTranslator::translateTheme<\/a>"],[88.88888888888889,8,"<a href=\"Theme\/ThemeTranslator.php.html#81\">App\\Services\\Theme\\ThemeTranslator::translateThemesArticle<\/a>"],[100,2,"<a href=\"Theme\/ThemeTranslator.php.html#118\">App\\Services\\Theme\\ThemeTranslator::translateThemesArticleList<\/a>"],[100,2,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#42\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::__construct<\/a>"],[100,2,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#56\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::getConfiguration<\/a>"],[100,4,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#70\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::getPageType<\/a>"],[100,3,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#88\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::getAppKey<\/a>"],[100,2,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#103\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::setTestSegmentFromRequest<\/a>"],[100,4,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#111\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::setTestPageTypeFromRequest<\/a>"],[100,1,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#129\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::getTestSegment<\/a>"],[100,1,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#134\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::setCurrentArticle<\/a>"],[0,1,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#139\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::hasTestPageType<\/a>"],[100,1,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#144\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::hasTestSegment<\/a>"],[100,3,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#149\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::setAppKeys<\/a>"],[100,7,"<a href=\"ThirdParty\/PooolConfigurationBuilder.php.html#165\">App\\Services\\ThirdParty\\PooolConfigurationBuilder::getCustomContext<\/a>"],[100,1,"<a href=\"Vertical\/CurrentVerticalStore.php.html#13\">App\\Services\\Vertical\\CurrentVerticalStore::get<\/a>"],[100,1,"<a href=\"Vertical\/CurrentVerticalStore.php.html#18\">App\\Services\\Vertical\\CurrentVerticalStore::isDefined<\/a>"],[100,1,"<a href=\"Vertical\/CurrentVerticalStore.php.html#26\">App\\Services\\Vertical\\CurrentVerticalStore::set<\/a>"],[100,1,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#21\">App\\Services\\Vertical\\VerticalConfigurationStore::__construct<\/a>"],[100,1,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#25\">App\\Services\\Vertical\\VerticalConfigurationStore::isVerticalSite<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#32\">App\\Services\\Vertical\\VerticalConfigurationStore::hasBasicUrls<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#42\">App\\Services\\Vertical\\VerticalConfigurationStore::hasLogoOnArticle<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#52\">App\\Services\\Vertical\\VerticalConfigurationStore::hasSpecificUrls<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#62\">App\\Services\\Vertical\\VerticalConfigurationStore::hasOwnDesign<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#75\">App\\Services\\Vertical\\VerticalConfigurationStore::getVerticalOwnDesign<\/a>"],[100,3,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#91\">App\\Services\\Vertical\\VerticalConfigurationStore::getVerticalLogo<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#106\">App\\Services\\Vertical\\VerticalConfigurationStore::getCurrentVerticalLogo<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#118\">App\\Services\\Vertical\\VerticalConfigurationStore::getCurrentVerticalOwnDesign<\/a>"],[62.5,4,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#130\">App\\Services\\Vertical\\VerticalConfigurationStore::getSocialNetworks<\/a>"],[100,1,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#153\">App\\Services\\Vertical\\VerticalConfigurationStore::isCurrentVerticalWebsite<\/a>"],[100,1,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#158\">App\\Services\\Vertical\\VerticalConfigurationStore::getCurrentVertical<\/a>"],[100,2,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#170\">App\\Services\\Vertical\\VerticalConfigurationStore::getCurrentWebsite<\/a>"],[100,1,"<a href=\"Vertical\/VerticalConfigurationStore.php.html#179\">App\\Services\\Vertical\\VerticalConfigurationStore::getCurrentVerticalStore<\/a>"],[100,1,"<a href=\"Vertical\/VerticalContextHandler.php.html#11\">App\\Services\\Vertical\\VerticalContextHandler::__construct<\/a>"],[50,2,"<a href=\"Vertical\/VerticalContextHandler.php.html#27\">App\\Services\\Vertical\\VerticalContextHandler::getCurrentVerticalData<\/a>"],[100,4,"<a href=\"Vertical\/VerticalContextHandler.php.html#41\">App\\Services\\Vertical\\VerticalContextHandler::loadContextFromRequestStack<\/a>"],[66.66666666666666,4,"<a href=\"Vertical\/VerticalContextHandler.php.html#64\">App\\Services\\Vertical\\VerticalContextHandler::isThemeVerticalSite<\/a>"],[100,1,"<a href=\"Vertical\/VerticalContextHandler.php.html#81\">App\\Services\\Vertical\\VerticalContextHandler::getVerticalConfigurationStore<\/a>"],[100,1,"<a href=\"Vertical\/VerticalContextHandler.php.html#86\">App\\Services\\Vertical\\VerticalContextHandler::getCurrentVerticalStore<\/a>"],[100,1,"<a href=\"Vertical\/VerticalContextHandler.php.html#91\">App\\Services\\Vertical\\VerticalContextHandler::getVerticalHierarchyStore<\/a>"],[100,2,"<a href=\"Vertical\/VerticalContextHandler.php.html#96\">App\\Services\\Vertical\\VerticalContextHandler::getCurrentVerticalThemes<\/a>"],[100,2,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#57\">App\\Services\\Vertical\\VerticalHierarchyStore::__construct<\/a>"],[100,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#83\">App\\Services\\Vertical\\VerticalHierarchyStore::init<\/a>"],[88.23529411764706,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#101\">App\\Services\\Vertical\\VerticalHierarchyStore::loadVerticalHierarchy<\/a>"],[94.73684210526315,10,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#137\">App\\Services\\Vertical\\VerticalHierarchyStore::loadThemeHierarchy<\/a>"],[100,6,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#209\">App\\Services\\Vertical\\VerticalHierarchyStore::loadProgramHierarchyForLocale<\/a>"],[66.66666666666666,2,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#248\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticalHierarchy<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#264\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticalHierarchyByLocale<\/a>"],[66.66666666666666,2,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#276\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeHierarchy<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#292\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeHierarchyByLocale<\/a>"],[83.33333333333334,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#302\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramHierarchyByLocale<\/a>"],[83.33333333333334,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#321\">App\\Services\\Vertical\\VerticalHierarchyStore::getOnlineProgramHierarchyByLocale<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#340\">App\\Services\\Vertical\\VerticalHierarchyStore::getVertical<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#354\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeForVertical<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#373\">App\\Services\\Vertical\\VerticalHierarchyStore::getTheme<\/a>"],[100,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#389\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgram<\/a>"],[100,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#407\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramForVertical<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#428\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramForVerticalTheme<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#446\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticals<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#456\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemes<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#484\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemesForVertical<\/a>"],[100,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#512\">App\\Services\\Vertical\\VerticalHierarchyStore::getPrograms<\/a>"],[90.9090909090909,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#542\">App\\Services\\Vertical\\VerticalHierarchyStore::getOnlinePrograms<\/a>"],[90.9090909090909,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#572\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramsForVertical<\/a>"],[100,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#602\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramsForVerticalTheme<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#634\">App\\Services\\Vertical\\VerticalHierarchyStore::filterOnlinePrograms<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#646\">App\\Services\\Vertical\\VerticalHierarchyStore::filterOfflinePrograms<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#660\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticalBySlug<\/a>"],[100,5,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#680\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeBySlugForVertical<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#706\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeBySlug<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#726\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramBySlug<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#746\">App\\Services\\Vertical\\VerticalHierarchyStore::hasVertical<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#758\">App\\Services\\Vertical\\VerticalHierarchyStore::verticalHasTheme<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#769\">App\\Services\\Vertical\\VerticalHierarchyStore::hasTheme<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#777\">App\\Services\\Vertical\\VerticalHierarchyStore::hasProgram<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#782\">App\\Services\\Vertical\\VerticalHierarchyStore::setLogger<\/a>"],[100,1,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#789\">App\\Services\\Vertical\\VerticalHierarchyStore::getDefaultLocale<\/a>"],[88.88888888888889,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#799\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticalKeys<\/a>"],[88.88888888888889,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#825\">App\\Services\\Vertical\\VerticalHierarchyStore::getThemeKeys<\/a>"],[88.88888888888889,3,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#851\">App\\Services\\Vertical\\VerticalHierarchyStore::getProgramKeys<\/a>"],[100,4,"<a href=\"Vertical\/VerticalHierarchyStore.php.html#877\">App\\Services\\Vertical\\VerticalHierarchyStore::getVerticalByTheme<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Api</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Api</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#10">App\Component\Api\DataCollector\ArticleDataCollector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/CustomLogsCollector.php.html#9">App\Component\Api\DataCollector\CustomLogsCollector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/ThirdPartApiHttp.php.html#7">App\Component\Api\Http\ThirdPartApiHttp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ApiVersion.php.html#7">App\Component\Api\Proxy\ApiVersion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/MarketsApi.php.html#7">App\Component\Api\Proxy\MarketsApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThemeApi.php.html#7">App\Component\Api\Proxy\ThemeApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#14">App\Component\Api\Proxy\ThirdPartApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/EventDispatcherTrait.php.html#7">App\Component\Api\EventDispatcher\EventDispatcherTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#8">App\Component\Api\EventDispatcher\ArticlesEvent</a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#7">App\Component\Api\Proxy\KeyvalueApi</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#10">App\Component\Api\Http\AbstractApiHttp</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#8">App\Component\Api\Proxy\BlockContentApi</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Proxy/SearchApi.php.html#7">App\Component\Api\Proxy\SearchApi</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#7">App\Component\Api\Http\TouchLineApiHttp</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#26">App\Component\Api\Http\EuronewsApiHttp</a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#10">App\Component\Api\Proxy\KeywordApi</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Proxy/TagApi.php.html#9">App\Component\Api\Proxy\TagApi</a></td><td class="text-right">74%</td></tr>
+       <tr><td><a href="Enum/Endpoint.php.html#11">App\Component\Api\Enum\Endpoint</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#15">App\Component\Api\Proxy\AbstractEuronewsApi</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Proxy/VerticalApi.php.html#8">App\Component\Api\Proxy\VerticalApi</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="Proxy/GalleriesApi.php.html#7">App\Component\Api\Proxy\GalleriesApi</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#9">App\Component\Api\Cache\CacheTrait</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#23">App\Component\Api\Proxy\WeatherApi</a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#10">App\Component\Api\DataCollector\ArticleDataCollector</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#26">App\Component\Api\Http\EuronewsApiHttp</a></td><td class="text-right">325</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#8">App\Component\Api\Proxy\BlockContentApi</a></td><td class="text-right">281</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#10">App\Component\Api\Http\AbstractApiHttp</a></td><td class="text-right">120</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#23">App\Component\Api\Proxy\WeatherApi</a></td><td class="text-right">107</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#7">App\Component\Api\Proxy\KeyvalueApi</a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#10">App\Component\Api\Proxy\KeywordApi</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#9">App\Component\Api\Cache\CacheTrait</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#7">App\Component\Api\Http\TouchLineApiHttp</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#15">App\Component\Api\Proxy\AbstractEuronewsApi</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Proxy/VerticalApi.php.html#8">App\Component\Api\Proxy\VerticalApi</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Proxy/TagApi.php.html#9">App\Component\Api\Proxy\TagApi</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Proxy/SearchApi.php.html#7">App\Component\Api\Proxy\SearchApi</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Enum/Endpoint.php.html#11">App\Component\Api\Enum\Endpoint</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Proxy/GalleriesApi.php.html#7">App\Component\Api\Proxy\GalleriesApi</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#12"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#23"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::onArticleApi">onArticleApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#31"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::onArticleDisplayed">onArticleDisplayed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#49"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticles">getArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#54"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticlesDisplayedRaw">getArticlesDisplayedRaw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#59"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticlesDisplayed">getArticlesDisplayed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#78"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getNbdoublon">getNbdoublon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#91"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getNbsingleton">getNbsingleton</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#104"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticleNotDisplayed">getArticleNotDisplayed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#122"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getTotalArticles">getTotalArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#137"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getTotalArticlesDisplayed">getTotalArticlesDisplayed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#142"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getDoublons">getDoublons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#162"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#171"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::collect">collect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#177"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#182"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/CustomLogsCollector.php.html#11"><abbr title="App\Component\Api\DataCollector\CustomLogsCollector::collect">collect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/CustomLogsCollector.php.html#17"><abbr title="App\Component\Api\DataCollector\CustomLogsCollector::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataCollector/CustomLogsCollector.php.html#23"><abbr title="App\Component\Api\DataCollector\CustomLogsCollector::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Enum/Endpoint.php.html#99"><abbr title="App\Component\Api\Enum\Endpoint::article">article</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#16"><abbr title="App\Component\Api\EventDispatcher\ArticlesEvent::setArticles">setArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#23"><abbr title="App\Component\Api\EventDispatcher\ArticlesEvent::getArticles">getArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#28"><abbr title="App\Component\Api\EventDispatcher\ArticlesEvent::setEndpoint">setEndpoint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#35"><abbr title="App\Component\Api\EventDispatcher\ArticlesEvent::getEndpoint">getEndpoint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/ArticlesEvent.php.html#47"><abbr title="App\Component\Api\EventDispatcher\ArticlesEvent::getArticleDisplayed">getArticleDisplayed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#22"><abbr title="App\Component\Api\Http\AbstractApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#27"><abbr title="App\Component\Api\Http\AbstractApiHttp::getClient">getClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#46"><abbr title="App\Component\Api\Http\AbstractApiHttp::call">call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#72"><abbr title="App\Component\Api\Http\AbstractApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#77"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponse">getResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#85"><abbr title="App\Component\Api\Http\AbstractApiHttp::isValid">isValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#93"><abbr title="App\Component\Api\Http\AbstractApiHttp::isEmptyContent">isEmptyContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#101"><abbr title="App\Component\Api\Http\AbstractApiHttp::isRedirect">isRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#111"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponseCode">getResponseCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#207"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getExtra">getExtra</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#332"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#347"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setDebug">setDebug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#354"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getEventDispatcher">getEventDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/ThirdPartApiHttp.php.html#9"><abbr title="App\Component\Api\Http\ThirdPartApiHttp::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/ThirdPartApiHttp.php.html#20"><abbr title="App\Component\Api\Http\ThirdPartApiHttp::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#17"><abbr title="App\Component\Api\Http\TouchLineApiHttp::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#31"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#90"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::setApiParams">setApiParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ApiVersion.php.html#9"><abbr title="App\Component\Api\Proxy\ApiVersion::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ApiVersion.php.html#14"><abbr title="App\Component\Api\Proxy\ApiVersion::getVersion">getVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ApiVersion.php.html#19"><abbr title="App\Component\Api\Proxy\ApiVersion::setApiHttp">setApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#27"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesLiving">getTopStoriesLiving</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#36"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesBusiness">getTopStoriesBusiness</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#45"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesEuPolicy">getTopStoriesEuPolicy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#54"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesEuroviews">getTopStoriesEuroviews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#81"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesHealth">getTopStoriesHealth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#108"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesMyEurope">getTopStoriesMyEurope</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#117"><abbr title="App\Component\Api\Proxy\BlockContentApi::getMoreNews">getMoreNews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#136"><abbr title="App\Component\Api\Proxy\BlockContentApi::getEditorsChoiceV3">getEditorsChoiceV3</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/FootballApi.php.html#396"><abbr title="App\Component\Api\Proxy\FootballApi::getLastResults">getLastResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/FootballApi.php.html#433"><abbr title="App\Component\Api\Proxy\FootballApi::getCacheManager">getCacheManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/FootballApi.php.html#438"><abbr title="App\Component\Api\Proxy\FootballApi::getApiHttp">getApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#11"><abbr title="App\Component\Api\Proxy\KeyvalueApi::getKeyvalues">getKeyvalues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#30"><abbr title="App\Component\Api\Proxy\KeyvalueApi::getOneJsonValue">getOneJsonValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#151"><abbr title="App\Component\Api\Proxy\KeywordApi::getEnglish">getEnglish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#168"><abbr title="App\Component\Api\Proxy\KeywordApi::getTagById">getTagById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/MarketsApi.php.html#11"><abbr title="App\Component\Api\Proxy\MarketsApi::getCurrency">getCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/MarketsApi.php.html#16"><abbr title="App\Component\Api\Proxy\MarketsApi::getCommodities">getCommodities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/MarketsApi.php.html#21"><abbr title="App\Component\Api\Proxy\MarketsApi::getIndexes">getIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/SearchApi.php.html#42"><abbr title="App\Component\Api\Proxy\SearchApi::getSearch">getSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThemeApi.php.html#13"><abbr title="App\Component\Api\Proxy\ThemeApi::getThemes">getThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThemeApi.php.html#25"><abbr title="App\Component\Api\Proxy\ThemeApi::setParams">setParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#24"><abbr title="App\Component\Api\Proxy\ThirdPartApi::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#37"><abbr title="App\Component\Api\Proxy\ThirdPartApi::getHorizonMagazine">getHorizonMagazine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#42"><abbr title="App\Component\Api\Proxy\ThirdPartApi::setApiHttp">setApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#49"><abbr title="App\Component\Api\Proxy\ThirdPartApi::getCacheManager">getCacheManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/ThirdPartApi.php.html#54"><abbr title="App\Component\Api\Proxy\ThirdPartApi::getApiHttp">getApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/VerticalApi.php.html#59"><abbr title="App\Component\Api\Proxy\VerticalApi::setParams">setParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#219"><abbr title="App\Component\Api\Proxy\WeatherApi::getCountryByName">getCountryByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventDispatcher/EventDispatcherTrait.php.html#9"><abbr title="App\Component\Api\EventDispatcher\EventDispatcherTrait::notifyGetArticleEvent">notifyGetArticleEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proxy/TagApi.php.html#16"><abbr title="App\Component\Api\Proxy\TagApi::getTags">getTags</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="Proxy/SearchApi.php.html#12"><abbr title="App\Component\Api\Proxy\SearchApi::get">get</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#272"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setChannel">setChannel</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#104"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::getItems">getItems</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#17"><abbr title="App\Component\Api\Proxy\KeywordApi::getKeywords">getKeywords</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#264"><abbr title="App\Component\Api\Proxy\WeatherApi::getCityByCoords">getCityByCoords</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#363"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setClientForEndpoint">setClientForEndpoint</abbr></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#158"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getItems">getItems</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="Proxy/VerticalApi.php.html#14"><abbr title="App\Component\Api\Proxy\VerticalApi::getVerticals">getVerticals</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#305"><abbr title="App\Component\Api\Proxy\WeatherApi::minimizeJson">minimizeJson</abbr></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#79"><abbr title="App\Component\Api\Http\EuronewsApiHttp::get">get</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#116"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::hasCacheOnArticle">hasCacheOnArticle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#63"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesTravel">getTopStoriesTravel</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#72"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesGreen">getTopStoriesGreen</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#90"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesNext">getTopStoriesNext</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#99"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesCulture">getTopStoriesCulture</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#55"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::addExcludedArticleIdsToParams">addExcludedArticleIdsToParams</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#14"><abbr title="App\Component\Api\Cache\CacheTrait::getCacheItem">getCacheItem</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#43"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getResponseResults">getResponseResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#56"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getFixturesResults">getFixturesResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#69"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getRankingResults">getRankingResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#738"><abbr title="App\Component\Api\Proxy\ArticleApi::getArticleRaw">getArticleRaw</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#962"><abbr title="App\Component\Api\Proxy\ArticleApi::getAllArticleKeywords">getAllArticleKeywords</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/FootballLeaguesApi.php.html#178"><abbr title="App\Component\Api\Proxy\FootballLeaguesApi::getCountryById">getCountryById</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#19"><abbr title="App\Component\Api\Proxy\KeyvalueApi::getOneValue">getOneValue</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#67"><abbr title="App\Component\Api\Cache\CacheTrait::debugLog">debugLog</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proxy/GalleriesApi.php.html#14"><abbr title="App\Component\Api\Proxy\GalleriesApi::getGallery">getGallery</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#390"><abbr title="App\Component\Api\Proxy\WeatherApi::findCityByInfos">findCityByInfos</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Tools/ApiTools.php.html#134"><abbr title="App\Component\Api\Tools\ApiTools::hasParam">hasParam</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#71"><abbr title="App\Component\Api\Proxy\KeywordApi::getTagTranslation">getTagTranslation</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#142"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Tools/ApiTools.php.html#32"><abbr title="App\Component\Api\Tools\ApiTools::processCustomParamsFromExternalYamlConfig">processCustomParamsFromExternalYamlConfig</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#292"><abbr title="App\Component\Api\Http\EuronewsApiHttp::checkChannel">checkChannel</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#770"><abbr title="App\Component\Api\Proxy\ArticleApi::findByStoryId">findByStoryId</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Proxy/FootballLeaguesApi.php.html#28"><abbr title="App\Component\Api\Proxy\FootballLeaguesApi::__construct">__construct</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#115"><abbr title="App\Component\Api\Proxy\KeywordApi::getHotTopics">getHotTopics</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#434"><abbr title="App\Component\Api\Proxy\WeatherApi::findByInfos">findByInfos</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#207"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getExtra">getExtra</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#305"><abbr title="App\Component\Api\Proxy\WeatherApi::minimizeJson">minimizeJson</abbr></a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#158"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getItems">getItems</abbr></a></td><td class="text-right">33</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#59"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticlesDisplayed">getArticlesDisplayed</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#30"><abbr title="App\Component\Api\Proxy\KeyvalueApi::getOneJsonValue">getOneJsonValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#14"><abbr title="App\Component\Api\Cache\CacheTrait::getCacheItem">getCacheItem</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#78"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getNbdoublon">getNbdoublon</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#91"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getNbsingleton">getNbsingleton</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#104"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticleNotDisplayed">getArticleNotDisplayed</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#122"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getTotalArticles">getTotalArticles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#142"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getDoublons">getDoublons</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Proxy/TagApi.php.html#16"><abbr title="App\Component\Api\Proxy\TagApi::getTags">getTags</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#31"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::onArticleDisplayed">onArticleDisplayed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#79"><abbr title="App\Component\Api\Http\EuronewsApiHttp::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#332"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#151"><abbr title="App\Component\Api\Proxy\KeywordApi::getEnglish">getEnglish</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Proxy/VerticalApi.php.html#14"><abbr title="App\Component\Api\Proxy\VerticalApi::getVerticals">getVerticals</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Tools/ApiTools.php.html#32"><abbr title="App\Component\Api\Tools\ApiTools::processCustomParamsFromExternalYamlConfig">processCustomParamsFromExternalYamlConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#12"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#49"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticles">getArticles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataCollector/ArticleDataCollector.php.html#54"><abbr title="App\Component\Api\DataCollector\ArticleDataCollector::getArticlesDisplayedRaw">getArticlesDisplayedRaw</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#27"><abbr title="App\Component\Api\Http\AbstractApiHttp::getClient">getClient</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#72"><abbr title="App\Component\Api\Http\AbstractApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/AbstractApiHttp.php.html#111"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponseCode">getResponseCode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#27"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesLiving">getTopStoriesLiving</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#36"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesBusiness">getTopStoriesBusiness</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#45"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesEuPolicy">getTopStoriesEuPolicy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#54"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesEuroviews">getTopStoriesEuroviews</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#81"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesHealth">getTopStoriesHealth</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#108"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesMyEurope">getTopStoriesMyEurope</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#117"><abbr title="App\Component\Api\Proxy\BlockContentApi::getMoreNews">getMoreNews</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#136"><abbr title="App\Component\Api\Proxy\BlockContentApi::getEditorsChoiceV3">getEditorsChoiceV3</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/FootballApi.php.html#396"><abbr title="App\Component\Api\Proxy\FootballApi::getLastResults">getLastResults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#219"><abbr title="App\Component\Api\Proxy\WeatherApi::getCountryByName">getCountryByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#264"><abbr title="App\Component\Api\Proxy\WeatherApi::getCityByCoords">getCityByCoords</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EventDispatcher/EventDispatcherTrait.php.html#9"><abbr title="App\Component\Api\EventDispatcher\EventDispatcherTrait::notifyGetArticleEvent">notifyGetArticleEvent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proxy/SearchApi.php.html#12"><abbr title="App\Component\Api\Proxy\SearchApi::get">get</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#434"><abbr title="App\Component\Api\Proxy\WeatherApi::findByInfos">findByInfos</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#104"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::getItems">getItems</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#17"><abbr title="App\Component\Api\Proxy\KeywordApi::getKeywords">getKeywords</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#71"><abbr title="App\Component\Api\Proxy\KeywordApi::getTagTranslation">getTagTranslation</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#142"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Proxy/KeywordApi.php.html#115"><abbr title="App\Component\Api\Proxy\KeywordApi::getHotTopics">getHotTopics</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#55"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::addExcludedArticleIdsToParams">addExcludedArticleIdsToParams</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#962"><abbr title="App\Component\Api\Proxy\ArticleApi::getAllArticleKeywords">getAllArticleKeywords</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Proxy/KeyvalueApi.php.html#19"><abbr title="App\Component\Api\Proxy\KeyvalueApi::getOneValue">getOneValue</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Tools/ApiTools.php.html#134"><abbr title="App\Component\Api\Tools\ApiTools::hasParam">hasParam</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#292"><abbr title="App\Component\Api\Http\EuronewsApiHttp::checkChannel">checkChannel</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Proxy/FootballLeaguesApi.php.html#28"><abbr title="App\Component\Api\Proxy\FootballLeaguesApi::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#272"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setChannel">setChannel</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/EuronewsApiHttp.php.html#363"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setClientForEndpoint">setClientForEndpoint</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/AbstractEuronewsApi.php.html#116"><abbr title="App\Component\Api\Proxy\AbstractEuronewsApi::hasCacheOnArticle">hasCacheOnArticle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#63"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesTravel">getTopStoriesTravel</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#72"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesGreen">getTopStoriesGreen</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#90"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesNext">getTopStoriesNext</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/BlockContentApi.php.html#99"><abbr title="App\Component\Api\Proxy\BlockContentApi::getTopStoriesCulture">getTopStoriesCulture</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#43"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getResponseResults">getResponseResults</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#56"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getFixturesResults">getFixturesResults</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/TouchLineApiHttp.php.html#69"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getRankingResults">getRankingResults</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#738"><abbr title="App\Component\Api\Proxy\ArticleApi::getArticleRaw">getArticleRaw</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/FootballLeaguesApi.php.html#178"><abbr title="App\Component\Api\Proxy\FootballLeaguesApi::getCountryById">getCountryById</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Cache/CacheTrait.php.html#67"><abbr title="App\Component\Api\Cache\CacheTrait::debugLog">debugLog</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/GalleriesApi.php.html#14"><abbr title="App\Component\Api\Proxy\GalleriesApi::getGallery">getGallery</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/WeatherApi.php.html#390"><abbr title="App\Component\Api\Proxy\WeatherApi::findCityByInfos">findCityByInfos</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Proxy/ArticleApi.php.html#770"><abbr title="App\Component\Api\Proxy\ArticleApi::findByStoryId">findByStoryId</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,3,0,2,2,0,5,3,6,12], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([75,0,0,0,2,0,6,8,10,11,8,170], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,40,"<a href=\"DataCollector\/ArticleDataCollector.php.html#10\">App\\Component\\Api\\DataCollector\\ArticleDataCollector<\/a>"],[0,3,"<a href=\"DataCollector\/CustomLogsCollector.php.html#9\">App\\Component\\Api\\DataCollector\\CustomLogsCollector<\/a>"],[100,0,"<a href=\"Enum\/Channel.php.html#5\">App\\Component\\Api\\Enum\\Channel<\/a>"],[75,4,"<a href=\"Enum\/Endpoint.php.html#11\">App\\Component\\Api\\Enum\\Endpoint<\/a>"],[100,1,"<a href=\"Enum\/FilterOperator.php.html#5\">App\\Component\\Api\\Enum\\FilterOperator<\/a>"],[22.22222222222222,6,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#8\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent<\/a>"],[25.925925925925924,16,"<a href=\"Http\/AbstractApiHttp.php.html#10\">App\\Component\\Api\\Http\\AbstractApiHttp<\/a>"],[59.09090909090909,62,"<a href=\"Http\/EuronewsApiHttp.php.html#26\">App\\Component\\Api\\Http\\EuronewsApiHttp<\/a>"],[0,2,"<a href=\"Http\/ThirdPartApiHttp.php.html#7\">App\\Component\\Api\\Http\\ThirdPartApiHttp<\/a>"],[58.333333333333336,13,"<a href=\"Http\/TouchLineApiHttp.php.html#7\">App\\Component\\Api\\Http\\TouchLineApiHttp<\/a>"],[100,6,"<a href=\"Proxy\/AbstractApi.php.html#9\">App\\Component\\Api\\Proxy\\AbstractApi<\/a>"],[78.125,17,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#15\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi<\/a>"],[100,2,"<a href=\"Proxy\/AbstractEuronewsBcsApi.php.html#5\">App\\Component\\Api\\Proxy\\AbstractEuronewsBcsApi<\/a>"],[0,3,"<a href=\"Proxy\/ApiVersion.php.html#7\">App\\Component\\Api\\Proxy\\ApiVersion<\/a>"],[98.73417721518987,80,"<a href=\"Proxy\/ArticleApi.php.html#11\">App\\Component\\Api\\Proxy\\ArticleApi<\/a>"],[100,1,"<a href=\"Proxy\/ArticleBulletinApi.php.html#7\">App\\Component\\Api\\Proxy\\ArticleBulletinApi<\/a>"],[100,16,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#5\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi<\/a>"],[90,2,"<a href=\"Proxy\/ArticleRelatedApi.php.html#8\">App\\Component\\Api\\Proxy\\ArticleRelatedApi<\/a>"],[42.5531914893617,36,"<a href=\"Proxy\/BlockContentApi.php.html#8\">App\\Component\\Api\\Proxy\\BlockContentApi<\/a>"],[100,1,"<a href=\"Proxy\/BreakingNewsApi.php.html#7\">App\\Component\\Api\\Proxy\\BreakingNewsApi<\/a>"],[95.05494505494505,49,"<a href=\"Proxy\/FootballApi.php.html#15\">App\\Component\\Api\\Proxy\\FootballApi<\/a>"],[97.1830985915493,26,"<a href=\"Proxy\/FootballLeaguesApi.php.html#7\">App\\Component\\Api\\Proxy\\FootballLeaguesApi<\/a>"],[80,2,"<a href=\"Proxy\/GalleriesApi.php.html#7\">App\\Component\\Api\\Proxy\\GalleriesApi<\/a>"],[100,8,"<a href=\"Proxy\/JustinApi.php.html#7\">App\\Component\\Api\\Proxy\\JustinApi<\/a>"],[23.076923076923077,9,"<a href=\"Proxy\/KeyvalueApi.php.html#7\">App\\Component\\Api\\Proxy\\KeyvalueApi<\/a>"],[73.01587301587301,25,"<a href=\"Proxy\/KeywordApi.php.html#10\">App\\Component\\Api\\Proxy\\KeywordApi<\/a>"],[0,3,"<a href=\"Proxy\/MarketsApi.php.html#7\">App\\Component\\Api\\Proxy\\MarketsApi<\/a>"],[100,4,"<a href=\"Proxy\/MostviewedApi.php.html#7\">App\\Component\\Api\\Proxy\\MostviewedApi<\/a>"],[100,8,"<a href=\"Proxy\/ProgramApi.php.html#8\">App\\Component\\Api\\Proxy\\ProgramApi<\/a>"],[47.368421052631575,5,"<a href=\"Proxy\/SearchApi.php.html#7\">App\\Component\\Api\\Proxy\\SearchApi<\/a>"],[74.07407407407408,10,"<a href=\"Proxy\/TagApi.php.html#9\">App\\Component\\Api\\Proxy\\TagApi<\/a>"],[0,2,"<a href=\"Proxy\/ThemeApi.php.html#7\">App\\Component\\Api\\Proxy\\ThemeApi<\/a>"],[0,5,"<a href=\"Proxy\/ThirdPartApi.php.html#14\">App\\Component\\Api\\Proxy\\ThirdPartApi<\/a>"],[79.16666666666666,13,"<a href=\"Proxy\/VerticalApi.php.html#8\">App\\Component\\Api\\Proxy\\VerticalApi<\/a>"],[80.97826086956522,72,"<a href=\"Proxy\/WeatherApi.php.html#23\">App\\Component\\Api\\Proxy\\WeatherApi<\/a>"],[98.27586206896551,19,"<a href=\"Proxy\/WireApi.php.html#9\">App\\Component\\Api\\Proxy\\WireApi<\/a>"],[90.69767441860465,25,"<a href=\"Tools\/ApiTools.php.html#10\">App\\Component\\Api\\Tools\\ApiTools<\/a>"],[100,5,"<a href=\"Tools\/DuplicatedManager.php.html#8\">App\\Component\\Api\\Tools\\DuplicatedManager<\/a>"],[80,22,"<a href=\"Cache\/CacheTrait.php.html#9\">App\\Component\\Api\\Cache\\CacheTrait<\/a>"],[0,2,"<a href=\"EventDispatcher\/EventDispatcherTrait.php.html#7\">App\\Component\\Api\\EventDispatcher\\EventDispatcherTrait<\/a>"],[100,1,"<a href=\"Proxy\/ApiProxyTrait.php.html#7\">App\\Component\\Api\\Proxy\\ApiProxyTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"DataCollector\/ArticleDataCollector.php.html#12\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::__construct<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#23\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::onArticleApi<\/a>"],[0,3,"<a href=\"DataCollector\/ArticleDataCollector.php.html#31\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::onArticleDisplayed<\/a>"],[0,2,"<a href=\"DataCollector\/ArticleDataCollector.php.html#49\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getArticles<\/a>"],[0,2,"<a href=\"DataCollector\/ArticleDataCollector.php.html#54\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getArticlesDisplayedRaw<\/a>"],[0,5,"<a href=\"DataCollector\/ArticleDataCollector.php.html#59\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getArticlesDisplayed<\/a>"],[0,4,"<a href=\"DataCollector\/ArticleDataCollector.php.html#78\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getNbdoublon<\/a>"],[0,4,"<a href=\"DataCollector\/ArticleDataCollector.php.html#91\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getNbsingleton<\/a>"],[0,4,"<a href=\"DataCollector\/ArticleDataCollector.php.html#104\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getArticleNotDisplayed<\/a>"],[0,4,"<a href=\"DataCollector\/ArticleDataCollector.php.html#122\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getTotalArticles<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#137\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getTotalArticlesDisplayed<\/a>"],[0,4,"<a href=\"DataCollector\/ArticleDataCollector.php.html#142\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getDoublons<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#162\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::getName<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#171\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::collect<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#177\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::__call<\/a>"],[0,1,"<a href=\"DataCollector\/ArticleDataCollector.php.html#182\">App\\Component\\Api\\DataCollector\\ArticleDataCollector::reset<\/a>"],[0,1,"<a href=\"DataCollector\/CustomLogsCollector.php.html#11\">App\\Component\\Api\\DataCollector\\CustomLogsCollector::collect<\/a>"],[0,1,"<a href=\"DataCollector\/CustomLogsCollector.php.html#17\">App\\Component\\Api\\DataCollector\\CustomLogsCollector::getName<\/a>"],[0,1,"<a href=\"DataCollector\/CustomLogsCollector.php.html#23\">App\\Component\\Api\\DataCollector\\CustomLogsCollector::reset<\/a>"],[100,3,"<a href=\"Enum\/Endpoint.php.html#69\">App\\Component\\Api\\Enum\\Endpoint::hasChannelField<\/a>"],[0,1,"<a href=\"Enum\/Endpoint.php.html#99\">App\\Component\\Api\\Enum\\Endpoint::article<\/a>"],[100,1,"<a href=\"Enum\/FilterOperator.php.html#13\">App\\Component\\Api\\Enum\\FilterOperator::getAllFiltersOperators<\/a>"],[0,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#16\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::setArticles<\/a>"],[0,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#23\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::getArticles<\/a>"],[0,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#28\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::setEndpoint<\/a>"],[0,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#35\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::getEndpoint<\/a>"],[100,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#40\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::setArticleDisplayed<\/a>"],[0,1,"<a href=\"EventDispatcher\/ArticlesEvent.php.html#47\">App\\Component\\Api\\EventDispatcher\\ArticlesEvent::getArticleDisplayed<\/a>"],[100,1,"<a href=\"Http\/AbstractApiHttp.php.html#17\">App\\Component\\Api\\Http\\AbstractApiHttp::__construct<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#22\">App\\Component\\Api\\Http\\AbstractApiHttp::getQueryParams<\/a>"],[0,2,"<a href=\"Http\/AbstractApiHttp.php.html#27\">App\\Component\\Api\\Http\\AbstractApiHttp::getClient<\/a>"],[100,1,"<a href=\"Http\/AbstractApiHttp.php.html#36\">App\\Component\\Api\\Http\\AbstractApiHttp::setClient<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#46\">App\\Component\\Api\\Http\\AbstractApiHttp::call<\/a>"],[100,1,"<a href=\"Http\/AbstractApiHttp.php.html#58\">App\\Component\\Api\\Http\\AbstractApiHttp::setLogger<\/a>"],[100,1,"<a href=\"Http\/AbstractApiHttp.php.html#65\">App\\Component\\Api\\Http\\AbstractApiHttp::setQueryParams<\/a>"],[0,2,"<a href=\"Http\/AbstractApiHttp.php.html#72\">App\\Component\\Api\\Http\\AbstractApiHttp::getRawResponse<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#77\">App\\Component\\Api\\Http\\AbstractApiHttp::getResponse<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#85\">App\\Component\\Api\\Http\\AbstractApiHttp::isValid<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#93\">App\\Component\\Api\\Http\\AbstractApiHttp::isEmptyContent<\/a>"],[0,1,"<a href=\"Http\/AbstractApiHttp.php.html#101\">App\\Component\\Api\\Http\\AbstractApiHttp::isRedirect<\/a>"],[0,2,"<a href=\"Http\/AbstractApiHttp.php.html#111\">App\\Component\\Api\\Http\\AbstractApiHttp::getResponseCode<\/a>"],[100,0,"<a href=\"Http\/AbstractApiHttp.php.html#124\">App\\Component\\Api\\Http\\AbstractApiHttp::get<\/a>"],[100,1,"<a href=\"Http\/EuronewsApiHttp.php.html#60\">App\\Component\\Api\\Http\\EuronewsApiHttp::__construct<\/a>"],[66.66666666666666,9,"<a href=\"Http\/EuronewsApiHttp.php.html#79\">App\\Component\\Api\\Http\\EuronewsApiHttp::get<\/a>"],[85.71428571428571,4,"<a href=\"Http\/EuronewsApiHttp.php.html#142\">App\\Component\\Api\\Http\\EuronewsApiHttp::getQueryParams<\/a>"],[56.52173913043478,15,"<a href=\"Http\/EuronewsApiHttp.php.html#158\">App\\Component\\Api\\Http\\EuronewsApiHttp::getItems<\/a>"],[0,11,"<a href=\"Http\/EuronewsApiHttp.php.html#207\">App\\Component\\Api\\Http\\EuronewsApiHttp::getExtra<\/a>"],[100,2,"<a href=\"Http\/EuronewsApiHttp.php.html#248\">App\\Component\\Api\\Http\\EuronewsApiHttp::setLocale<\/a>"],[100,1,"<a href=\"Http\/EuronewsApiHttp.php.html#260\">App\\Component\\Api\\Http\\EuronewsApiHttp::setEndpointVersions<\/a>"],[50,2,"<a href=\"Http\/EuronewsApiHttp.php.html#272\">App\\Component\\Api\\Http\\EuronewsApiHttp::setChannel<\/a>"],[87.5,3,"<a href=\"Http\/EuronewsApiHttp.php.html#292\">App\\Component\\Api\\Http\\EuronewsApiHttp::checkChannel<\/a>"],[90,6,"<a href=\"Http\/EuronewsApiHttp.php.html#308\">App\\Component\\Api\\Http\\EuronewsApiHttp::addChannelFieldIfRequired<\/a>"],[0,3,"<a href=\"Http\/EuronewsApiHttp.php.html#332\">App\\Component\\Api\\Http\\EuronewsApiHttp::getRawResponse<\/a>"],[100,1,"<a href=\"Http\/EuronewsApiHttp.php.html#342\">App\\Component\\Api\\Http\\EuronewsApiHttp::getChannel<\/a>"],[0,1,"<a href=\"Http\/EuronewsApiHttp.php.html#347\">App\\Component\\Api\\Http\\EuronewsApiHttp::setDebug<\/a>"],[0,1,"<a href=\"Http\/EuronewsApiHttp.php.html#354\">App\\Component\\Api\\Http\\EuronewsApiHttp::getEventDispatcher<\/a>"],[53.84615384615385,2,"<a href=\"Http\/EuronewsApiHttp.php.html#363\">App\\Component\\Api\\Http\\EuronewsApiHttp::setClientForEndpoint<\/a>"],[0,1,"<a href=\"Http\/ThirdPartApiHttp.php.html#9\">App\\Component\\Api\\Http\\ThirdPartApiHttp::get<\/a>"],[0,1,"<a href=\"Http\/ThirdPartApiHttp.php.html#20\">App\\Component\\Api\\Http\\ThirdPartApiHttp::getItems<\/a>"],[100,1,"<a href=\"Http\/TouchLineApiHttp.php.html#9\">App\\Component\\Api\\Http\\TouchLineApiHttp::__construct<\/a>"],[0,1,"<a href=\"Http\/TouchLineApiHttp.php.html#17\">App\\Component\\Api\\Http\\TouchLineApiHttp::get<\/a>"],[0,1,"<a href=\"Http\/TouchLineApiHttp.php.html#31\">App\\Component\\Api\\Http\\TouchLineApiHttp::getItems<\/a>"],[75,2,"<a href=\"Http\/TouchLineApiHttp.php.html#43\">App\\Component\\Api\\Http\\TouchLineApiHttp::getResponseResults<\/a>"],[75,2,"<a href=\"Http\/TouchLineApiHttp.php.html#56\">App\\Component\\Api\\Http\\TouchLineApiHttp::getFixturesResults<\/a>"],[75,2,"<a href=\"Http\/TouchLineApiHttp.php.html#69\">App\\Component\\Api\\Http\\TouchLineApiHttp::getRankingResults<\/a>"],[100,4,"<a href=\"Http\/TouchLineApiHttp.php.html#79\">App\\Component\\Api\\Http\\TouchLineApiHttp::isResValid<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#20\">App\\Component\\Api\\Proxy\\AbstractApi::__construct<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#30\">App\\Component\\Api\\Proxy\\AbstractApi::setTranslator<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#37\">App\\Component\\Api\\Proxy\\AbstractApi::setLogger<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#44\">App\\Component\\Api\\Proxy\\AbstractApi::getLogger<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#49\">App\\Component\\Api\\Proxy\\AbstractApi::setRouter<\/a>"],[100,1,"<a href=\"Proxy\/AbstractApi.php.html#59\">App\\Component\\Api\\Proxy\\AbstractApi::getShortFieldList<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#27\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::__construct<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#44\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::setApiHttp<\/a>"],[71.42857142857143,3,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#55\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::addExcludedArticleIdsToParams<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#71\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::addExcludedIds<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#78\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::getExcludedIds<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#83\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::resetExcludedIds<\/a>"],[0,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#90\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::setApiParams<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#97\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::setLocale<\/a>"],[50,3,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#104\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::getItems<\/a>"],[66.66666666666666,2,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#116\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::hasCacheOnArticle<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#125\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::getCacheManager<\/a>"],[100,1,"<a href=\"Proxy\/AbstractEuronewsApi.php.html#130\">App\\Component\\Api\\Proxy\\AbstractEuronewsApi::getApiHttp<\/a>"],[100,2,"<a href=\"Proxy\/AbstractEuronewsBcsApi.php.html#9\">App\\Component\\Api\\Proxy\\AbstractEuronewsBcsApi::getData<\/a>"],[0,1,"<a href=\"Proxy\/ApiVersion.php.html#9\">App\\Component\\Api\\Proxy\\ApiVersion::__construct<\/a>"],[0,1,"<a href=\"Proxy\/ApiVersion.php.html#14\">App\\Component\\Api\\Proxy\\ApiVersion::getVersion<\/a>"],[0,1,"<a href=\"Proxy\/ApiVersion.php.html#19\">App\\Component\\Api\\Proxy\\ApiVersion::setApiHttp<\/a>"],[100,4,"<a href=\"Proxy\/ArticleApi.php.html#22\">App\\Component\\Api\\Proxy\\ArticleApi::getArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#43\">App\\Component\\Api\\Proxy\\ArticleApi::getExtra<\/a>"],[91.66666666666666,8,"<a href=\"Proxy\/ArticleApi.php.html#55\">App\\Component\\Api\\Proxy\\ArticleApi::getArticleItems<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#96\">App\\Component\\Api\\Proxy\\ArticleApi::getCountryArticles<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#126\">App\\Component\\Api\\Proxy\\ArticleApi::getContinentArticlesById<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#156\">App\\Component\\Api\\Proxy\\ArticleApi::getThemeTagsArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#179\">App\\Component\\Api\\Proxy\\ArticleApi::getThemeCountryTagsArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#202\">App\\Component\\Api\\Proxy\\ArticleApi::getVerticalArticles<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#221\">App\\Component\\Api\\Proxy\\ArticleApi::getMoreArticlesFromAdvertising<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#240\">App\\Component\\Api\\Proxy\\ArticleApi::getMoreArticlesForProgram<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#250\">App\\Component\\Api\\Proxy\\ArticleApi::getMoreArticlesForTheme<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#262\">App\\Component\\Api\\Proxy\\ArticleApi::getProgramArticles<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#287\">App\\Component\\Api\\Proxy\\ArticleApi::getNoComment<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#310\">App\\Component\\Api\\Proxy\\ArticleApi::findBySlugAndPublicationDate<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#347\">App\\Component\\Api\\Proxy\\ArticleApi::getVideos<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#366\">App\\Component\\Api\\Proxy\\ArticleApi::getTaggedArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#391\">App\\Component\\Api\\Proxy\\ArticleApi::getThemeArticles<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#407\">App\\Component\\Api\\Proxy\\ArticleApi::getLatestArticlesForVertical<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#430\">App\\Component\\Api\\Proxy\\ArticleApi::getLatestArticlesForTheme<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#446\">App\\Component\\Api\\Proxy\\ArticleApi::getNextArticleByProgram<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#474\">App\\Component\\Api\\Proxy\\ArticleApi::getPreviousArticleByProgram<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#502\">App\\Component\\Api\\Proxy\\ArticleApi::getNextArticleSameTheme<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#530\">App\\Component\\Api\\Proxy\\ArticleApi::getPreviousArticleSameTheme<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#558\">App\\Component\\Api\\Proxy\\ArticleApi::getNextArticleSameVertical<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#586\">App\\Component\\Api\\Proxy\\ArticleApi::getPreviousArticleSameVertical<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#615\">App\\Component\\Api\\Proxy\\ArticleApi::getNextArticleSamePrimaryTheme<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#644\">App\\Component\\Api\\Proxy\\ArticleApi::getPreviousArticleSamePrimaryTheme<\/a>"],[100,5,"<a href=\"Proxy\/ArticleApi.php.html#672\">App\\Component\\Api\\Proxy\\ArticleApi::getPreviousOrNextArticle<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#714\">App\\Component\\Api\\Proxy\\ArticleApi::getArchivedArticles<\/a>"],[75,2,"<a href=\"Proxy\/ArticleApi.php.html#738\">App\\Component\\Api\\Proxy\\ArticleApi::getArticleRaw<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#756\">App\\Component\\Api\\Proxy\\ArticleApi::findBySlug<\/a>"],[87.5,2,"<a href=\"Proxy\/ArticleApi.php.html#770\">App\\Component\\Api\\Proxy\\ArticleApi::findByStoryId<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#792\">App\\Component\\Api\\Proxy\\ArticleApi::findByIdAndLocale<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#813\">App\\Component\\Api\\Proxy\\ArticleApi::getContinentArticles<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#836\">App\\Component\\Api\\Proxy\\ArticleApi::getContinentCountryArticles<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#863\">App\\Component\\Api\\Proxy\\ArticleApi::getCountryIdArticles<\/a>"],[100,3,"<a href=\"Proxy\/ArticleApi.php.html#891\">App\\Component\\Api\\Proxy\\ArticleApi::getCityArticles<\/a>"],[100,2,"<a href=\"Proxy\/ArticleApi.php.html#921\">App\\Component\\Api\\Proxy\\ArticleApi::getArchivedArticlesByDate<\/a>"],[100,1,"<a href=\"Proxy\/ArticleApi.php.html#945\">App\\Component\\Api\\Proxy\\ArticleApi::getBrandedContent<\/a>"],[75,3,"<a href=\"Proxy\/ArticleApi.php.html#962\">App\\Component\\Api\\Proxy\\ArticleApi::getAllArticleKeywords<\/a>"],[100,1,"<a href=\"Proxy\/ArticleBulletinApi.php.html#9\">App\\Component\\Api\\Proxy\\ArticleBulletinApi::getDetailed<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#7\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::__construct<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#12\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::decorates<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#25\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#39\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getCountryArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#55\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getContinentArticlesById<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#71\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getThemeTagsArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#87\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getThemeCountryTagsArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#104\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getProgramArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#120\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getNoComment<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#132\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getTaggedArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#149\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getThemeArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#161\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getContinentArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#176\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getContinentCountryArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#193\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getCountryIdArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#209\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getCityArticles<\/a>"],[100,1,"<a href=\"Proxy\/ArticleExtraDataApi.php.html#226\">App\\Component\\Api\\Proxy\\ArticleExtraDataApi::getArchivedArticlesByDate<\/a>"],[90,2,"<a href=\"Proxy\/ArticleRelatedApi.php.html#19\">App\\Component\\Api\\Proxy\\ArticleRelatedApi::getRelated<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#13\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStories<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#20\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesV3<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#27\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesLiving<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#36\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesBusiness<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#45\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesEuPolicy<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#54\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesEuroviews<\/a>"],[66.66666666666666,2,"<a href=\"Proxy\/BlockContentApi.php.html#63\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesTravel<\/a>"],[66.66666666666666,2,"<a href=\"Proxy\/BlockContentApi.php.html#72\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesGreen<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#81\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesHealth<\/a>"],[66.66666666666666,2,"<a href=\"Proxy\/BlockContentApi.php.html#90\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesNext<\/a>"],[66.66666666666666,2,"<a href=\"Proxy\/BlockContentApi.php.html#99\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesCulture<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#108\">App\\Component\\Api\\Proxy\\BlockContentApi::getTopStoriesMyEurope<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#117\">App\\Component\\Api\\Proxy\\BlockContentApi::getMoreNews<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#129\">App\\Component\\Api\\Proxy\\BlockContentApi::getEditorsChoice<\/a>"],[0,2,"<a href=\"Proxy\/BlockContentApi.php.html#136\">App\\Component\\Api\\Proxy\\BlockContentApi::getEditorsChoiceV3<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#143\">App\\Component\\Api\\Proxy\\BlockContentApi::getEditorsPicks<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#150\">App\\Component\\Api\\Proxy\\BlockContentApi::getMags<\/a>"],[100,2,"<a href=\"Proxy\/BlockContentApi.php.html#157\">App\\Component\\Api\\Proxy\\BlockContentApi::isEuronews<\/a>"],[100,1,"<a href=\"Proxy\/BreakingNewsApi.php.html#11\">App\\Component\\Api\\Proxy\\BreakingNewsApi::getBreakingNews<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#33\">App\\Component\\Api\\Proxy\\FootballApi::__construct<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#52\">App\\Component\\Api\\Proxy\\FootballApi::getResultsByCompetitionId<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#77\">App\\Component\\Api\\Proxy\\FootballApi::getFixturesByCompetitionId<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#102\">App\\Component\\Api\\Proxy\\FootballApi::getRankingByCompetitionId<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#122\">App\\Component\\Api\\Proxy\\FootballApi::formatMonthToText<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#134\">App\\Component\\Api\\Proxy\\FootballApi::formatToDateTime<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#142\">App\\Component\\Api\\Proxy\\FootballApi::getFixturesByRound<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#153\">App\\Component\\Api\\Proxy\\FootballApi::getFixturesByDate<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#170\">App\\Component\\Api\\Proxy\\FootballApi::getResults<\/a>"],[100,6,"<a href=\"Proxy\/FootballApi.php.html#184\">App\\Component\\Api\\Proxy\\FootballApi::getRanking<\/a>"],[100,5,"<a href=\"Proxy\/FootballApi.php.html#245\">App\\Component\\Api\\Proxy\\FootballApi::isTeamBottomDotted<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#256\">App\\Component\\Api\\Proxy\\FootballApi::getRound<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#288\">App\\Component\\Api\\Proxy\\FootballApi::getMatchDatas<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#304\">App\\Component\\Api\\Proxy\\FootballApi::getDateText<\/a>"],[100,5,"<a href=\"Proxy\/FootballApi.php.html#321\">App\\Component\\Api\\Proxy\\FootballApi::sortArrayByDateTimes<\/a>"],[100,3,"<a href=\"Proxy\/FootballApi.php.html#345\">App\\Component\\Api\\Proxy\\FootballApi::getDefaultFixtures<\/a>"],[100,5,"<a href=\"Proxy\/FootballApi.php.html#365\">App\\Component\\Api\\Proxy\\FootballApi::getDefaultResults<\/a>"],[0,2,"<a href=\"Proxy\/FootballApi.php.html#396\">App\\Component\\Api\\Proxy\\FootballApi::getLastResults<\/a>"],[100,2,"<a href=\"Proxy\/FootballApi.php.html#411\">App\\Component\\Api\\Proxy\\FootballApi::getIntervalDates<\/a>"],[100,1,"<a href=\"Proxy\/FootballApi.php.html#426\">App\\Component\\Api\\Proxy\\FootballApi::setApiHttp<\/a>"],[0,1,"<a href=\"Proxy\/FootballApi.php.html#433\">App\\Component\\Api\\Proxy\\FootballApi::getCacheManager<\/a>"],[0,1,"<a href=\"Proxy\/FootballApi.php.html#438\">App\\Component\\Api\\Proxy\\FootballApi::getApiHttp<\/a>"],[87.5,3,"<a href=\"Proxy\/FootballLeaguesApi.php.html#28\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::__construct<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#44\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#49\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getDefaultLeague<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#54\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getAllLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#62\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getAfricanLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#67\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getInternationalLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#72\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getMostPopularAfricanLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#79\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getMostPopularInternationalLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#86\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getMostPopularLeagues<\/a>"],[100,1,"<a href=\"Proxy\/FootballLeaguesApi.php.html#94\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getLeagueByLocale<\/a>"],[100,3,"<a href=\"Proxy\/FootballLeaguesApi.php.html#102\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getLeagueById<\/a>"],[100,2,"<a href=\"Proxy\/FootballLeaguesApi.php.html#124\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getMostPopular<\/a>"],[100,4,"<a href=\"Proxy\/FootballLeaguesApi.php.html#140\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::findLeagueById<\/a>"],[100,3,"<a href=\"Proxy\/FootballLeaguesApi.php.html#159\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getLeaguesList<\/a>"],[75,2,"<a href=\"Proxy\/FootballLeaguesApi.php.html#178\">App\\Component\\Api\\Proxy\\FootballLeaguesApi::getCountryById<\/a>"],[80,2,"<a href=\"Proxy\/GalleriesApi.php.html#14\">App\\Component\\Api\\Proxy\\GalleriesApi::getGallery<\/a>"],[100,8,"<a href=\"Proxy\/JustinApi.php.html#11\">App\\Component\\Api\\Proxy\\JustinApi::getJustIn<\/a>"],[0,1,"<a href=\"Proxy\/KeyvalueApi.php.html#11\">App\\Component\\Api\\Proxy\\KeyvalueApi::getKeyvalues<\/a>"],[75,3,"<a href=\"Proxy\/KeyvalueApi.php.html#19\">App\\Component\\Api\\Proxy\\KeyvalueApi::getOneValue<\/a>"],[0,5,"<a href=\"Proxy\/KeyvalueApi.php.html#30\">App\\Component\\Api\\Proxy\\KeyvalueApi::getOneJsonValue<\/a>"],[50,3,"<a href=\"Proxy\/KeywordApi.php.html#17\">App\\Component\\Api\\Proxy\\KeywordApi::getKeywords<\/a>"],[100,4,"<a href=\"Proxy\/KeywordApi.php.html#34\">App\\Component\\Api\\Proxy\\KeywordApi::getKeywordsInfos<\/a>"],[100,1,"<a href=\"Proxy\/KeywordApi.php.html#58\">App\\Component\\Api\\Proxy\\KeywordApi::loadKeywordsFromArticle<\/a>"],[83.33333333333334,4,"<a href=\"Proxy\/KeywordApi.php.html#71\">App\\Component\\Api\\Proxy\\KeywordApi::getTagTranslation<\/a>"],[90,5,"<a href=\"Proxy\/KeywordApi.php.html#89\">App\\Component\\Api\\Proxy\\KeywordApi::getTagsTranslation<\/a>"],[87.5,4,"<a href=\"Proxy\/KeywordApi.php.html#115\">App\\Component\\Api\\Proxy\\KeywordApi::getHotTopics<\/a>"],[0,3,"<a href=\"Proxy\/KeywordApi.php.html#151\">App\\Component\\Api\\Proxy\\KeywordApi::getEnglish<\/a>"],[0,1,"<a href=\"Proxy\/KeywordApi.php.html#168\">App\\Component\\Api\\Proxy\\KeywordApi::getTagById<\/a>"],[0,1,"<a href=\"Proxy\/MarketsApi.php.html#11\">App\\Component\\Api\\Proxy\\MarketsApi::getCurrency<\/a>"],[0,1,"<a href=\"Proxy\/MarketsApi.php.html#16\">App\\Component\\Api\\Proxy\\MarketsApi::getCommodities<\/a>"],[0,1,"<a href=\"Proxy\/MarketsApi.php.html#21\">App\\Component\\Api\\Proxy\\MarketsApi::getIndexes<\/a>"],[100,4,"<a href=\"Proxy\/MostviewedApi.php.html#12\">App\\Component\\Api\\Proxy\\MostviewedApi::getMostViewed<\/a>"],[100,1,"<a href=\"Proxy\/ProgramApi.php.html#15\">App\\Component\\Api\\Proxy\\ProgramApi::getPrograms<\/a>"],[100,1,"<a href=\"Proxy\/ProgramApi.php.html#32\">App\\Component\\Api\\Proxy\\ProgramApi::getProgramsOrdered<\/a>"],[100,3,"<a href=\"Proxy\/ProgramApi.php.html#47\">App\\Component\\Api\\Proxy\\ProgramApi::getProgram<\/a>"],[100,1,"<a href=\"Proxy\/ProgramApi.php.html#63\">App\\Component\\Api\\Proxy\\ProgramApi::getProgramInEnglish<\/a>"],[100,2,"<a href=\"Proxy\/ProgramApi.php.html#78\">App\\Component\\Api\\Proxy\\ProgramApi::getProgramsForTheme<\/a>"],[33.33333333333333,3,"<a href=\"Proxy\/SearchApi.php.html#12\">App\\Component\\Api\\Proxy\\SearchApi::get<\/a>"],[100,1,"<a href=\"Proxy\/SearchApi.php.html#31\">App\\Component\\Api\\Proxy\\SearchApi::getSearchAutocomplete<\/a>"],[0,1,"<a href=\"Proxy\/SearchApi.php.html#42\">App\\Component\\Api\\Proxy\\SearchApi::getSearch<\/a>"],[30,5,"<a href=\"Proxy\/TagApi.php.html#16\">App\\Component\\Api\\Proxy\\TagApi::getTags<\/a>"],[100,1,"<a href=\"Proxy\/TagApi.php.html#38\">App\\Component\\Api\\Proxy\\TagApi::getTag<\/a>"],[100,1,"<a href=\"Proxy\/TagApi.php.html#45\">App\\Component\\Api\\Proxy\\TagApi::getTagInAllLanguages<\/a>"],[100,1,"<a href=\"Proxy\/TagApi.php.html#52\">App\\Component\\Api\\Proxy\\TagApi::getTagsOfLastDay<\/a>"],[100,1,"<a href=\"Proxy\/TagApi.php.html#62\">App\\Component\\Api\\Proxy\\TagApi::getVerticalTags<\/a>"],[100,1,"<a href=\"Proxy\/TagApi.php.html#71\">App\\Component\\Api\\Proxy\\TagApi::getThemeTags<\/a>"],[0,1,"<a href=\"Proxy\/ThemeApi.php.html#13\">App\\Component\\Api\\Proxy\\ThemeApi::getThemes<\/a>"],[0,1,"<a href=\"Proxy\/ThemeApi.php.html#25\">App\\Component\\Api\\Proxy\\ThemeApi::setParams<\/a>"],[0,1,"<a href=\"Proxy\/ThirdPartApi.php.html#24\">App\\Component\\Api\\Proxy\\ThirdPartApi::__construct<\/a>"],[0,1,"<a href=\"Proxy\/ThirdPartApi.php.html#37\">App\\Component\\Api\\Proxy\\ThirdPartApi::getHorizonMagazine<\/a>"],[0,1,"<a href=\"Proxy\/ThirdPartApi.php.html#42\">App\\Component\\Api\\Proxy\\ThirdPartApi::setApiHttp<\/a>"],[0,1,"<a href=\"Proxy\/ThirdPartApi.php.html#49\">App\\Component\\Api\\Proxy\\ThirdPartApi::getCacheManager<\/a>"],[0,1,"<a href=\"Proxy\/ThirdPartApi.php.html#54\">App\\Component\\Api\\Proxy\\ThirdPartApi::getApiHttp<\/a>"],[62.5,6,"<a href=\"Proxy\/VerticalApi.php.html#14\">App\\Component\\Api\\Proxy\\VerticalApi::getVerticals<\/a>"],[100,3,"<a href=\"Proxy\/VerticalApi.php.html#31\">App\\Component\\Api\\Proxy\\VerticalApi::getVerticalsLivingIt<\/a>"],[100,3,"<a href=\"Proxy\/VerticalApi.php.html#45\">App\\Component\\Api\\Proxy\\VerticalApi::getVerticalsEuronews<\/a>"],[0,1,"<a href=\"Proxy\/VerticalApi.php.html#59\">App\\Component\\Api\\Proxy\\VerticalApi::setParams<\/a>"],[100,1,"<a href=\"Proxy\/WeatherApi.php.html#130\">App\\Component\\Api\\Proxy\\WeatherApi::__construct<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#154\">App\\Component\\Api\\Proxy\\WeatherApi::getWeatherCached<\/a>"],[100,1,"<a href=\"Proxy\/WeatherApi.php.html#170\">App\\Component\\Api\\Proxy\\WeatherApi::getMapData<\/a>"],[100,4,"<a href=\"Proxy\/WeatherApi.php.html#177\">App\\Component\\Api\\Proxy\\WeatherApi::searchCity<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#195\">App\\Component\\Api\\Proxy\\WeatherApi::getCityInfosById<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#207\">App\\Component\\Api\\Proxy\\WeatherApi::getCityByIdAndLanguage<\/a>"],[0,2,"<a href=\"Proxy\/WeatherApi.php.html#219\">App\\Component\\Api\\Proxy\\WeatherApi::getCountryByName<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#234\">App\\Component\\Api\\Proxy\\WeatherApi::getCountryById<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#249\">App\\Component\\Api\\Proxy\\WeatherApi::getContinentById<\/a>"],[50,4,"<a href=\"Proxy\/WeatherApi.php.html#264\">App\\Component\\Api\\Proxy\\WeatherApi::getCityByCoords<\/a>"],[100,3,"<a href=\"Proxy\/WeatherApi.php.html#288\">App\\Component\\Api\\Proxy\\WeatherApi::getCityWeather<\/a>"],[64.70588235294117,20,"<a href=\"Proxy\/WeatherApi.php.html#305\">App\\Component\\Api\\Proxy\\WeatherApi::minimizeJson<\/a>"],[80,2,"<a href=\"Proxy\/WeatherApi.php.html#390\">App\\Component\\Api\\Proxy\\WeatherApi::findCityByInfos<\/a>"],[100,1,"<a href=\"Proxy\/WeatherApi.php.html#402\">App\\Component\\Api\\Proxy\\WeatherApi::findCitiesByCountry<\/a>"],[100,1,"<a href=\"Proxy\/WeatherApi.php.html#410\">App\\Component\\Api\\Proxy\\WeatherApi::findCountriesByContinent<\/a>"],[100,3,"<a href=\"Proxy\/WeatherApi.php.html#418\">App\\Component\\Api\\Proxy\\WeatherApi::getContinents<\/a>"],[88.88888888888889,5,"<a href=\"Proxy\/WeatherApi.php.html#434\">App\\Component\\Api\\Proxy\\WeatherApi::findByInfos<\/a>"],[100,2,"<a href=\"Proxy\/WeatherApi.php.html#455\">App\\Component\\Api\\Proxy\\WeatherApi::getIcon<\/a>"],[92,13,"<a href=\"Proxy\/WeatherApi.php.html#466\">App\\Component\\Api\\Proxy\\WeatherApi::getUrl<\/a>"],[90.9090909090909,6,"<a href=\"Proxy\/WireApi.php.html#20\">App\\Component\\Api\\Proxy\\WireApi::getWires<\/a>"],[100,1,"<a href=\"Proxy\/WireApi.php.html#49\">App\\Component\\Api\\Proxy\\WireApi::getWiresWithExtraData<\/a>"],[100,2,"<a href=\"Proxy\/WireApi.php.html#64\">App\\Component\\Api\\Proxy\\WireApi::findBySlugAndPublicationDate<\/a>"],[100,3,"<a href=\"Proxy\/WireApi.php.html#83\">App\\Component\\Api\\Proxy\\WireApi::findByIdAndLocale<\/a>"],[100,1,"<a href=\"Proxy\/WireApi.php.html#110\">App\\Component\\Api\\Proxy\\WireApi::getVerticalWires<\/a>"],[100,1,"<a href=\"Proxy\/WireApi.php.html#127\">App\\Component\\Api\\Proxy\\WireApi::getThemeWires<\/a>"],[100,1,"<a href=\"Proxy\/WireApi.php.html#144\">App\\Component\\Api\\Proxy\\WireApi::getAgencyWires<\/a>"],[100,4,"<a href=\"Proxy\/WireApi.php.html#159\">App\\Component\\Api\\Proxy\\WireApi::getNextWire<\/a>"],[85.71428571428571,6,"<a href=\"Tools\/ApiTools.php.html#32\">App\\Component\\Api\\Tools\\ApiTools::processCustomParamsFromExternalYamlConfig<\/a>"],[90.9090909090909,5,"<a href=\"Tools\/ApiTools.php.html#53\">App\\Component\\Api\\Tools\\ApiTools::pluckArticleIds<\/a>"],[100,4,"<a href=\"Tools\/ApiTools.php.html#78\">App\\Component\\Api\\Tools\\ApiTools::pluckArticleCids<\/a>"],[100,1,"<a href=\"Tools\/ApiTools.php.html#92\">App\\Component\\Api\\Tools\\ApiTools::mapSlugToFieldName<\/a>"],[90,6,"<a href=\"Tools\/ApiTools.php.html#106\">App\\Component\\Api\\Tools\\ApiTools::checkForRedirectResponse<\/a>"],[80,3,"<a href=\"Tools\/ApiTools.php.html#134\">App\\Component\\Api\\Tools\\ApiTools::hasParam<\/a>"],[100,2,"<a href=\"Tools\/DuplicatedManager.php.html#16\">App\\Component\\Api\\Tools\\DuplicatedManager::addExcludedArticleIds<\/a>"],[100,1,"<a href=\"Tools\/DuplicatedManager.php.html#29\">App\\Component\\Api\\Tools\\DuplicatedManager::preventArticleDuplicate<\/a>"],[100,1,"<a href=\"Tools\/DuplicatedManager.php.html#36\">App\\Component\\Api\\Tools\\DuplicatedManager::reset<\/a>"],[100,1,"<a href=\"Tools\/DuplicatedManager.php.html#43\">App\\Component\\Api\\Tools\\DuplicatedManager::getArticleCids<\/a>"],[72.22222222222221,16,"<a href=\"Cache\/CacheTrait.php.html#14\">App\\Component\\Api\\Cache\\CacheTrait::getCacheItem<\/a>"],[100,4,"<a href=\"Cache\/CacheTrait.php.html#49\">App\\Component\\Api\\Cache\\CacheTrait::reorderParams<\/a>"],[75,2,"<a href=\"Cache\/CacheTrait.php.html#67\">App\\Component\\Api\\Cache\\CacheTrait::debugLog<\/a>"],[100,0,"<a href=\"Cache\/CacheTrait.php.html#77\">App\\Component\\Api\\Cache\\CacheTrait::getApiHttp<\/a>"],[100,0,"<a href=\"Cache\/CacheTrait.php.html#79\">App\\Component\\Api\\Cache\\CacheTrait::getCacheManager<\/a>"],[100,0,"<a href=\"Cache\/CacheTrait.php.html#81\">App\\Component\\Api\\Cache\\CacheTrait::getLogger<\/a>"],[0,2,"<a href=\"EventDispatcher\/EventDispatcherTrait.php.html#9\">App\\Component\\Api\\EventDispatcher\\EventDispatcherTrait::notifyGetArticleEvent<\/a>"],[100,0,"<a href=\"EventDispatcher\/EventDispatcherTrait.php.html#20\">App\\Component\\Api\\EventDispatcher\\EventDispatcherTrait::getEventDispatcher<\/a>"],[100,1,"<a href=\"Proxy\/ApiProxyTrait.php.html#11\">App\\Component\\Api\\Proxy\\ApiProxyTrait::setDuplicatedManager<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

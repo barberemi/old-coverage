@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Services/Factory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Services</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Factory</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="WeatherVideoFactory.php.html#8">Shared\Services\Factory\WeatherVideoFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractEntityFactory.php.html#5">Shared\Services\Factory\AbstractEntityFactory</a></td><td class="text-right">78%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractEntityFactory.php.html#5">Shared\Services\Factory\AbstractEntityFactory</a></td><td class="text-right">9</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="WeatherVideoFactory.php.html#10"><abbr title="Shared\Services\Factory\WeatherVideoFactory::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#473"><abbr title="Shared\Services\Factory\ArticleFactory::fixEmptyVersion">fixEmptyVersion</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="AbstractEntityFactory.php.html#34"><abbr title="Shared\Services\Factory\AbstractEntityFactory::getEnumField">getEnumField</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#331"><abbr title="Shared\Services\Factory\ArticleFactory::setCountry">setCountry</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#536"><abbr title="Shared\Services\Factory\ArticleFactory::fixContinent">fixContinent</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#251"><abbr title="Shared\Services\Factory\ArticleFactory::domElementLazyLoading">domElementLazyLoading</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ArticleFactory.php.html#536"><abbr title="Shared\Services\Factory\ArticleFactory::fixContinent">fixContinent</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#251"><abbr title="Shared\Services\Factory\ArticleFactory::domElementLazyLoading">domElementLazyLoading</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="AbstractEntityFactory.php.html#34"><abbr title="Shared\Services\Factory\AbstractEntityFactory::getEnumField">getEnumField</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#473"><abbr title="Shared\Services\Factory\ArticleFactory::fixEmptyVersion">fixEmptyVersion</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticleFactory.php.html#331"><abbr title="Shared\Services\Factory\ArticleFactory::setCountry">setCountry</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.9</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Jul 18 20:32:18 CEST 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,0,0,1,0,1,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,1,1,0,3,2,51], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[78.57142857142857,9,"<a href=\"AbstractEntityFactory.php.html#5\">Shared\\Services\\Factory\\AbstractEntityFactory<\/a>"],[97.15302491103202,148,"<a href=\"ArticleFactory.php.html#16\">Shared\\Services\\Factory\\ArticleFactory<\/a>"],[100,1,"<a href=\"AuthorFactory.php.html#8\">Shared\\Services\\Factory\\AuthorFactory<\/a>"],[100,1,"<a href=\"ExternalPartnersFactory.php.html#7\">Shared\\Services\\Factory\\ExternalPartnersFactory<\/a>"],[100,1,"<a href=\"GalleryFactory.php.html#7\">Shared\\Services\\Factory\\GalleryFactory<\/a>"],[100,1,"<a href=\"KeywordFactory.php.html#7\">Shared\\Services\\Factory\\KeywordFactory<\/a>"],[100,1,"<a href=\"LocalisationFactory.php.html#7\">Shared\\Services\\Factory\\LocalisationFactory<\/a>"],[100,1,"<a href=\"StoryTranslationMethodFactory.php.html#7\">Shared\\Services\\Factory\\StoryTranslationMethodFactory<\/a>"],[100,1,"<a href=\"VideoFactory.php.html#8\">Shared\\Services\\Factory\\VideoFactory<\/a>"],[100,25,"<a href=\"WeatherFactory.php.html#19\">Shared\\Services\\Factory\\WeatherFactory<\/a>"],[0,1,"<a href=\"WeatherVideoFactory.php.html#8\">Shared\\Services\\Factory\\WeatherVideoFactory<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"AbstractEntityFactory.php.html#7\">Shared\\Services\\Factory\\AbstractEntityFactory::create<\/a>"],[100,1,"<a href=\"AbstractEntityFactory.php.html#9\">Shared\\Services\\Factory\\AbstractEntityFactory::getField<\/a>"],[100,1,"<a href=\"AbstractEntityFactory.php.html#14\">Shared\\Services\\Factory\\AbstractEntityFactory::getStringField<\/a>"],[100,1,"<a href=\"AbstractEntityFactory.php.html#19\">Shared\\Services\\Factory\\AbstractEntityFactory::getIntField<\/a>"],[100,1,"<a href=\"AbstractEntityFactory.php.html#24\">Shared\\Services\\Factory\\AbstractEntityFactory::getBoolField<\/a>"],[100,1,"<a href=\"AbstractEntityFactory.php.html#29\">Shared\\Services\\Factory\\AbstractEntityFactory::getArrayField<\/a>"],[66.66666666666666,4,"<a href=\"AbstractEntityFactory.php.html#34\">Shared\\Services\\Factory\\AbstractEntityFactory::getEnumField<\/a>"],[100,1,"<a href=\"ArticleFactory.php.html#47\">Shared\\Services\\Factory\\ArticleFactory::create<\/a>"],[97.87234042553192,35,"<a href=\"ArticleFactory.php.html#55\">Shared\\Services\\Factory\\ArticleFactory::hydrateArticle<\/a>"],[100,4,"<a href=\"ArticleFactory.php.html#191\">Shared\\Services\\Factory\\ArticleFactory::fixMissingElements<\/a>"],[90.47619047619048,7,"<a href=\"ArticleFactory.php.html#211\">Shared\\Services\\Factory\\ArticleFactory::addLazyLoading<\/a>"],[88.88888888888889,5,"<a href=\"ArticleFactory.php.html#251\">Shared\\Services\\Factory\\ArticleFactory::domElementLazyLoading<\/a>"],[100,3,"<a href=\"ArticleFactory.php.html#271\">Shared\\Services\\Factory\\ArticleFactory::fixTexts<\/a>"],[100,4,"<a href=\"ArticleFactory.php.html#283\">Shared\\Services\\Factory\\ArticleFactory::setThemes<\/a>"],[100,4,"<a href=\"ArticleFactory.php.html#297\">Shared\\Services\\Factory\\ArticleFactory::setLivestream<\/a>"],[100,3,"<a href=\"ArticleFactory.php.html#312\">Shared\\Services\\Factory\\ArticleFactory::setVerticals<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#324\">Shared\\Services\\Factory\\ArticleFactory::setDeliverable<\/a>"],[80,3,"<a href=\"ArticleFactory.php.html#331\">Shared\\Services\\Factory\\ArticleFactory::setCountry<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#342\">Shared\\Services\\Factory\\ArticleFactory::setContinent<\/a>"],[100,4,"<a href=\"ArticleFactory.php.html#351\">Shared\\Services\\Factory\\ArticleFactory::setKeywords<\/a>"],[100,3,"<a href=\"ArticleFactory.php.html#361\">Shared\\Services\\Factory\\ArticleFactory::setImages<\/a>"],[100,3,"<a href=\"ArticleFactory.php.html#371\">Shared\\Services\\Factory\\ArticleFactory::setVideos<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#381\">Shared\\Services\\Factory\\ArticleFactory::setProgram<\/a>"],[100,4,"<a href=\"ArticleFactory.php.html#388\">Shared\\Services\\Factory\\ArticleFactory::setWidgets<\/a>"],[100,3,"<a href=\"ArticleFactory.php.html#403\">Shared\\Services\\Factory\\ArticleFactory::setTechnicalTags<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#414\">Shared\\Services\\Factory\\ArticleFactory::setAgencyKey<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#421\">Shared\\Services\\Factory\\ArticleFactory::setRelated<\/a>"],[100,5,"<a href=\"ArticleFactory.php.html#428\">Shared\\Services\\Factory\\ArticleFactory::setAuthors<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#446\">Shared\\Services\\Factory\\ArticleFactory::setJournalists<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#455\">Shared\\Services\\Factory\\ArticleFactory::setProducers<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#464\">Shared\\Services\\Factory\\ArticleFactory::setVideoEditors<\/a>"],[50,3,"<a href=\"ArticleFactory.php.html#473\">Shared\\Services\\Factory\\ArticleFactory::fixEmptyVersion<\/a>"],[100,6,"<a href=\"ArticleFactory.php.html#480\">Shared\\Services\\Factory\\ArticleFactory::fixLastModified<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#505\">Shared\\Services\\Factory\\ArticleFactory::fixTheme<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#513\">Shared\\Services\\Factory\\ArticleFactory::fixProgram<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#521\">Shared\\Services\\Factory\\ArticleFactory::fixAgencyKey<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#528\">Shared\\Services\\Factory\\ArticleFactory::fixVertical<\/a>"],[87.5,7,"<a href=\"ArticleFactory.php.html#536\">Shared\\Services\\Factory\\ArticleFactory::fixContinent<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#550\">Shared\\Services\\Factory\\ArticleFactory::setPath<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#557\">Shared\\Services\\Factory\\ArticleFactory::setLastModified<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#564\">Shared\\Services\\Factory\\ArticleFactory::setMasterCMS<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#571\">Shared\\Services\\Factory\\ArticleFactory::setGeoBlockedCountriesList<\/a>"],[100,2,"<a href=\"ArticleFactory.php.html#582\">Shared\\Services\\Factory\\ArticleFactory::setGeoAllowedCountriesList<\/a>"],[100,1,"<a href=\"ArticleFactory.php.html#593\">Shared\\Services\\Factory\\ArticleFactory::replaceGeoTag<\/a>"],[100,6,"<a href=\"ArticleFactory.php.html#598\">Shared\\Services\\Factory\\ArticleFactory::setLiveBlogId<\/a>"],[100,1,"<a href=\"AuthorFactory.php.html#10\">Shared\\Services\\Factory\\AuthorFactory::create<\/a>"],[100,1,"<a href=\"ExternalPartnersFactory.php.html#9\">Shared\\Services\\Factory\\ExternalPartnersFactory::create<\/a>"],[100,1,"<a href=\"GalleryFactory.php.html#9\">Shared\\Services\\Factory\\GalleryFactory::create<\/a>"],[100,1,"<a href=\"KeywordFactory.php.html#9\">Shared\\Services\\Factory\\KeywordFactory::create<\/a>"],[100,1,"<a href=\"LocalisationFactory.php.html#9\">Shared\\Services\\Factory\\LocalisationFactory::create<\/a>"],[100,1,"<a href=\"StoryTranslationMethodFactory.php.html#9\">Shared\\Services\\Factory\\StoryTranslationMethodFactory::create<\/a>"],[100,1,"<a href=\"VideoFactory.php.html#10\">Shared\\Services\\Factory\\VideoFactory::create<\/a>"],[100,7,"<a href=\"WeatherFactory.php.html#21\">Shared\\Services\\Factory\\WeatherFactory::buildCity<\/a>"],[100,5,"<a href=\"WeatherFactory.php.html#59\">Shared\\Services\\Factory\\WeatherFactory::buildCityInfos<\/a>"],[100,1,"<a href=\"WeatherFactory.php.html#78\">Shared\\Services\\Factory\\WeatherFactory::buildState<\/a>"],[100,7,"<a href=\"WeatherFactory.php.html#89\">Shared\\Services\\Factory\\WeatherFactory::buildCountry<\/a>"],[100,4,"<a href=\"WeatherFactory.php.html#115\">Shared\\Services\\Factory\\WeatherFactory::buildContinent<\/a>"],[100,1,"<a href=\"WeatherFactory.php.html#131\">Shared\\Services\\Factory\\WeatherFactory::buildLocation<\/a>"],[0,1,"<a href=\"WeatherVideoFactory.php.html#10\">Shared\\Services\\Factory\\WeatherVideoFactory::create<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

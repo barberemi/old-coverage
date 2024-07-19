@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Entity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Entity</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Contact.php.html#5">App\Component\Entity\Contact</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#5">App\Component\Entity\Distribution</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#5">App\Component\Entity\Event</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#5">App\Component\Entity\NewsletterDetails</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Contact.php.html#14"><abbr title="App\Component\Entity\Contact::getDestination">getDestination</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#19"><abbr title="App\Component\Entity\Contact::setDestination">setDestination</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#26"><abbr title="App\Component\Entity\Contact::getFirstName">getFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#31"><abbr title="App\Component\Entity\Contact::setFirstName">setFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#38"><abbr title="App\Component\Entity\Contact::getLastName">getLastName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#43"><abbr title="App\Component\Entity\Contact::setLastName">setLastName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#50"><abbr title="App\Component\Entity\Contact::getEmail">getEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#55"><abbr title="App\Component\Entity\Contact::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#62"><abbr title="App\Component\Entity\Contact::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#67"><abbr title="App\Component\Entity\Contact::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#74"><abbr title="App\Component\Entity\Contact::getCaptcha">getCaptcha</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact.php.html#79"><abbr title="App\Component\Entity\Contact::setCaptcha">setCaptcha</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#17"><abbr title="App\Component\Entity\Distribution::getActivity">getActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#22"><abbr title="App\Component\Entity\Distribution::setActivity">setActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#29"><abbr title="App\Component\Entity\Distribution::getLocation">getLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#34"><abbr title="App\Component\Entity\Distribution::setLocation">setLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#41"><abbr title="App\Component\Entity\Distribution::getFirstName">getFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#46"><abbr title="App\Component\Entity\Distribution::setFirstName">setFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#53"><abbr title="App\Component\Entity\Distribution::getLastName">getLastName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#58"><abbr title="App\Component\Entity\Distribution::setLastName">setLastName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#65"><abbr title="App\Component\Entity\Distribution::getEmail">getEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#70"><abbr title="App\Component\Entity\Distribution::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#77"><abbr title="App\Component\Entity\Distribution::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#82"><abbr title="App\Component\Entity\Distribution::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#89"><abbr title="App\Component\Entity\Distribution::getCompany">getCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#94"><abbr title="App\Component\Entity\Distribution::setCompany">setCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#101"><abbr title="App\Component\Entity\Distribution::getPosition">getPosition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#106"><abbr title="App\Component\Entity\Distribution::setPosition">setPosition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#113"><abbr title="App\Component\Entity\Distribution::getCaptcha">getCaptcha</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Distribution.php.html#118"><abbr title="App\Component\Entity\Distribution::setCaptcha">setCaptcha</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#11"><abbr title="App\Component\Entity\Event::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#16"><abbr title="App\Component\Entity\Event::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#23"><abbr title="App\Component\Entity\Event::getEmail">getEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#28"><abbr title="App\Component\Entity\Event::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#35"><abbr title="App\Component\Entity\Event::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event.php.html#40"><abbr title="App\Component\Entity\Event::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#17"><abbr title="App\Component\Entity\NewsletterDetails::getEmail">getEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#22"><abbr title="App\Component\Entity\NewsletterDetails::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#29"><abbr title="App\Component\Entity\NewsletterDetails::getGender">getGender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#34"><abbr title="App\Component\Entity\NewsletterDetails::setGender">setGender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#41"><abbr title="App\Component\Entity\NewsletterDetails::getGuid">getGuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#46"><abbr title="App\Component\Entity\NewsletterDetails::setGuid">setGuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#53"><abbr title="App\Component\Entity\NewsletterDetails::getCountry">getCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#58"><abbr title="App\Component\Entity\NewsletterDetails::setCountry">setCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#65"><abbr title="App\Component\Entity\NewsletterDetails::getOccupation">getOccupation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#70"><abbr title="App\Component\Entity\NewsletterDetails::setOccupation">setOccupation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#77"><abbr title="App\Component\Entity\NewsletterDetails::getTopics">getTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#82"><abbr title="App\Component\Entity\NewsletterDetails::setTopics">setTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#89"><abbr title="App\Component\Entity\NewsletterDetails::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#94"><abbr title="App\Component\Entity\NewsletterDetails::setFormKey">setFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#101"><abbr title="App\Component\Entity\NewsletterDetails::getTrackingKey">getTrackingKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#106"><abbr title="App\Component\Entity\NewsletterDetails::setTrackingKey">setTrackingKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#113"><abbr title="App\Component\Entity\NewsletterDetails::getAge">getAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsletterDetails.php.html#118"><abbr title="App\Component\Entity\NewsletterDetails::setAge">setAge</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([54,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"Contact.php.html#5\">App\\Component\\Entity\\Contact<\/a>"],[0,18,"<a href=\"Distribution.php.html#5\">App\\Component\\Entity\\Distribution<\/a>"],[0,6,"<a href=\"Event.php.html#5\">App\\Component\\Entity\\Event<\/a>"],[0,18,"<a href=\"NewsletterDetails.php.html#5\">App\\Component\\Entity\\NewsletterDetails<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Contact.php.html#14\">App\\Component\\Entity\\Contact::getDestination<\/a>"],[0,1,"<a href=\"Contact.php.html#19\">App\\Component\\Entity\\Contact::setDestination<\/a>"],[0,1,"<a href=\"Contact.php.html#26\">App\\Component\\Entity\\Contact::getFirstName<\/a>"],[0,1,"<a href=\"Contact.php.html#31\">App\\Component\\Entity\\Contact::setFirstName<\/a>"],[0,1,"<a href=\"Contact.php.html#38\">App\\Component\\Entity\\Contact::getLastName<\/a>"],[0,1,"<a href=\"Contact.php.html#43\">App\\Component\\Entity\\Contact::setLastName<\/a>"],[0,1,"<a href=\"Contact.php.html#50\">App\\Component\\Entity\\Contact::getEmail<\/a>"],[0,1,"<a href=\"Contact.php.html#55\">App\\Component\\Entity\\Contact::setEmail<\/a>"],[0,1,"<a href=\"Contact.php.html#62\">App\\Component\\Entity\\Contact::getMessage<\/a>"],[0,1,"<a href=\"Contact.php.html#67\">App\\Component\\Entity\\Contact::setMessage<\/a>"],[0,1,"<a href=\"Contact.php.html#74\">App\\Component\\Entity\\Contact::getCaptcha<\/a>"],[0,1,"<a href=\"Contact.php.html#79\">App\\Component\\Entity\\Contact::setCaptcha<\/a>"],[0,1,"<a href=\"Distribution.php.html#17\">App\\Component\\Entity\\Distribution::getActivity<\/a>"],[0,1,"<a href=\"Distribution.php.html#22\">App\\Component\\Entity\\Distribution::setActivity<\/a>"],[0,1,"<a href=\"Distribution.php.html#29\">App\\Component\\Entity\\Distribution::getLocation<\/a>"],[0,1,"<a href=\"Distribution.php.html#34\">App\\Component\\Entity\\Distribution::setLocation<\/a>"],[0,1,"<a href=\"Distribution.php.html#41\">App\\Component\\Entity\\Distribution::getFirstName<\/a>"],[0,1,"<a href=\"Distribution.php.html#46\">App\\Component\\Entity\\Distribution::setFirstName<\/a>"],[0,1,"<a href=\"Distribution.php.html#53\">App\\Component\\Entity\\Distribution::getLastName<\/a>"],[0,1,"<a href=\"Distribution.php.html#58\">App\\Component\\Entity\\Distribution::setLastName<\/a>"],[0,1,"<a href=\"Distribution.php.html#65\">App\\Component\\Entity\\Distribution::getEmail<\/a>"],[0,1,"<a href=\"Distribution.php.html#70\">App\\Component\\Entity\\Distribution::setEmail<\/a>"],[0,1,"<a href=\"Distribution.php.html#77\">App\\Component\\Entity\\Distribution::getMessage<\/a>"],[0,1,"<a href=\"Distribution.php.html#82\">App\\Component\\Entity\\Distribution::setMessage<\/a>"],[0,1,"<a href=\"Distribution.php.html#89\">App\\Component\\Entity\\Distribution::getCompany<\/a>"],[0,1,"<a href=\"Distribution.php.html#94\">App\\Component\\Entity\\Distribution::setCompany<\/a>"],[0,1,"<a href=\"Distribution.php.html#101\">App\\Component\\Entity\\Distribution::getPosition<\/a>"],[0,1,"<a href=\"Distribution.php.html#106\">App\\Component\\Entity\\Distribution::setPosition<\/a>"],[0,1,"<a href=\"Distribution.php.html#113\">App\\Component\\Entity\\Distribution::getCaptcha<\/a>"],[0,1,"<a href=\"Distribution.php.html#118\">App\\Component\\Entity\\Distribution::setCaptcha<\/a>"],[0,1,"<a href=\"Event.php.html#11\">App\\Component\\Entity\\Event::getName<\/a>"],[0,1,"<a href=\"Event.php.html#16\">App\\Component\\Entity\\Event::setName<\/a>"],[0,1,"<a href=\"Event.php.html#23\">App\\Component\\Entity\\Event::getEmail<\/a>"],[0,1,"<a href=\"Event.php.html#28\">App\\Component\\Entity\\Event::setEmail<\/a>"],[0,1,"<a href=\"Event.php.html#35\">App\\Component\\Entity\\Event::getMessage<\/a>"],[0,1,"<a href=\"Event.php.html#40\">App\\Component\\Entity\\Event::setMessage<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#17\">App\\Component\\Entity\\NewsletterDetails::getEmail<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#22\">App\\Component\\Entity\\NewsletterDetails::setEmail<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#29\">App\\Component\\Entity\\NewsletterDetails::getGender<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#34\">App\\Component\\Entity\\NewsletterDetails::setGender<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#41\">App\\Component\\Entity\\NewsletterDetails::getGuid<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#46\">App\\Component\\Entity\\NewsletterDetails::setGuid<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#53\">App\\Component\\Entity\\NewsletterDetails::getCountry<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#58\">App\\Component\\Entity\\NewsletterDetails::setCountry<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#65\">App\\Component\\Entity\\NewsletterDetails::getOccupation<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#70\">App\\Component\\Entity\\NewsletterDetails::setOccupation<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#77\">App\\Component\\Entity\\NewsletterDetails::getTopics<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#82\">App\\Component\\Entity\\NewsletterDetails::setTopics<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#89\">App\\Component\\Entity\\NewsletterDetails::getFormKey<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#94\">App\\Component\\Entity\\NewsletterDetails::setFormKey<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#101\">App\\Component\\Entity\\NewsletterDetails::getTrackingKey<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#106\">App\\Component\\Entity\\NewsletterDetails::setTrackingKey<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#113\">App\\Component\\Entity\\NewsletterDetails::getAge<\/a>"],[0,1,"<a href=\"NewsletterDetails.php.html#118\">App\\Component\\Entity\\NewsletterDetails::setAge<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

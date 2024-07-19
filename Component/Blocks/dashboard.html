@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Blocks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Blocks</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Live.php.html#8">App\Component\Blocks\Live</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Luxe.php.html#15">App\Component\Blocks\Luxe</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#14">App\Component\Blocks\Market</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#14">App\Component\Blocks\SearchPage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StaticPage.php.html#13">App\Component\Blocks\StaticPage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPart.php.html#11">App\Component\Blocks\ThirdPart</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#16">App\Component\Blocks\Vertical</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Promo.php.html#13">App\Component\Blocks\Promo</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="SideBar.php.html#13">App\Component\Blocks\SideBar</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#20">App\Component\Blocks\ThemeContent</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="Common.php.html#24">App\Component\Blocks\Common</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="ListPages.php.html#22">App\Component\Blocks\ListPages</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="CountryPage.php.html#15">App\Component\Blocks\CountryPage</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="ProgramPage.php.html#19">App\Component\Blocks\ProgramPage</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Weather.php.html#14">App\Component\Blocks\Weather</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="BlockContentSorting.php.html#15">App\Component\Blocks\BlockContentSorting</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="RssContent.php.html#19">App\Component\Blocks\RssContent</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="VerticalContent.php.html#16">App\Component\Blocks\VerticalContent</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Embed.php.html#16">App\Component\Blocks\Embed</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="NoComment.php.html#12">App\Component\Blocks\NoComment</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Home.php.html#17">App\Component\Blocks\Home</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Videos.php.html#20">App\Component\Blocks\Videos</a></td><td class="text-right">79%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Common.php.html#24">App\Component\Blocks\Common</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ThemeContent.php.html#20">App\Component\Blocks\ThemeContent</a></td><td class="text-right">157</td></tr>
+       <tr><td><a href="RssContent.php.html#19">App\Component\Blocks\RssContent</a></td><td class="text-right">139</td></tr>
+       <tr><td><a href="Market.php.html#14">App\Component\Blocks\Market</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Live.php.html#8">App\Component\Blocks\Live</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Videos.php.html#20">App\Component\Blocks\Videos</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Embed.php.html#16">App\Component\Blocks\Embed</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="VerticalContent.php.html#16">App\Component\Blocks\VerticalContent</a></td><td class="text-right">11</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Common.php.html#163"><abbr title="App\Component\Blocks\Common::blockThisDayLastYear">blockThisDayLastYear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Home.php.html#26"><abbr title="App\Component\Blocks\Home::blockLatestOnly">blockLatestOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPages.php.html#133"><abbr title="App\Component\Blocks\ListPages::blockArticleWireByTheme">blockArticleWireByTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPages.php.html#148"><abbr title="App\Component\Blocks\ListPages::blockArticleWireByVertical">blockArticleWireByVertical</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Live.php.html#10"><abbr title="App\Component\Blocks\Live::getHexaglobeUrl">getHexaglobeUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Live.php.html#40"><abbr title="App\Component\Blocks\Live::getPlaylists">getPlaylists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Luxe.php.html#25"><abbr title="App\Component\Blocks\Luxe::blockTheme">blockTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#16"><abbr title="App\Component\Blocks\Market::blockCommodities">blockCommodities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#42"><abbr title="App\Component\Blocks\Market::blockCurrency">blockCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#64"><abbr title="App\Component\Blocks\Market::blockIndexes">blockIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#75"><abbr title="App\Component\Blocks\Market::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#77"><abbr title="App\Component\Blocks\Market::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Market.php.html#79"><abbr title="App\Component\Blocks\Market::getMarketsApi">getMarketsApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RssContent.php.html#46"><abbr title="App\Component\Blocks\RssContent::blockRssSponsored">blockRssSponsored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RssContent.php.html#171"><abbr title="App\Component\Blocks\RssContent::blockRssEuropeanCommission">blockRssEuropeanCommission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#16"><abbr title="App\Component\Blocks\SearchPage::blockSearchQuery">blockSearchQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#34"><abbr title="App\Component\Blocks\SearchPage::blockSearchTitle">blockSearchTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#46"><abbr title="App\Component\Blocks\SearchPage::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#48"><abbr title="App\Component\Blocks\SearchPage::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchPage.php.html#50"><abbr title="App\Component\Blocks\SearchPage::getSearchApi">getSearchApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StaticPage.php.html#18"><abbr title="App\Component\Blocks\StaticPage::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StaticPage.php.html#30"><abbr title="App\Component\Blocks\StaticPage::getBlockContentApi">getBlockContentApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StaticPage.php.html#32"><abbr title="App\Component\Blocks\StaticPage::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#74"><abbr title="App\Component\Blocks\ThemeContent::currentBlockTheme">currentBlockTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#114"><abbr title="App\Component\Blocks\ThemeContent::blockGlossyPrograms">blockGlossyPrograms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#138"><abbr title="App\Component\Blocks\ThemeContent::blockProgramNavbar">blockProgramNavbar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPart.php.html#16"><abbr title="App\Component\Blocks\ThirdPart::blockHorizonMagazine">blockHorizonMagazine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPart.php.html#29"><abbr title="App\Component\Blocks\ThirdPart::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPart.php.html#31"><abbr title="App\Component\Blocks\ThirdPart::getThirdPartApi">getThirdPartApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#21"><abbr title="App\Component\Blocks\Vertical::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#60"><abbr title="App\Component\Blocks\Vertical::blockLatest">blockLatest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#90"><abbr title="App\Component\Blocks\Vertical::getArticleApi">getArticleApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#92"><abbr title="App\Component\Blocks\Vertical::getArticleRelatedApi">getArticleRelatedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#94"><abbr title="App\Component\Blocks\Vertical::getDuplicatedManager">getDuplicatedManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#96"><abbr title="App\Component\Blocks\Vertical::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vertical.php.html#98"><abbr title="App\Component\Blocks\Vertical::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#478"><abbr title="App\Component\Blocks\ArticlePage::blockTagImmersive">blockTagImmersive</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Common.php.html#49"><abbr title="App\Component\Blocks\Common::blockVertical">blockVertical</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Common.php.html#149"><abbr title="App\Component\Blocks\Common::blockBreakingNews">blockBreakingNews</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Weather.php.html#20"><abbr title="App\Component\Blocks\Weather::blockAlphabeticalLocation">blockAlphabeticalLocation</abbr></a></td><td class="text-right">38%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#557"><abbr title="App\Component\Blocks\ArticlePage::blockMostViewed">blockMostViewed</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Embed.php.html#87"><abbr title="App\Component\Blocks\Embed::blockTimeline">blockTimeline</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="ProgramPage.php.html#62"><abbr title="App\Component\Blocks\ProgramPage::blockCurrentProgramByUrl">blockCurrentProgramByUrl</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Promo.php.html#15"><abbr title="App\Component\Blocks\Promo::blockPromo">blockPromo</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="SideBar.php.html#20"><abbr title="App\Component\Blocks\SideBar::blockTimelineSideBar">blockTimelineSideBar</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Videos.php.html#22"><abbr title="App\Component\Blocks\Videos::blockNoCommentProgramInfo">blockNoCommentProgramInfo</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="BlockContentSorting.php.html#42"><abbr title="App\Component\Blocks\BlockContentSorting::blockEditorsChoice">blockEditorsChoice</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Common.php.html#29"><abbr title="App\Component\Blocks\Common::activeLive">activeLive</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Common.php.html#132"><abbr title="App\Component\Blocks\Common::blockFooterMetadata">blockFooterMetadata</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ListPages.php.html#119"><abbr title="App\Component\Blocks\ListPages::blockTodaysTopStories">blockTodaysTopStories</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ProgramPage.php.html#21"><abbr title="App\Component\Blocks\ProgramPage::blockProgramsOrdered">blockProgramsOrdered</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="VerticalContent.php.html#95"><abbr title="App\Component\Blocks\VerticalContent::blockVerticalArticles">blockVerticalArticles</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="VerticalContent.php.html#64"><abbr title="App\Component\Blocks\VerticalContent::blockVerticalNavbar">blockVerticalNavbar</abbr></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#423"><abbr title="App\Component\Blocks\ArticlePage::blockMoreFromProgram">blockMoreFromProgram</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Videos.php.html#76"><abbr title="App\Component\Blocks\Videos::blockMoreVideosFromProgram">blockMoreVideosFromProgram</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="CountryPage.php.html#23"><abbr title="App\Component\Blocks\CountryPage::blockArticleByCountries">blockArticleByCountries</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="ListPages.php.html#49"><abbr title="App\Component\Blocks\ListPages::blockNoComment">blockNoComment</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="ListPages.php.html#87"><abbr title="App\Component\Blocks\ListPages::blockVideos">blockVideos</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="BlockContentSorting.php.html#17"><abbr title="App\Component\Blocks\BlockContentSorting::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ListPages.php.html#102"><abbr title="App\Component\Blocks\ListPages::blockBulletin">blockBulletin</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ListPages.php.html#64"><abbr title="App\Component\Blocks\ListPages::blockTopVideos">blockTopVideos</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Embed.php.html#23"><abbr title="App\Component\Blocks\Embed::blockArticleById">blockArticleById</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="NoComment.php.html#14"><abbr title="App\Component\Blocks\NoComment::blockLatestNoComment">blockLatestNoComment</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="RssContent.php.html#28"><abbr title="App\Component\Blocks\RssContent::blockRssTheme">blockRssTheme</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#168"><abbr title="App\Component\Blocks\ThemeContent::blockProgramArticles">blockProgramArticles</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Videos.php.html#38"><abbr title="App\Component\Blocks\Videos::blockLatestVideos">blockLatestVideos</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Videos.php.html#57"><abbr title="App\Component\Blocks\Videos::blockTrending">blockTrending</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Common.php.html#63"><abbr title="App\Component\Blocks\Common::tagsOfLastDay">tagsOfLastDay</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#319"><abbr title="App\Component\Blocks\ArticlePage::getRelatedArticlesByTag">getRelatedArticlesByTag</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#340"><abbr title="App\Component\Blocks\ArticlePage::getRelatedArticlesByProgram">getRelatedArticlesByProgram</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="RssContent.php.html#150"><abbr title="App\Component\Blocks\RssContent::isSponsoredProgram">isSponsoredProgram</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Embed.php.html#54"><abbr title="App\Component\Blocks\Embed::blockProgram">blockProgram</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ListPages.php.html#24"><abbr title="App\Component\Blocks\ListPages::blockHomeVideo">blockHomeVideo</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="RssContent.php.html#61"><abbr title="App\Component\Blocks\RssContent::blockRssEchobox">blockRssEchobox</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#47"><abbr title="App\Component\Blocks\ThemeContent::blockArticlesByThemes">blockArticlesByThemes</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Home.php.html#45"><abbr title="App\Component\Blocks\Home::blockLatest">blockLatest</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="ThemeContent.php.html#22"><abbr title="App\Component\Blocks\ThemeContent::blockThemeArticles">blockThemeArticles</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="VerticalContent.php.html#38"><abbr title="App\Component\Blocks\VerticalContent::blockGlossyUniqVertical">blockGlossyUniqVertical</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#354"><abbr title="App\Component\Blocks\ArticlePage::getMostViewed">getMostViewed</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="ArticlePage.php.html#569"><abbr title="App\Component\Blocks\ArticlePage::blockArticleTopStories">blockArticleTopStories</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="ProgramPage.php.html#75"><abbr title="App\Component\Blocks\ProgramPage::blockCoverflow">blockCoverflow</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Common.php.html#163"><abbr title="App\Component\Blocks\Common::blockThisDayLastYear">blockThisDayLastYear</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Live.php.html#10"><abbr title="App\Component\Blocks\Live::getHexaglobeUrl">getHexaglobeUrl</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RssContent.php.html#171"><abbr title="App\Component\Blocks\RssContent::blockRssEuropeanCommission">blockRssEuropeanCommission</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeContent.php.html#114"><abbr title="App\Component\Blocks\ThemeContent::blockGlossyPrograms">blockGlossyPrograms</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Market.php.html#16"><abbr title="App\Component\Blocks\Market::blockCommodities">blockCommodities</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemeContent.php.html#74"><abbr title="App\Component\Blocks\ThemeContent::currentBlockTheme">currentBlockTheme</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Vertical.php.html#21"><abbr title="App\Component\Blocks\Vertical::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RssContent.php.html#61"><abbr title="App\Component\Blocks\RssContent::blockRssEchobox">blockRssEchobox</abbr></a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="Market.php.html#42"><abbr title="App\Component\Blocks\Market::blockCurrency">blockCurrency</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Vertical.php.html#60"><abbr title="App\Component\Blocks\Vertical::blockLatest">blockLatest</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Embed.php.html#54"><abbr title="App\Component\Blocks\Embed::blockProgram">blockProgram</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Common.php.html#63"><abbr title="App\Component\Blocks\Common::tagsOfLastDay">tagsOfLastDay</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RssContent.php.html#150"><abbr title="App\Component\Blocks\RssContent::isSponsoredProgram">isSponsoredProgram</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Home.php.html#26"><abbr title="App\Component\Blocks\Home::blockLatestOnly">blockLatestOnly</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ListPages.php.html#133"><abbr title="App\Component\Blocks\ListPages::blockArticleWireByTheme">blockArticleWireByTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ListPages.php.html#148"><abbr title="App\Component\Blocks\ListPages::blockArticleWireByVertical">blockArticleWireByVertical</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Live.php.html#40"><abbr title="App\Component\Blocks\Live::getPlaylists">getPlaylists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Luxe.php.html#25"><abbr title="App\Component\Blocks\Luxe::blockTheme">blockTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Market.php.html#64"><abbr title="App\Component\Blocks\Market::blockIndexes">blockIndexes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProgramPage.php.html#21"><abbr title="App\Component\Blocks\ProgramPage::blockProgramsOrdered">blockProgramsOrdered</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RssContent.php.html#46"><abbr title="App\Component\Blocks\RssContent::blockRssSponsored">blockRssSponsored</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchPage.php.html#16"><abbr title="App\Component\Blocks\SearchPage::blockSearchQuery">blockSearchQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchPage.php.html#34"><abbr title="App\Component\Blocks\SearchPage::blockSearchTitle">blockSearchTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StaticPage.php.html#18"><abbr title="App\Component\Blocks\StaticPage::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeContent.php.html#138"><abbr title="App\Component\Blocks\ThemeContent::blockProgramNavbar">blockProgramNavbar</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThirdPart.php.html#16"><abbr title="App\Component\Blocks\ThirdPart::blockHorizonMagazine">blockHorizonMagazine</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeContent.php.html#47"><abbr title="App\Component\Blocks\ThemeContent::blockArticlesByThemes">blockArticlesByThemes</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Weather.php.html#20"><abbr title="App\Component\Blocks\Weather::blockAlphabeticalLocation">blockAlphabeticalLocation</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Home.php.html#45"><abbr title="App\Component\Blocks\Home::blockLatest">blockLatest</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Videos.php.html#22"><abbr title="App\Component\Blocks\Videos::blockNoCommentProgramInfo">blockNoCommentProgramInfo</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Embed.php.html#23"><abbr title="App\Component\Blocks\Embed::blockArticleById">blockArticleById</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticlePage.php.html#319"><abbr title="App\Component\Blocks\ArticlePage::getRelatedArticlesByTag">getRelatedArticlesByTag</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ThemeContent.php.html#22"><abbr title="App\Component\Blocks\ThemeContent::blockThemeArticles">blockThemeArticles</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticlePage.php.html#354"><abbr title="App\Component\Blocks\ArticlePage::getMostViewed">getMostViewed</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticlePage.php.html#423"><abbr title="App\Component\Blocks\ArticlePage::blockMoreFromProgram">blockMoreFromProgram</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Videos.php.html#76"><abbr title="App\Component\Blocks\Videos::blockMoreVideosFromProgram">blockMoreVideosFromProgram</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ArticlePage.php.html#478"><abbr title="App\Component\Blocks\ArticlePage::blockTagImmersive">blockTagImmersive</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Common.php.html#49"><abbr title="App\Component\Blocks\Common::blockVertical">blockVertical</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Common.php.html#149"><abbr title="App\Component\Blocks\Common::blockBreakingNews">blockBreakingNews</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ListPages.php.html#24"><abbr title="App\Component\Blocks\ListPages::blockHomeVideo">blockHomeVideo</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="VerticalContent.php.html#38"><abbr title="App\Component\Blocks\VerticalContent::blockGlossyUniqVertical">blockGlossyUniqVertical</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProgramPage.php.html#75"><abbr title="App\Component\Blocks\ProgramPage::blockCoverflow">blockCoverflow</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ArticlePage.php.html#557"><abbr title="App\Component\Blocks\ArticlePage::blockMostViewed">blockMostViewed</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Embed.php.html#87"><abbr title="App\Component\Blocks\Embed::blockTimeline">blockTimeline</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ProgramPage.php.html#62"><abbr title="App\Component\Blocks\ProgramPage::blockCurrentProgramByUrl">blockCurrentProgramByUrl</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Promo.php.html#15"><abbr title="App\Component\Blocks\Promo::blockPromo">blockPromo</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SideBar.php.html#20"><abbr title="App\Component\Blocks\SideBar::blockTimelineSideBar">blockTimelineSideBar</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="BlockContentSorting.php.html#42"><abbr title="App\Component\Blocks\BlockContentSorting::blockEditorsChoice">blockEditorsChoice</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Common.php.html#29"><abbr title="App\Component\Blocks\Common::activeLive">activeLive</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Common.php.html#132"><abbr title="App\Component\Blocks\Common::blockFooterMetadata">blockFooterMetadata</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ListPages.php.html#119"><abbr title="App\Component\Blocks\ListPages::blockTodaysTopStories">blockTodaysTopStories</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="VerticalContent.php.html#95"><abbr title="App\Component\Blocks\VerticalContent::blockVerticalArticles">blockVerticalArticles</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="VerticalContent.php.html#64"><abbr title="App\Component\Blocks\VerticalContent::blockVerticalNavbar">blockVerticalNavbar</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="CountryPage.php.html#23"><abbr title="App\Component\Blocks\CountryPage::blockArticleByCountries">blockArticleByCountries</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ListPages.php.html#49"><abbr title="App\Component\Blocks\ListPages::blockNoComment">blockNoComment</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ListPages.php.html#87"><abbr title="App\Component\Blocks\ListPages::blockVideos">blockVideos</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="BlockContentSorting.php.html#17"><abbr title="App\Component\Blocks\BlockContentSorting::blockTopStories">blockTopStories</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ListPages.php.html#102"><abbr title="App\Component\Blocks\ListPages::blockBulletin">blockBulletin</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ListPages.php.html#64"><abbr title="App\Component\Blocks\ListPages::blockTopVideos">blockTopVideos</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="NoComment.php.html#14"><abbr title="App\Component\Blocks\NoComment::blockLatestNoComment">blockLatestNoComment</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RssContent.php.html#28"><abbr title="App\Component\Blocks\RssContent::blockRssTheme">blockRssTheme</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ThemeContent.php.html#168"><abbr title="App\Component\Blocks\ThemeContent::blockProgramArticles">blockProgramArticles</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Videos.php.html#38"><abbr title="App\Component\Blocks\Videos::blockLatestVideos">blockLatestVideos</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Videos.php.html#57"><abbr title="App\Component\Blocks\Videos::blockTrending">blockTrending</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ArticlePage.php.html#340"><abbr title="App\Component\Blocks\ArticlePage::getRelatedArticlesByProgram">getRelatedArticlesByProgram</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ArticlePage.php.html#569"><abbr title="App\Component\Blocks\ArticlePage::blockArticleTopStories">blockArticleTopStories</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,4,4,3,4,0,1,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([36,0,0,3,1,6,12,2,11,10,3,129], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"Advertising.php.html#14\">App\\Component\\Blocks\\Advertising<\/a>"],[92,95,"<a href=\"ArticlePage.php.html#30\">App\\Component\\Blocks\\ArticlePage<\/a>"],[60,4,"<a href=\"BlockContentSorting.php.html#15\">App\\Component\\Blocks\\BlockContentSorting<\/a>"],[43.689320388349515,34,"<a href=\"Common.php.html#24\">App\\Component\\Blocks\\Common<\/a>"],[57.14285714285714,2,"<a href=\"CountryPage.php.html#15\">App\\Component\\Blocks\\CountryPage<\/a>"],[70.58823529411765,13,"<a href=\"Embed.php.html#16\">App\\Component\\Blocks\\Embed<\/a>"],[77.77777777777779,10,"<a href=\"Home.php.html#17\">App\\Component\\Blocks\\Home<\/a>"],[53.73134328358209,17,"<a href=\"ListPages.php.html#22\">App\\Component\\Blocks\\ListPages<\/a>"],[0,7,"<a href=\"Live.php.html#8\">App\\Component\\Blocks\\Live<\/a>"],[0,2,"<a href=\"Luxe.php.html#15\">App\\Component\\Blocks\\Luxe<\/a>"],[0,9,"<a href=\"Market.php.html#14\">App\\Component\\Blocks\\Market<\/a>"],[71.42857142857143,2,"<a href=\"NoComment.php.html#12\">App\\Component\\Blocks\\NoComment<\/a>"],[57.14285714285714,9,"<a href=\"ProgramPage.php.html#19\">App\\Component\\Blocks\\ProgramPage<\/a>"],[40,2,"<a href=\"Promo.php.html#13\">App\\Component\\Blocks\\Promo<\/a>"],[61.111111111111114,41,"<a href=\"RssContent.php.html#19\">App\\Component\\Blocks\\RssContent<\/a>"],[0,4,"<a href=\"SearchPage.php.html#14\">App\\Component\\Blocks\\SearchPage<\/a>"],[100,2,"<a href=\"SeoMetataConfiguration.php.html#5\">App\\Component\\Blocks\\SeoMetataConfiguration<\/a>"],[40,2,"<a href=\"SideBar.php.html#13\">App\\Component\\Blocks\\SideBar<\/a>"],[0,2,"<a href=\"StaticPage.php.html#13\">App\\Component\\Blocks\\StaticPage<\/a>"],[43.61702127659575,27,"<a href=\"ThemeContent.php.html#20\">App\\Component\\Blocks\\ThemeContent<\/a>"],[0,2,"<a href=\"ThirdPart.php.html#11\">App\\Component\\Blocks\\ThirdPart<\/a>"],[0,7,"<a href=\"Vertical.php.html#16\">App\\Component\\Blocks\\Vertical<\/a>"],[69.23076923076923,9,"<a href=\"VerticalContent.php.html#16\">App\\Component\\Blocks\\VerticalContent<\/a>"],[79.1044776119403,21,"<a href=\"Videos.php.html#20\">App\\Component\\Blocks\\Videos<\/a>"],[57.89473684210527,5,"<a href=\"Weather.php.html#14\">App\\Component\\Blocks\\Weather<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"Advertising.php.html#16\">App\\Component\\Blocks\\Advertising::getDfpTags<\/a>"],[100,0,"<a href=\"Advertising.php.html#31\">App\\Component\\Blocks\\Advertising::getKeywordApi<\/a>"],[100,0,"<a href=\"Advertising.php.html#33\">App\\Component\\Blocks\\Advertising::getLogger<\/a>"],[100,4,"<a href=\"ArticlePage.php.html#37\">App\\Component\\Blocks\\ArticlePage::blockArticle<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#70\">App\\Component\\Blocks\\ArticlePage::blockWire<\/a>"],[100,2,"<a href=\"ArticlePage.php.html#87\">App\\Component\\Blocks\\ArticlePage::blockRelatedStories<\/a>"],[100,4,"<a href=\"ArticlePage.php.html#106\">App\\Component\\Blocks\\ArticlePage::blockRelatedSuggested<\/a>"],[100,4,"<a href=\"ArticlePage.php.html#133\">App\\Component\\Blocks\\ArticlePage::blockRelatedSuggestedWire<\/a>"],[100,6,"<a href=\"ArticlePage.php.html#162\">App\\Component\\Blocks\\ArticlePage::blockRelated<\/a>"],[100,15,"<a href=\"ArticlePage.php.html#190\">App\\Component\\Blocks\\ArticlePage::generateStandardRelated<\/a>"],[100,2,"<a href=\"ArticlePage.php.html#254\">App\\Component\\Blocks\\ArticlePage::generateAdvertisingStoryRelated<\/a>"],[90.9090909090909,6,"<a href=\"ArticlePage.php.html#269\">App\\Component\\Blocks\\ArticlePage::generateVerticalRelated<\/a>"],[75,4,"<a href=\"ArticlePage.php.html#319\">App\\Component\\Blocks\\ArticlePage::getRelatedArticlesByTag<\/a>"],[75,2,"<a href=\"ArticlePage.php.html#340\">App\\Component\\Blocks\\ArticlePage::getRelatedArticlesByProgram<\/a>"],[87.5,4,"<a href=\"ArticlePage.php.html#354\">App\\Component\\Blocks\\ArticlePage::getMostViewed<\/a>"],[92.85714285714286,4,"<a href=\"ArticlePage.php.html#376\">App\\Component\\Blocks\\ArticlePage::getTopStories<\/a>"],[100,1,"<a href=\"ArticlePage.php.html#401\">App\\Component\\Blocks\\ArticlePage::getArticlesIdsFromArrayToString<\/a>"],[100,2,"<a href=\"ArticlePage.php.html#409\">App\\Component\\Blocks\\ArticlePage::getArticlesIds<\/a>"],[55.55555555555556,3,"<a href=\"ArticlePage.php.html#423\">App\\Component\\Blocks\\ArticlePage::blockMoreFromProgram<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#442\">App\\Component\\Blocks\\ArticlePage::blockTag<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#467\">App\\Component\\Blocks\\ArticlePage::getMainTagImmersiveArticles<\/a>"],[25,2,"<a href=\"ArticlePage.php.html#478\">App\\Component\\Blocks\\ArticlePage::blockTagImmersive<\/a>"],[100,2,"<a href=\"ArticlePage.php.html#489\">App\\Component\\Blocks\\ArticlePage::blockContinent<\/a>"],[100,2,"<a href=\"ArticlePage.php.html#503\">App\\Component\\Blocks\\ArticlePage::blockContinentCountry<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#524\">App\\Component\\Blocks\\ArticlePage::blockHotTopics<\/a>"],[100,4,"<a href=\"ArticlePage.php.html#539\">App\\Component\\Blocks\\ArticlePage::blockArchiveDay<\/a>"],[40,2,"<a href=\"ArticlePage.php.html#557\">App\\Component\\Blocks\\ArticlePage::blockMostViewed<\/a>"],[87.5,2,"<a href=\"ArticlePage.php.html#569\">App\\Component\\Blocks\\ArticlePage::blockArticleTopStories<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#601\">App\\Component\\Blocks\\ArticlePage::articleSidebarTopStoriesFilterSources<\/a>"],[100,3,"<a href=\"ArticlePage.php.html#625\">App\\Component\\Blocks\\ArticlePage::getTheme<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#635\">App\\Component\\Blocks\\ArticlePage::getArticleApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#637\">App\\Component\\Blocks\\ArticlePage::getArticleExtraDataApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#639\">App\\Component\\Blocks\\ArticlePage::getArticleRelatedApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#641\">App\\Component\\Blocks\\ArticlePage::getDuplicatedManager<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#643\">App\\Component\\Blocks\\ArticlePage::getKeywordApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#645\">App\\Component\\Blocks\\ArticlePage::getLogger<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#647\">App\\Component\\Blocks\\ArticlePage::getParameters<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#649\">App\\Component\\Blocks\\ArticlePage::getTagApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#651\">App\\Component\\Blocks\\ArticlePage::getWireApi<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#653\">App\\Component\\Blocks\\ArticlePage::getContinentCountries<\/a>"],[100,0,"<a href=\"ArticlePage.php.html#655\">App\\Component\\Blocks\\ArticlePage::getVerticalConfigurationStore<\/a>"],[66.66666666666666,2,"<a href=\"BlockContentSorting.php.html#17\">App\\Component\\Blocks\\BlockContentSorting::blockTopStories<\/a>"],[50,2,"<a href=\"BlockContentSorting.php.html#42\">App\\Component\\Blocks\\BlockContentSorting::blockEditorsChoice<\/a>"],[100,0,"<a href=\"BlockContentSorting.php.html#55\">App\\Component\\Blocks\\BlockContentSorting::getArticleRelatedApi<\/a>"],[100,0,"<a href=\"BlockContentSorting.php.html#57\">App\\Component\\Blocks\\BlockContentSorting::getBlockContentApi<\/a>"],[100,0,"<a href=\"BlockContentSorting.php.html#59\">App\\Component\\Blocks\\BlockContentSorting::getDuplicatedManager<\/a>"],[100,0,"<a href=\"BlockContentSorting.php.html#61\">App\\Component\\Blocks\\BlockContentSorting::getLogger<\/a>"],[50,2,"<a href=\"Common.php.html#29\">App\\Component\\Blocks\\Common::activeLive<\/a>"],[28.57142857142857,2,"<a href=\"Common.php.html#49\">App\\Component\\Blocks\\Common::blockVertical<\/a>"],[73.68421052631578,6,"<a href=\"Common.php.html#63\">App\\Component\\Blocks\\Common::tagsOfLastDay<\/a>"],[100,8,"<a href=\"Common.php.html#92\">App\\Component\\Blocks\\Common::filterByWildCard<\/a>"],[100,1,"<a href=\"Common.php.html#122\">App\\Component\\Blocks\\Common::barreNowTags<\/a>"],[100,1,"<a href=\"Common.php.html#127\">App\\Component\\Blocks\\Common::blockFooterTags<\/a>"],[50,2,"<a href=\"Common.php.html#132\">App\\Component\\Blocks\\Common::blockFooterMetadata<\/a>"],[28.57142857142857,2,"<a href=\"Common.php.html#149\">App\\Component\\Blocks\\Common::blockBreakingNews<\/a>"],[0,10,"<a href=\"Common.php.html#163\">App\\Component\\Blocks\\Common::blockThisDayLastYear<\/a>"],[100,0,"<a href=\"Common.php.html#231\">App\\Component\\Blocks\\Common::getArticleApi<\/a>"],[100,0,"<a href=\"Common.php.html#233\">App\\Component\\Blocks\\Common::getBreakingNewsApi<\/a>"],[100,0,"<a href=\"Common.php.html#235\">App\\Component\\Blocks\\Common::getKeyValueApi<\/a>"],[100,0,"<a href=\"Common.php.html#237\">App\\Component\\Blocks\\Common::getKeywordApi<\/a>"],[100,0,"<a href=\"Common.php.html#239\">App\\Component\\Blocks\\Common::getLogger<\/a>"],[100,0,"<a href=\"Common.php.html#241\">App\\Component\\Blocks\\Common::getMenuManager<\/a>"],[100,0,"<a href=\"Common.php.html#243\">App\\Component\\Blocks\\Common::getProgramApi<\/a>"],[100,0,"<a href=\"Common.php.html#245\">App\\Component\\Blocks\\Common::getRouter<\/a>"],[100,0,"<a href=\"Common.php.html#247\">App\\Component\\Blocks\\Common::getTagApi<\/a>"],[100,0,"<a href=\"Common.php.html#249\">App\\Component\\Blocks\\Common::getTranslator<\/a>"],[100,0,"<a href=\"Common.php.html#251\">App\\Component\\Blocks\\Common::getVerticalHierarchyStore<\/a>"],[100,0,"<a href=\"Common.php.html#253\">App\\Component\\Blocks\\Common::getVerticalConfigurationStore<\/a>"],[57.14285714285714,2,"<a href=\"CountryPage.php.html#23\">App\\Component\\Blocks\\CountryPage::blockArticleByCountries<\/a>"],[100,0,"<a href=\"CountryPage.php.html#40\">App\\Component\\Blocks\\CountryPage::getArticleApi<\/a>"],[100,0,"<a href=\"CountryPage.php.html#42\">App\\Component\\Blocks\\CountryPage::getArticleExtraDataApi<\/a>"],[100,0,"<a href=\"CountryPage.php.html#44\">App\\Component\\Blocks\\CountryPage::getDuplicatedManager<\/a>"],[100,0,"<a href=\"CountryPage.php.html#46\">App\\Component\\Blocks\\CountryPage::getLogger<\/a>"],[71.42857142857143,4,"<a href=\"Embed.php.html#23\">App\\Component\\Blocks\\Embed::blockArticleById<\/a>"],[80,7,"<a href=\"Embed.php.html#54\">App\\Component\\Blocks\\Embed::blockProgram<\/a>"],[40,2,"<a href=\"Embed.php.html#87\">App\\Component\\Blocks\\Embed::blockTimeline<\/a>"],[100,0,"<a href=\"Embed.php.html#99\">App\\Component\\Blocks\\Embed::getArticleApi<\/a>"],[100,0,"<a href=\"Embed.php.html#101\">App\\Component\\Blocks\\Embed::getJustInApi<\/a>"],[100,0,"<a href=\"Embed.php.html#103\">App\\Component\\Blocks\\Embed::getLogger<\/a>"],[100,0,"<a href=\"Embed.php.html#105\">App\\Component\\Blocks\\Embed::getProgramApi<\/a>"],[0,2,"<a href=\"Home.php.html#26\">App\\Component\\Blocks\\Home::blockLatestOnly<\/a>"],[85.71428571428571,5,"<a href=\"Home.php.html#45\">App\\Component\\Blocks\\Home::blockLatest<\/a>"],[100,1,"<a href=\"Home.php.html#113\">App\\Component\\Blocks\\Home::blockLatestOfProgram<\/a>"],[100,2,"<a href=\"Home.php.html#126\">App\\Component\\Blocks\\Home::getSurveyLink<\/a>"],[100,0,"<a href=\"Home.php.html#131\">App\\Component\\Blocks\\Home::getArticleApi<\/a>"],[100,0,"<a href=\"Home.php.html#133\">App\\Component\\Blocks\\Home::getDuplicatedManager<\/a>"],[100,0,"<a href=\"Home.php.html#135\">App\\Component\\Blocks\\Home::getLogger<\/a>"],[100,0,"<a href=\"Home.php.html#137\">App\\Component\\Blocks\\Home::getRouter<\/a>"],[100,0,"<a href=\"Home.php.html#139\">App\\Component\\Blocks\\Home::getTranslator<\/a>"],[100,0,"<a href=\"Home.php.html#141\">App\\Component\\Blocks\\Home::getVerticalHierarchyStore<\/a>"],[80,3,"<a href=\"ListPages.php.html#24\">App\\Component\\Blocks\\ListPages::blockHomeVideo<\/a>"],[57.14285714285714,2,"<a href=\"ListPages.php.html#49\">App\\Component\\Blocks\\ListPages::blockNoComment<\/a>"],[70,2,"<a href=\"ListPages.php.html#64\">App\\Component\\Blocks\\ListPages::blockTopVideos<\/a>"],[57.14285714285714,2,"<a href=\"ListPages.php.html#87\">App\\Component\\Blocks\\ListPages::blockVideos<\/a>"],[66.66666666666666,2,"<a href=\"ListPages.php.html#102\">App\\Component\\Blocks\\ListPages::blockBulletin<\/a>"],[50,2,"<a href=\"ListPages.php.html#119\">App\\Component\\Blocks\\ListPages::blockTodaysTopStories<\/a>"],[0,2,"<a href=\"ListPages.php.html#133\">App\\Component\\Blocks\\ListPages::blockArticleWireByTheme<\/a>"],[0,2,"<a href=\"ListPages.php.html#148\">App\\Component\\Blocks\\ListPages::blockArticleWireByVertical<\/a>"],[100,0,"<a href=\"ListPages.php.html#162\">App\\Component\\Blocks\\ListPages::getArticleApi<\/a>"],[100,0,"<a href=\"ListPages.php.html#164\">App\\Component\\Blocks\\ListPages::getBlockContentApi<\/a>"],[100,0,"<a href=\"ListPages.php.html#166\">App\\Component\\Blocks\\ListPages::getArticleBulletinApi<\/a>"],[100,0,"<a href=\"ListPages.php.html#168\">App\\Component\\Blocks\\ListPages::getDuplicatedManager<\/a>"],[100,0,"<a href=\"ListPages.php.html#170\">App\\Component\\Blocks\\ListPages::getKeywordApi<\/a>"],[100,0,"<a href=\"ListPages.php.html#172\">App\\Component\\Blocks\\ListPages::getLogger<\/a>"],[100,0,"<a href=\"ListPages.php.html#174\">App\\Component\\Blocks\\ListPages::getMostViewedApi<\/a>"],[100,0,"<a href=\"ListPages.php.html#176\">App\\Component\\Blocks\\ListPages::getParameters<\/a>"],[100,0,"<a href=\"ListPages.php.html#178\">App\\Component\\Blocks\\ListPages::getRouter<\/a>"],[100,0,"<a href=\"ListPages.php.html#180\">App\\Component\\Blocks\\ListPages::getWireApi<\/a>"],[0,5,"<a href=\"Live.php.html#10\">App\\Component\\Blocks\\Live::getHexaglobeUrl<\/a>"],[0,2,"<a href=\"Live.php.html#40\">App\\Component\\Blocks\\Live::getPlaylists<\/a>"],[0,2,"<a href=\"Luxe.php.html#25\">App\\Component\\Blocks\\Luxe::blockTheme<\/a>"],[100,0,"<a href=\"Luxe.php.html#43\">App\\Component\\Blocks\\Luxe::getArticleApi<\/a>"],[100,0,"<a href=\"Luxe.php.html#45\">App\\Component\\Blocks\\Luxe::getDuplicatedManager<\/a>"],[100,0,"<a href=\"Luxe.php.html#47\">App\\Component\\Blocks\\Luxe::getLogger<\/a>"],[100,0,"<a href=\"Luxe.php.html#49\">App\\Component\\Blocks\\Luxe::getMostViewedApi<\/a>"],[0,4,"<a href=\"Market.php.html#16\">App\\Component\\Blocks\\Market::blockCommodities<\/a>"],[0,3,"<a href=\"Market.php.html#42\">App\\Component\\Blocks\\Market::blockCurrency<\/a>"],[0,2,"<a href=\"Market.php.html#64\">App\\Component\\Blocks\\Market::blockIndexes<\/a>"],[0,0,"<a href=\"Market.php.html#75\">App\\Component\\Blocks\\Market::getLogger<\/a>"],[0,0,"<a href=\"Market.php.html#77\">App\\Component\\Blocks\\Market::getTranslator<\/a>"],[0,0,"<a href=\"Market.php.html#79\">App\\Component\\Blocks\\Market::getMarketsApi<\/a>"],[71.42857142857143,2,"<a href=\"NoComment.php.html#14\">App\\Component\\Blocks\\NoComment::blockLatestNoComment<\/a>"],[100,0,"<a href=\"NoComment.php.html#30\">App\\Component\\Blocks\\NoComment::getArticleApi<\/a>"],[100,0,"<a href=\"NoComment.php.html#32\">App\\Component\\Blocks\\NoComment::getDuplicatedManager<\/a>"],[100,0,"<a href=\"NoComment.php.html#34\">App\\Component\\Blocks\\NoComment::getLogger<\/a>"],[50,4,"<a href=\"ProgramPage.php.html#21\">App\\Component\\Blocks\\ProgramPage::blockProgramsOrdered<\/a>"],[40,2,"<a href=\"ProgramPage.php.html#62\">App\\Component\\Blocks\\ProgramPage::blockCurrentProgramByUrl<\/a>"],[88.88888888888889,3,"<a href=\"ProgramPage.php.html#75\">App\\Component\\Blocks\\ProgramPage::blockCoverflow<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#91\">App\\Component\\Blocks\\ProgramPage::getArticleApi<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#93\">App\\Component\\Blocks\\ProgramPage::getDuplicatedManager<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#95\">App\\Component\\Blocks\\ProgramPage::getLogger<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#97\">App\\Component\\Blocks\\ProgramPage::getProgramApi<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#99\">App\\Component\\Blocks\\ProgramPage::getRouter<\/a>"],[100,0,"<a href=\"ProgramPage.php.html#101\">App\\Component\\Blocks\\ProgramPage::getVerticalHierarchyStore<\/a>"],[40,2,"<a href=\"Promo.php.html#15\">App\\Component\\Blocks\\Promo::blockPromo<\/a>"],[100,0,"<a href=\"Promo.php.html#27\">App\\Component\\Blocks\\Promo::getBlockContentApi<\/a>"],[100,0,"<a href=\"Promo.php.html#29\">App\\Component\\Blocks\\Promo::getLogger<\/a>"],[71.42857142857143,2,"<a href=\"RssContent.php.html#28\">App\\Component\\Blocks\\RssContent::blockRssTheme<\/a>"],[0,2,"<a href=\"RssContent.php.html#46\">App\\Component\\Blocks\\RssContent::blockRssSponsored<\/a>"],[80,16,"<a href=\"RssContent.php.html#61\">App\\Component\\Blocks\\RssContent::blockRssEchobox<\/a>"],[100,10,"<a href=\"RssContent.php.html#124\">App\\Component\\Blocks\\RssContent::isRssEchoboxProgramId<\/a>"],[77.77777777777779,6,"<a href=\"RssContent.php.html#150\">App\\Component\\Blocks\\RssContent::isSponsoredProgram<\/a>"],[0,5,"<a href=\"RssContent.php.html#171\">App\\Component\\Blocks\\RssContent::blockRssEuropeanCommission<\/a>"],[100,0,"<a href=\"RssContent.php.html#203\">App\\Component\\Blocks\\RssContent::getArticleApi<\/a>"],[100,0,"<a href=\"RssContent.php.html#205\">App\\Component\\Blocks\\RssContent::getDuplicatedManager<\/a>"],[100,0,"<a href=\"RssContent.php.html#207\">App\\Component\\Blocks\\RssContent::getKeyValueApi<\/a>"],[100,0,"<a href=\"RssContent.php.html#209\">App\\Component\\Blocks\\RssContent::getLocale<\/a>"],[100,0,"<a href=\"RssContent.php.html#211\">App\\Component\\Blocks\\RssContent::getLogger<\/a>"],[0,2,"<a href=\"SearchPage.php.html#16\">App\\Component\\Blocks\\SearchPage::blockSearchQuery<\/a>"],[0,2,"<a href=\"SearchPage.php.html#34\">App\\Component\\Blocks\\SearchPage::blockSearchTitle<\/a>"],[0,0,"<a href=\"SearchPage.php.html#46\">App\\Component\\Blocks\\SearchPage::getKeywordApi<\/a>"],[0,0,"<a href=\"SearchPage.php.html#48\">App\\Component\\Blocks\\SearchPage::getLogger<\/a>"],[0,0,"<a href=\"SearchPage.php.html#50\">App\\Component\\Blocks\\SearchPage::getSearchApi<\/a>"],[100,1,"<a href=\"SeoMetataConfiguration.php.html#10\">App\\Component\\Blocks\\SeoMetataConfiguration::setSeoMetaConfiguration<\/a>"],[100,1,"<a href=\"SeoMetataConfiguration.php.html#17\">App\\Component\\Blocks\\SeoMetataConfiguration::getAdvertisingTwigVariable<\/a>"],[40,2,"<a href=\"SideBar.php.html#20\">App\\Component\\Blocks\\SideBar::blockTimelineSideBar<\/a>"],[100,0,"<a href=\"SideBar.php.html#32\">App\\Component\\Blocks\\SideBar::getJustInApi<\/a>"],[0,2,"<a href=\"StaticPage.php.html#18\">App\\Component\\Blocks\\StaticPage::blockTopStories<\/a>"],[0,0,"<a href=\"StaticPage.php.html#30\">App\\Component\\Blocks\\StaticPage::getBlockContentApi<\/a>"],[0,0,"<a href=\"StaticPage.php.html#32\">App\\Component\\Blocks\\StaticPage::getLogger<\/a>"],[85.71428571428571,4,"<a href=\"ThemeContent.php.html#22\">App\\Component\\Blocks\\ThemeContent::blockThemeArticles<\/a>"],[80,5,"<a href=\"ThemeContent.php.html#47\">App\\Component\\Blocks\\ThemeContent::blockArticlesByThemes<\/a>"],[0,4,"<a href=\"ThemeContent.php.html#74\">App\\Component\\Blocks\\ThemeContent::currentBlockTheme<\/a>"],[0,5,"<a href=\"ThemeContent.php.html#114\">App\\Component\\Blocks\\ThemeContent::blockGlossyPrograms<\/a>"],[0,2,"<a href=\"ThemeContent.php.html#138\">App\\Component\\Blocks\\ThemeContent::blockProgramNavbar<\/a>"],[71.42857142857143,2,"<a href=\"ThemeContent.php.html#168\">App\\Component\\Blocks\\ThemeContent::blockProgramArticles<\/a>"],[100,2,"<a href=\"ThemeContent.php.html#185\">App\\Component\\Blocks\\ThemeContent::getThemeArticles<\/a>"],[100,3,"<a href=\"ThemeContent.php.html#202\">App\\Component\\Blocks\\ThemeContent::setNavbars<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#219\">App\\Component\\Blocks\\ThemeContent::getArticleApi<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#221\">App\\Component\\Blocks\\ThemeContent::getDuplicatedManager<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#223\">App\\Component\\Blocks\\ThemeContent::getLocale<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#225\">App\\Component\\Blocks\\ThemeContent::getLogger<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#227\">App\\Component\\Blocks\\ThemeContent::getRouter<\/a>"],[100,0,"<a href=\"ThemeContent.php.html#229\">App\\Component\\Blocks\\ThemeContent::getVerticalHierarchyStore<\/a>"],[0,2,"<a href=\"ThirdPart.php.html#16\">App\\Component\\Blocks\\ThirdPart::blockHorizonMagazine<\/a>"],[0,0,"<a href=\"ThirdPart.php.html#29\">App\\Component\\Blocks\\ThirdPart::getLogger<\/a>"],[0,0,"<a href=\"ThirdPart.php.html#31\">App\\Component\\Blocks\\ThirdPart::getThirdPartApi<\/a>"],[0,4,"<a href=\"Vertical.php.html#21\">App\\Component\\Blocks\\Vertical::blockTopStories<\/a>"],[0,3,"<a href=\"Vertical.php.html#60\">App\\Component\\Blocks\\Vertical::blockLatest<\/a>"],[0,0,"<a href=\"Vertical.php.html#90\">App\\Component\\Blocks\\Vertical::getArticleApi<\/a>"],[0,0,"<a href=\"Vertical.php.html#92\">App\\Component\\Blocks\\Vertical::getArticleRelatedApi<\/a>"],[0,0,"<a href=\"Vertical.php.html#94\">App\\Component\\Blocks\\Vertical::getDuplicatedManager<\/a>"],[0,0,"<a href=\"Vertical.php.html#96\">App\\Component\\Blocks\\Vertical::getLogger<\/a>"],[0,0,"<a href=\"Vertical.php.html#98\">App\\Component\\Blocks\\Vertical::getVerticalHierarchyStore<\/a>"],[100,2,"<a href=\"VerticalContent.php.html#24\">App\\Component\\Blocks\\VerticalContent::blockGlossyVerticals<\/a>"],[85.71428571428571,3,"<a href=\"VerticalContent.php.html#38\">App\\Component\\Blocks\\VerticalContent::blockGlossyUniqVertical<\/a>"],[53.333333333333336,2,"<a href=\"VerticalContent.php.html#64\">App\\Component\\Blocks\\VerticalContent::blockVerticalNavbar<\/a>"],[50,2,"<a href=\"VerticalContent.php.html#95\">App\\Component\\Blocks\\VerticalContent::blockVerticalArticles<\/a>"],[100,0,"<a href=\"VerticalContent.php.html#108\">App\\Component\\Blocks\\VerticalContent::getArticleApi<\/a>"],[100,0,"<a href=\"VerticalContent.php.html#110\">App\\Component\\Blocks\\VerticalContent::getDuplicatedManager<\/a>"],[100,0,"<a href=\"VerticalContent.php.html#112\">App\\Component\\Blocks\\VerticalContent::getLogger<\/a>"],[100,0,"<a href=\"VerticalContent.php.html#114\">App\\Component\\Blocks\\VerticalContent::getVerticalHierarchyStore<\/a>"],[42.857142857142854,3,"<a href=\"Videos.php.html#22\">App\\Component\\Blocks\\Videos::blockNoCommentProgramInfo<\/a>"],[71.42857142857143,2,"<a href=\"Videos.php.html#38\">App\\Component\\Blocks\\Videos::blockLatestVideos<\/a>"],[71.42857142857143,2,"<a href=\"Videos.php.html#57\">App\\Component\\Blocks\\Videos::blockTrending<\/a>"],[55.55555555555556,3,"<a href=\"Videos.php.html#76\">App\\Component\\Blocks\\Videos::blockMoreVideosFromProgram<\/a>"],[90.9090909090909,4,"<a href=\"Videos.php.html#97\">App\\Component\\Blocks\\Videos::blockPlaylist<\/a>"],[100,7,"<a href=\"Videos.php.html#139\">App\\Component\\Blocks\\Videos::blockShowsAndSeries<\/a>"],[100,0,"<a href=\"Videos.php.html#168\">App\\Component\\Blocks\\Videos::getKeyValueApi<\/a>"],[100,0,"<a href=\"Videos.php.html#170\">App\\Component\\Blocks\\Videos::getArticleApi<\/a>"],[100,0,"<a href=\"Videos.php.html#172\">App\\Component\\Blocks\\Videos::getDuplicatedManager<\/a>"],[100,0,"<a href=\"Videos.php.html#174\">App\\Component\\Blocks\\Videos::getLogger<\/a>"],[100,0,"<a href=\"Videos.php.html#176\">App\\Component\\Blocks\\Videos::getProgramApi<\/a>"],[100,0,"<a href=\"Videos.php.html#178\">App\\Component\\Blocks\\Videos::getMostViewedApi<\/a>"],[100,0,"<a href=\"Videos.php.html#180\">App\\Component\\Blocks\\Videos::getLocaleString<\/a>"],[38.46153846153847,3,"<a href=\"Weather.php.html#20\">App\\Component\\Blocks\\Weather::blockAlphabeticalLocation<\/a>"],[100,1,"<a href=\"Weather.php.html#42\">App\\Component\\Blocks\\Weather::blockArticleCountry<\/a>"],[100,1,"<a href=\"Weather.php.html#50\">App\\Component\\Blocks\\Weather::blockArticleContinent<\/a>"],[100,0,"<a href=\"Weather.php.html#58\">App\\Component\\Blocks\\Weather::getArticleApi<\/a>"],[100,0,"<a href=\"Weather.php.html#60\">App\\Component\\Blocks\\Weather::getDuplicatedManager<\/a>"],[100,0,"<a href=\"Weather.php.html#62\">App\\Component\\Blocks\\Weather::getKeywordApi<\/a>"],[100,0,"<a href=\"Weather.php.html#64\">App\\Component\\Blocks\\Weather::getLogger<\/a>"],[100,0,"<a href=\"Weather.php.html#66\">App\\Component\\Blocks\\Weather::getParameters<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

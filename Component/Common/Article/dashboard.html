@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Common/Article</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Common</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Article</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ArticleContentSplitter.php.html#11">App\Component\Common\Article\ArticleContentSplitter</a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ArticleContentSplitter.php.html#11">App\Component\Common\Article\ArticleContentSplitter</a></td><td class="text-right">92</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ArticleContentSplitter.php.html#168"><abbr title="App\Component\Common\Article\ArticleContentSplitter::truncateDom">truncateDom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleContentRulesManager.php.html#105"><abbr title="App\Component\Common\Article\ArticleContentRulesManager::countElement">countElement</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ArticleContentRulesManager.php.html#163"><abbr title="App\Component\Common\Article\ArticleContentRulesManager::isContentTypeNotValid">isContentTypeNotValid</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="ArticleContentSplitter.php.html#150"><abbr title="App\Component\Common\Article\ArticleContentSplitter::executeConfiguration">executeConfiguration</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ArticleContentSplitter.php.html#168"><abbr title="App\Component\Common\Article\ArticleContentSplitter::truncateDom">truncateDom</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ArticleContentRulesManager.php.html#163"><abbr title="App\Component\Common\Article\ArticleContentRulesManager::isContentTypeNotValid">isContentTypeNotValid</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="ArticleContentRulesManager.php.html#105"><abbr title="App\Component\Common\Article\ArticleContentRulesManager::countElement">countElement</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ArticleContentSplitter.php.html#150"><abbr title="App\Component\Common\Article\ArticleContentSplitter::executeConfiguration">executeConfiguration</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,0,0,1,0,1,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,0,0,0,3,1,26], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[95.45454545454545,48,"<a href=\"ArticleContentRulesManager.php.html#7\">App\\Component\\Common\\Article\\ArticleContentRulesManager<\/a>"],[77.39130434782608,56,"<a href=\"ArticleContentSplitter.php.html#11\">App\\Component\\Common\\Article\\ArticleContentSplitter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ArticleContentRulesManager.php.html#13\">App\\Component\\Common\\Article\\ArticleContentRulesManager::__construct<\/a>"],[100,2,"<a href=\"ArticleContentRulesManager.php.html#18\">App\\Component\\Common\\Article\\ArticleContentRulesManager::getContent<\/a>"],[100,1,"<a href=\"ArticleContentRulesManager.php.html#35\">App\\Component\\Common\\Article\\ArticleContentRulesManager::setBlacklist<\/a>"],[100,1,"<a href=\"ArticleContentRulesManager.php.html#42\">App\\Component\\Common\\Article\\ArticleContentRulesManager::loadContent<\/a>"],[92.85714285714286,18,"<a href=\"ArticleContentRulesManager.php.html#56\">App\\Component\\Common\\Article\\ArticleContentRulesManager::createConfigurations<\/a>"],[80,4,"<a href=\"ArticleContentRulesManager.php.html#105\">App\\Component\\Common\\Article\\ArticleContentRulesManager::countElement<\/a>"],[100,5,"<a href=\"ArticleContentRulesManager.php.html#116\">App\\Component\\Common\\Article\\ArticleContentRulesManager::canApplyRule<\/a>"],[100,3,"<a href=\"ArticleContentRulesManager.php.html#130\">App\\Component\\Common\\Article\\ArticleContentRulesManager::isContentSizeValid<\/a>"],[100,2,"<a href=\"ArticleContentRulesManager.php.html#142\">App\\Component\\Common\\Article\\ArticleContentRulesManager::isCountElementValid<\/a>"],[100,2,"<a href=\"ArticleContentRulesManager.php.html#154\">App\\Component\\Common\\Article\\ArticleContentRulesManager::isContentTypeValid<\/a>"],[83.33333333333334,5,"<a href=\"ArticleContentRulesManager.php.html#163\">App\\Component\\Common\\Article\\ArticleContentRulesManager::isContentTypeNotValid<\/a>"],[100,1,"<a href=\"ArticleContentRulesManager.php.html#178\">App\\Component\\Common\\Article\\ArticleContentRulesManager::compareWithDynamicOperator<\/a>"],[100,3,"<a href=\"ArticleContentRulesManager.php.html#191\">App\\Component\\Common\\Article\\ArticleContentRulesManager::isBlacklisted<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#18\">App\\Component\\Common\\Article\\ArticleContentSplitter::__construct<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#24\">App\\Component\\Common\\Article\\ArticleContentSplitter::getConfigurations<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#29\">App\\Component\\Common\\Article\\ArticleContentSplitter::setDomDocument<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#36\">App\\Component\\Common\\Article\\ArticleContentSplitter::setMainElementName<\/a>"],[100,7,"<a href=\"ArticleContentSplitter.php.html#43\">App\\Component\\Common\\Article\\ArticleContentSplitter::addConfigurations<\/a>"],[100,5,"<a href=\"ArticleContentSplitter.php.html#71\">App\\Component\\Common\\Article\\ArticleContentSplitter::addConfiguration<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#97\">App\\Component\\Common\\Article\\ArticleContentSplitter::reset<\/a>"],[100,4,"<a href=\"ArticleContentSplitter.php.html#102\">App\\Component\\Common\\Article\\ArticleContentSplitter::getResult<\/a>"],[100,5,"<a href=\"ArticleContentSplitter.php.html#115\">App\\Component\\Common\\Article\\ArticleContentSplitter::replaceByTemplates<\/a>"],[85.71428571428571,4,"<a href=\"ArticleContentSplitter.php.html#150\">App\\Component\\Common\\Article\\ArticleContentSplitter::executeConfiguration<\/a>"],[0,13,"<a href=\"ArticleContentSplitter.php.html#168\">App\\Component\\Common\\Article\\ArticleContentSplitter::truncateDom<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#221\">App\\Component\\Common\\Article\\ArticleContentSplitter::splitText<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#232\">App\\Component\\Common\\Article\\ArticleContentSplitter::insertBefore<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#239\">App\\Component\\Common\\Article\\ArticleContentSplitter::insertAfter<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#246\">App\\Component\\Common\\Article\\ArticleContentSplitter::getNodeAtPosition<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#254\">App\\Component\\Common\\Article\\ArticleContentSplitter::isTemplateMode<\/a>"],[100,2,"<a href=\"ArticleContentSplitter.php.html#259\">App\\Component\\Common\\Article\\ArticleContentSplitter::isTruncateMode<\/a>"],[100,1,"<a href=\"ArticleContentSplitter.php.html#264\">App\\Component\\Common\\Article\\ArticleContentSplitter::configureOptions<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

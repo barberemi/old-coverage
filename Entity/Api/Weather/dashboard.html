@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Entity/Api/Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Entity</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Api</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Weather</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Copernicus.php.html#7">App\Entity\Api\Weather\Copernicus</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="DayForecast.php.html#7">App\Entity\Api\Weather\DayForecast</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="HourForecast.php.html#7">App\Entity\Api\Weather\HourForecast</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Location.php.html#7">App\Entity\Api\Weather\Location</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="State.php.html#9">App\Entity\Api\Weather\State</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="CityInfos.php.html#7">App\Entity\Api\Weather\CityInfos</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="City.php.html#9">App\Entity\Api\Weather\City</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="City.php.html#9">App\Entity\Api\Weather\City</a></td><td class="text-right">43</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="City.php.html#120"><abbr title="App\Entity\Api\Weather\City::setState">setState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="City.php.html#127"><abbr title="App\Entity\Api\Weather\City::getLocation">getLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="City.php.html#132"><abbr title="App\Entity\Api\Weather\City::setLocation">setLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="City.php.html#163"><abbr title="App\Entity\Api\Weather\City::getLocale">getLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="City.php.html#187"><abbr title="App\Entity\Api\Weather\City::getWeatherEmbedUrl">getWeatherEmbedUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="City.php.html#199"><abbr title="App\Entity\Api\Weather\City::getFullAddress">getFullAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CityInfos.php.html#68"><abbr title="App\Entity\Api\Weather\CityInfos::setSearch">setSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#13"><abbr title="App\Entity\Api\Weather\Copernicus::getDays">getDays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#25"><abbr title="App\Entity\Api\Weather\Copernicus::getCurrentAirQ">getCurrentAirQ</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#30"><abbr title="App\Entity\Api\Weather\Copernicus::setCurrentAirQ">setCurrentAirQ</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#37"><abbr title="App\Entity\Api\Weather\Copernicus::getAirQ">getAirQ</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#42"><abbr title="App\Entity\Api\Weather\Copernicus::setAirQ">setAirQ</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copernicus.php.html#49"><abbr title="App\Entity\Api\Weather\Copernicus::jsonSerialize">jsonSerialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#57"><abbr title="App\Entity\Api\Weather\DayForecast::setDayNum">setDayNum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#69"><abbr title="App\Entity\Api\Weather\DayForecast::setDayOfWk">setDayOfWk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#81"><abbr title="App\Entity\Api\Weather\DayForecast::setValidDateUtc">setValidDateUtc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#93"><abbr title="App\Entity\Api\Weather\DayForecast::setValidDateLocal">setValidDateLocal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#105"><abbr title="App\Entity\Api\Weather\DayForecast::setLoTempF">setLoTempF</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#117"><abbr title="App\Entity\Api\Weather\DayForecast::setHiTempF">setHiTempF</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#129"><abbr title="App\Entity\Api\Weather\DayForecast::setLoTempC">setLoTempC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#141"><abbr title="App\Entity\Api\Weather\DayForecast::setHiTempC">setHiTempC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#153"><abbr title="App\Entity\Api\Weather\DayForecast::setSunrise">setSunrise</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#165"><abbr title="App\Entity\Api\Weather\DayForecast::setSunset">setSunset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#172"><abbr title="App\Entity\Api\Weather\DayForecast::getMoonrise">getMoonrise</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#177"><abbr title="App\Entity\Api\Weather\DayForecast::setMoonrise">setMoonrise</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#184"><abbr title="App\Entity\Api\Weather\DayForecast::getMoonset">getMoonset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#189"><abbr title="App\Entity\Api\Weather\DayForecast::setMoonset">setMoonset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#201"><abbr title="App\Entity\Api\Weather\DayForecast::setIconCode">setIconCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#208"><abbr title="App\Entity\Api\Weather\DayForecast::getIconCodeDay">getIconCodeDay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#213"><abbr title="App\Entity\Api\Weather\DayForecast::setIconCodeDay">setIconCodeDay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#220"><abbr title="App\Entity\Api\Weather\DayForecast::getIconCodeNight">getIconCodeNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#225"><abbr title="App\Entity\Api\Weather\DayForecast::setIconCodeNight">setIconCodeNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#232"><abbr title="App\Entity\Api\Weather\DayForecast::getSkyTextDay">getSkyTextDay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#237"><abbr title="App\Entity\Api\Weather\DayForecast::setSkyTextDay">setSkyTextDay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#244"><abbr title="App\Entity\Api\Weather\DayForecast::getSkyTextNight">getSkyTextNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#249"><abbr title="App\Entity\Api\Weather\DayForecast::setSkyTextNight">setSkyTextNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#261"><abbr title="App\Entity\Api\Weather\DayForecast::setPhraseDay">setPhraseDay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#273"><abbr title="App\Entity\Api\Weather\DayForecast::setPhraseDayC">setPhraseDayC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#280"><abbr title="App\Entity\Api\Weather\DayForecast::getPhraseNight">getPhraseNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#285"><abbr title="App\Entity\Api\Weather\DayForecast::setPhraseNight">setPhraseNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#292"><abbr title="App\Entity\Api\Weather\DayForecast::getPhraseNightC">getPhraseNightC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#297"><abbr title="App\Entity\Api\Weather\DayForecast::setPhraseNightC">setPhraseNightC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#309"><abbr title="App\Entity\Api\Weather\DayForecast::setShortPhrase">setShortPhrase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#321"><abbr title="App\Entity\Api\Weather\DayForecast::setUvIdx">setUvIdx</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#328"><abbr title="App\Entity\Api\Weather\DayForecast::getUvDescr">getUvDescr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#333"><abbr title="App\Entity\Api\Weather\DayForecast::setUvDescr">setUvDescr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#345"><abbr title="App\Entity\Api\Weather\DayForecast::setPrecipChance">setPrecipChance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#357"><abbr title="App\Entity\Api\Weather\DayForecast::setRelHumidity">setRelHumidity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#369"><abbr title="App\Entity\Api\Weather\DayForecast::setWndSpdKm">setWndSpdKm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#376"><abbr title="App\Entity\Api\Weather\DayForecast::getWndSpdKmNight">getWndSpdKmNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#381"><abbr title="App\Entity\Api\Weather\DayForecast::setWndSpdKmNight">setWndSpdKmNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#393"><abbr title="App\Entity\Api\Weather\DayForecast::setWndSpdMph">setWndSpdMph</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#400"><abbr title="App\Entity\Api\Weather\DayForecast::getWndSpdMphNight">getWndSpdMphNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#405"><abbr title="App\Entity\Api\Weather\DayForecast::setWndSpdMphNight">setWndSpdMphNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#417"><abbr title="App\Entity\Api\Weather\DayForecast::setWndDirCardinal">setWndDirCardinal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#424"><abbr title="App\Entity\Api\Weather\DayForecast::getWndDirCardinalNight">getWndDirCardinalNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DayForecast.php.html#429"><abbr title="App\Entity\Api\Weather\DayForecast::setWndDirCardinalNight">setWndDirCardinalNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#45"><abbr title="App\Entity\Api\Weather\HourForecast::getHourNum">getHourNum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#50"><abbr title="App\Entity\Api\Weather\HourForecast::setHourNum">setHourNum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#57"><abbr title="App\Entity\Api\Weather\HourForecast::getDayOfWeek">getDayOfWeek</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#62"><abbr title="App\Entity\Api\Weather\HourForecast::setDayOfWeek">setDayOfWeek</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#74"><abbr title="App\Entity\Api\Weather\HourForecast::setFeelsLikeF">setFeelsLikeF</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#86"><abbr title="App\Entity\Api\Weather\HourForecast::setIconCode">setIconCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#98"><abbr title="App\Entity\Api\Weather\HourForecast::setSkyLong">setSkyLong</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#105"><abbr title="App\Entity\Api\Weather\HourForecast::getSkyShort">getSkyShort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#110"><abbr title="App\Entity\Api\Weather\HourForecast::setSkyShort">setSkyShort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#122"><abbr title="App\Entity\Api\Weather\HourForecast::setPrecipChance">setPrecipChance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#129"><abbr title="App\Entity\Api\Weather\HourForecast::getRelHumidity">getRelHumidity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#134"><abbr title="App\Entity\Api\Weather\HourForecast::setRelHumidity">setRelHumidity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#146"><abbr title="App\Entity\Api\Weather\HourForecast::setWndSpdMph">setWndSpdMph</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#158"><abbr title="App\Entity\Api\Weather\HourForecast::setWndDirDegr">setWndDirDegr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#165"><abbr title="App\Entity\Api\Weather\HourForecast::getWndDirCardinal">getWndDirCardinal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#170"><abbr title="App\Entity\Api\Weather\HourForecast::setWndDirCardinal">setWndDirCardinal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#182"><abbr title="App\Entity\Api\Weather\HourForecast::setDayNight">setDayNight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#194"><abbr title="App\Entity\Api\Weather\HourForecast::setPressure">setPressure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#201"><abbr title="App\Entity\Api\Weather\HourForecast::getUvIdx">getUvIdx</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#206"><abbr title="App\Entity\Api\Weather\HourForecast::setUvIdx">setUvIdx</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#213"><abbr title="App\Entity\Api\Weather\HourForecast::getUvDescr">getUvDescr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#218"><abbr title="App\Entity\Api\Weather\HourForecast::setUvDescr">setUvDescr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#230"><abbr title="App\Entity\Api\Weather\HourForecast::setVisibility">setVisibility</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#242"><abbr title="App\Entity\Api\Weather\HourForecast::setTempF">setTempF</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#254"><abbr title="App\Entity\Api\Weather\HourForecast::setTempC">setTempC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#261"><abbr title="App\Entity\Api\Weather\HourForecast::getValidDateUtc">getValidDateUtc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#266"><abbr title="App\Entity\Api\Weather\HourForecast::setValidDateUtc">setValidDateUtc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#278"><abbr title="App\Entity\Api\Weather\HourForecast::setValidDateLocal">setValidDateLocal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#290"><abbr title="App\Entity\Api\Weather\HourForecast::setFeelsLikeC">setFeelsLikeC</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#302"><abbr title="App\Entity\Api\Weather\HourForecast::setVisibilityKm">setVisibilityKm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#314"><abbr title="App\Entity\Api\Weather\HourForecast::setWndSpdKm">setWndSpdKm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HourForecast.php.html#326"><abbr title="App\Entity\Api\Weather\HourForecast::setThreeHrPrecip">setThreeHrPrecip</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Location.php.html#49"><abbr title="App\Entity\Api\Weather\Location::jsonSerialize">jsonSerialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="State.php.html#54"><abbr title="App\Entity\Api\Weather\State::jsonSerialize">jsonSerialize</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,0,0,0,2,2,0,2,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([91,0,0,0,0,0,0,0,0,0,0,122], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[87.87878787878788,41,"<a href=\"City.php.html#9\">App\\Entity\\Api\\Weather\\City<\/a>"],[86.66666666666667,10,"<a href=\"CityInfos.php.html#7\">App\\Entity\\Api\\Weather\\CityInfos<\/a>"],[100,7,"<a href=\"Continent.php.html#9\">App\\Entity\\Api\\Weather\\Continent<\/a>"],[14.285714285714285,7,"<a href=\"Copernicus.php.html#7\">App\\Entity\\Api\\Weather\\Copernicus<\/a>"],[100,12,"<a href=\"Country.php.html#9\">App\\Entity\\Api\\Weather\\Country<\/a>"],[100,3,"<a href=\"DailyForecast.php.html#7\">App\\Entity\\Api\\Weather\\DailyForecast<\/a>"],[55.294117647058826,69,"<a href=\"DayForecast.php.html#7\">App\\Entity\\Api\\Weather\\DayForecast<\/a>"],[100,3,"<a href=\"Forecast.php.html#5\">App\\Entity\\Api\\Weather\\Forecast<\/a>"],[58.51851851851851,55,"<a href=\"HourForecast.php.html#7\">App\\Entity\\Api\\Weather\\HourForecast<\/a>"],[100,3,"<a href=\"HourlyForecast.php.html#7\">App\\Entity\\Api\\Weather\\HourlyForecast<\/a>"],[64.28571428571429,7,"<a href=\"Location.php.html#7\">App\\Entity\\Api\\Weather\\Location<\/a>"],[64.28571428571429,7,"<a href=\"State.php.html#9\">App\\Entity\\Api\\Weather\\State<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"City.php.html#31\">App\\Entity\\Api\\Weather\\City::getId<\/a>"],[100,1,"<a href=\"City.php.html#36\">App\\Entity\\Api\\Weather\\City::setId<\/a>"],[100,1,"<a href=\"City.php.html#43\">App\\Entity\\Api\\Weather\\City::getName<\/a>"],[100,1,"<a href=\"City.php.html#48\">App\\Entity\\Api\\Weather\\City::setName<\/a>"],[100,1,"<a href=\"City.php.html#55\">App\\Entity\\Api\\Weather\\City::getCountryName<\/a>"],[100,1,"<a href=\"City.php.html#60\">App\\Entity\\Api\\Weather\\City::setCountryName<\/a>"],[100,1,"<a href=\"City.php.html#67\">App\\Entity\\Api\\Weather\\City::getUrlSafeValue<\/a>"],[100,1,"<a href=\"City.php.html#72\">App\\Entity\\Api\\Weather\\City::setUrlSafeValue<\/a>"],[100,1,"<a href=\"City.php.html#79\">App\\Entity\\Api\\Weather\\City::getCurrentObservation<\/a>"],[100,1,"<a href=\"City.php.html#84\">App\\Entity\\Api\\Weather\\City::setCurrentObservation<\/a>"],[100,1,"<a href=\"City.php.html#91\">App\\Entity\\Api\\Weather\\City::getContinent<\/a>"],[100,1,"<a href=\"City.php.html#96\">App\\Entity\\Api\\Weather\\City::setContinent<\/a>"],[100,1,"<a href=\"City.php.html#103\">App\\Entity\\Api\\Weather\\City::getCountry<\/a>"],[100,1,"<a href=\"City.php.html#108\">App\\Entity\\Api\\Weather\\City::setCountry<\/a>"],[100,1,"<a href=\"City.php.html#115\">App\\Entity\\Api\\Weather\\City::getState<\/a>"],[0,1,"<a href=\"City.php.html#120\">App\\Entity\\Api\\Weather\\City::setState<\/a>"],[0,1,"<a href=\"City.php.html#127\">App\\Entity\\Api\\Weather\\City::getLocation<\/a>"],[0,1,"<a href=\"City.php.html#132\">App\\Entity\\Api\\Weather\\City::setLocation<\/a>"],[100,1,"<a href=\"City.php.html#139\">App\\Entity\\Api\\Weather\\City::getHourlyForecast<\/a>"],[100,1,"<a href=\"City.php.html#144\">App\\Entity\\Api\\Weather\\City::setHourlyForecast<\/a>"],[100,1,"<a href=\"City.php.html#151\">App\\Entity\\Api\\Weather\\City::getDailyForecast<\/a>"],[100,1,"<a href=\"City.php.html#156\">App\\Entity\\Api\\Weather\\City::setDailyForecast<\/a>"],[0,1,"<a href=\"City.php.html#163\">App\\Entity\\Api\\Weather\\City::getLocale<\/a>"],[100,1,"<a href=\"City.php.html#168\">App\\Entity\\Api\\Weather\\City::setLocale<\/a>"],[100,1,"<a href=\"City.php.html#175\">App\\Entity\\Api\\Weather\\City::getWeatherPageUrl<\/a>"],[100,1,"<a href=\"City.php.html#180\">App\\Entity\\Api\\Weather\\City::setWeatherPageUrl<\/a>"],[0,1,"<a href=\"City.php.html#187\">App\\Entity\\Api\\Weather\\City::getWeatherEmbedUrl<\/a>"],[100,1,"<a href=\"City.php.html#192\">App\\Entity\\Api\\Weather\\City::setWeatherEmbedUrl<\/a>"],[0,1,"<a href=\"City.php.html#199\">App\\Entity\\Api\\Weather\\City::getFullAddress<\/a>"],[100,1,"<a href=\"City.php.html#204\">App\\Entity\\Api\\Weather\\City::setFullAddress<\/a>"],[100,1,"<a href=\"City.php.html#211\">App\\Entity\\Api\\Weather\\City::getCopernicus<\/a>"],[100,1,"<a href=\"City.php.html#216\">App\\Entity\\Api\\Weather\\City::setCopernicus<\/a>"],[100,9,"<a href=\"City.php.html#223\">App\\Entity\\Api\\Weather\\City::jsonSerialize<\/a>"],[100,1,"<a href=\"CityInfos.php.html#15\">App\\Entity\\Api\\Weather\\CityInfos::getContinent<\/a>"],[100,1,"<a href=\"CityInfos.php.html#20\">App\\Entity\\Api\\Weather\\CityInfos::setContinent<\/a>"],[100,1,"<a href=\"CityInfos.php.html#27\">App\\Entity\\Api\\Weather\\CityInfos::getCountry<\/a>"],[100,1,"<a href=\"CityInfos.php.html#32\">App\\Entity\\Api\\Weather\\CityInfos::setCountry<\/a>"],[100,1,"<a href=\"CityInfos.php.html#39\">App\\Entity\\Api\\Weather\\CityInfos::getState<\/a>"],[100,1,"<a href=\"CityInfos.php.html#44\">App\\Entity\\Api\\Weather\\CityInfos::setState<\/a>"],[100,1,"<a href=\"CityInfos.php.html#51\">App\\Entity\\Api\\Weather\\CityInfos::getLocation<\/a>"],[100,1,"<a href=\"CityInfos.php.html#56\">App\\Entity\\Api\\Weather\\CityInfos::setLocation<\/a>"],[100,1,"<a href=\"CityInfos.php.html#63\">App\\Entity\\Api\\Weather\\CityInfos::getSearch<\/a>"],[0,1,"<a href=\"CityInfos.php.html#68\">App\\Entity\\Api\\Weather\\CityInfos::setSearch<\/a>"],[100,1,"<a href=\"Continent.php.html#18\">App\\Entity\\Api\\Weather\\Continent::getId<\/a>"],[100,1,"<a href=\"Continent.php.html#23\">App\\Entity\\Api\\Weather\\Continent::setId<\/a>"],[100,1,"<a href=\"Continent.php.html#30\">App\\Entity\\Api\\Weather\\Continent::getUrlSafeValue<\/a>"],[100,1,"<a href=\"Continent.php.html#35\">App\\Entity\\Api\\Weather\\Continent::setUrlSafeValue<\/a>"],[100,1,"<a href=\"Continent.php.html#42\">App\\Entity\\Api\\Weather\\Continent::getTitle<\/a>"],[100,1,"<a href=\"Continent.php.html#47\">App\\Entity\\Api\\Weather\\Continent::setTitle<\/a>"],[100,1,"<a href=\"Continent.php.html#54\">App\\Entity\\Api\\Weather\\Continent::jsonSerialize<\/a>"],[0,1,"<a href=\"Copernicus.php.html#13\">App\\Entity\\Api\\Weather\\Copernicus::getDays<\/a>"],[100,1,"<a href=\"Copernicus.php.html#18\">App\\Entity\\Api\\Weather\\Copernicus::setDays<\/a>"],[0,1,"<a href=\"Copernicus.php.html#25\">App\\Entity\\Api\\Weather\\Copernicus::getCurrentAirQ<\/a>"],[0,1,"<a href=\"Copernicus.php.html#30\">App\\Entity\\Api\\Weather\\Copernicus::setCurrentAirQ<\/a>"],[0,1,"<a href=\"Copernicus.php.html#37\">App\\Entity\\Api\\Weather\\Copernicus::getAirQ<\/a>"],[0,1,"<a href=\"Copernicus.php.html#42\">App\\Entity\\Api\\Weather\\Copernicus::setAirQ<\/a>"],[0,1,"<a href=\"Copernicus.php.html#49\">App\\Entity\\Api\\Weather\\Copernicus::jsonSerialize<\/a>"],[100,1,"<a href=\"Country.php.html#20\">App\\Entity\\Api\\Weather\\Country::getId<\/a>"],[100,1,"<a href=\"Country.php.html#25\">App\\Entity\\Api\\Weather\\Country::setId<\/a>"],[100,1,"<a href=\"Country.php.html#32\">App\\Entity\\Api\\Weather\\Country::getUrlSafeValue<\/a>"],[100,1,"<a href=\"Country.php.html#37\">App\\Entity\\Api\\Weather\\Country::setUrlSafeValue<\/a>"],[100,1,"<a href=\"Country.php.html#44\">App\\Entity\\Api\\Weather\\Country::getUrl<\/a>"],[100,1,"<a href=\"Country.php.html#49\">App\\Entity\\Api\\Weather\\Country::setUrl<\/a>"],[100,1,"<a href=\"Country.php.html#56\">App\\Entity\\Api\\Weather\\Country::getTitle<\/a>"],[100,1,"<a href=\"Country.php.html#61\">App\\Entity\\Api\\Weather\\Country::setTitle<\/a>"],[100,1,"<a href=\"Country.php.html#68\">App\\Entity\\Api\\Weather\\Country::getContinent<\/a>"],[100,1,"<a href=\"Country.php.html#73\">App\\Entity\\Api\\Weather\\Country::setContinent<\/a>"],[100,2,"<a href=\"Country.php.html#80\">App\\Entity\\Api\\Weather\\Country::jsonSerialize<\/a>"],[100,1,"<a href=\"DailyForecast.php.html#15\">App\\Entity\\Api\\Weather\\DailyForecast::getDays<\/a>"],[100,1,"<a href=\"DailyForecast.php.html#23\">App\\Entity\\Api\\Weather\\DailyForecast::setDays<\/a>"],[100,1,"<a href=\"DailyForecast.php.html#30\">App\\Entity\\Api\\Weather\\DailyForecast::jsonSerialize<\/a>"],[100,1,"<a href=\"DayForecast.php.html#9\">App\\Entity\\Api\\Weather\\DayForecast::__construct<\/a>"],[100,1,"<a href=\"DayForecast.php.html#13\">App\\Entity\\Api\\Weather\\DayForecast::fromArray<\/a>"],[100,1,"<a href=\"DayForecast.php.html#52\">App\\Entity\\Api\\Weather\\DayForecast::getDayNum<\/a>"],[0,1,"<a href=\"DayForecast.php.html#57\">App\\Entity\\Api\\Weather\\DayForecast::setDayNum<\/a>"],[100,1,"<a href=\"DayForecast.php.html#64\">App\\Entity\\Api\\Weather\\DayForecast::getDayOfWk<\/a>"],[0,1,"<a href=\"DayForecast.php.html#69\">App\\Entity\\Api\\Weather\\DayForecast::setDayOfWk<\/a>"],[100,1,"<a href=\"DayForecast.php.html#76\">App\\Entity\\Api\\Weather\\DayForecast::getValidDateUtc<\/a>"],[0,1,"<a href=\"DayForecast.php.html#81\">App\\Entity\\Api\\Weather\\DayForecast::setValidDateUtc<\/a>"],[100,1,"<a href=\"DayForecast.php.html#88\">App\\Entity\\Api\\Weather\\DayForecast::getValidDateLocal<\/a>"],[0,1,"<a href=\"DayForecast.php.html#93\">App\\Entity\\Api\\Weather\\DayForecast::setValidDateLocal<\/a>"],[100,1,"<a href=\"DayForecast.php.html#100\">App\\Entity\\Api\\Weather\\DayForecast::getLoTempF<\/a>"],[0,1,"<a href=\"DayForecast.php.html#105\">App\\Entity\\Api\\Weather\\DayForecast::setLoTempF<\/a>"],[100,1,"<a href=\"DayForecast.php.html#112\">App\\Entity\\Api\\Weather\\DayForecast::getHiTempF<\/a>"],[0,1,"<a href=\"DayForecast.php.html#117\">App\\Entity\\Api\\Weather\\DayForecast::setHiTempF<\/a>"],[100,1,"<a href=\"DayForecast.php.html#124\">App\\Entity\\Api\\Weather\\DayForecast::getLoTempC<\/a>"],[0,1,"<a href=\"DayForecast.php.html#129\">App\\Entity\\Api\\Weather\\DayForecast::setLoTempC<\/a>"],[100,1,"<a href=\"DayForecast.php.html#136\">App\\Entity\\Api\\Weather\\DayForecast::getHiTempC<\/a>"],[0,1,"<a href=\"DayForecast.php.html#141\">App\\Entity\\Api\\Weather\\DayForecast::setHiTempC<\/a>"],[100,1,"<a href=\"DayForecast.php.html#148\">App\\Entity\\Api\\Weather\\DayForecast::getSunrise<\/a>"],[0,1,"<a href=\"DayForecast.php.html#153\">App\\Entity\\Api\\Weather\\DayForecast::setSunrise<\/a>"],[100,1,"<a href=\"DayForecast.php.html#160\">App\\Entity\\Api\\Weather\\DayForecast::getSunset<\/a>"],[0,1,"<a href=\"DayForecast.php.html#165\">App\\Entity\\Api\\Weather\\DayForecast::setSunset<\/a>"],[0,1,"<a href=\"DayForecast.php.html#172\">App\\Entity\\Api\\Weather\\DayForecast::getMoonrise<\/a>"],[0,1,"<a href=\"DayForecast.php.html#177\">App\\Entity\\Api\\Weather\\DayForecast::setMoonrise<\/a>"],[0,1,"<a href=\"DayForecast.php.html#184\">App\\Entity\\Api\\Weather\\DayForecast::getMoonset<\/a>"],[0,1,"<a href=\"DayForecast.php.html#189\">App\\Entity\\Api\\Weather\\DayForecast::setMoonset<\/a>"],[100,1,"<a href=\"DayForecast.php.html#196\">App\\Entity\\Api\\Weather\\DayForecast::getIconCode<\/a>"],[0,1,"<a href=\"DayForecast.php.html#201\">App\\Entity\\Api\\Weather\\DayForecast::setIconCode<\/a>"],[0,1,"<a href=\"DayForecast.php.html#208\">App\\Entity\\Api\\Weather\\DayForecast::getIconCodeDay<\/a>"],[0,1,"<a href=\"DayForecast.php.html#213\">App\\Entity\\Api\\Weather\\DayForecast::setIconCodeDay<\/a>"],[0,1,"<a href=\"DayForecast.php.html#220\">App\\Entity\\Api\\Weather\\DayForecast::getIconCodeNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#225\">App\\Entity\\Api\\Weather\\DayForecast::setIconCodeNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#232\">App\\Entity\\Api\\Weather\\DayForecast::getSkyTextDay<\/a>"],[0,1,"<a href=\"DayForecast.php.html#237\">App\\Entity\\Api\\Weather\\DayForecast::setSkyTextDay<\/a>"],[0,1,"<a href=\"DayForecast.php.html#244\">App\\Entity\\Api\\Weather\\DayForecast::getSkyTextNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#249\">App\\Entity\\Api\\Weather\\DayForecast::setSkyTextNight<\/a>"],[100,1,"<a href=\"DayForecast.php.html#256\">App\\Entity\\Api\\Weather\\DayForecast::getPhraseDay<\/a>"],[0,1,"<a href=\"DayForecast.php.html#261\">App\\Entity\\Api\\Weather\\DayForecast::setPhraseDay<\/a>"],[100,1,"<a href=\"DayForecast.php.html#268\">App\\Entity\\Api\\Weather\\DayForecast::getPhraseDayC<\/a>"],[0,1,"<a href=\"DayForecast.php.html#273\">App\\Entity\\Api\\Weather\\DayForecast::setPhraseDayC<\/a>"],[0,1,"<a href=\"DayForecast.php.html#280\">App\\Entity\\Api\\Weather\\DayForecast::getPhraseNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#285\">App\\Entity\\Api\\Weather\\DayForecast::setPhraseNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#292\">App\\Entity\\Api\\Weather\\DayForecast::getPhraseNightC<\/a>"],[0,1,"<a href=\"DayForecast.php.html#297\">App\\Entity\\Api\\Weather\\DayForecast::setPhraseNightC<\/a>"],[100,1,"<a href=\"DayForecast.php.html#304\">App\\Entity\\Api\\Weather\\DayForecast::getShortPhrase<\/a>"],[0,1,"<a href=\"DayForecast.php.html#309\">App\\Entity\\Api\\Weather\\DayForecast::setShortPhrase<\/a>"],[100,1,"<a href=\"DayForecast.php.html#316\">App\\Entity\\Api\\Weather\\DayForecast::getUvIdx<\/a>"],[0,1,"<a href=\"DayForecast.php.html#321\">App\\Entity\\Api\\Weather\\DayForecast::setUvIdx<\/a>"],[0,1,"<a href=\"DayForecast.php.html#328\">App\\Entity\\Api\\Weather\\DayForecast::getUvDescr<\/a>"],[0,1,"<a href=\"DayForecast.php.html#333\">App\\Entity\\Api\\Weather\\DayForecast::setUvDescr<\/a>"],[100,1,"<a href=\"DayForecast.php.html#340\">App\\Entity\\Api\\Weather\\DayForecast::getPrecipChance<\/a>"],[0,1,"<a href=\"DayForecast.php.html#345\">App\\Entity\\Api\\Weather\\DayForecast::setPrecipChance<\/a>"],[100,1,"<a href=\"DayForecast.php.html#352\">App\\Entity\\Api\\Weather\\DayForecast::getRelHumidity<\/a>"],[0,1,"<a href=\"DayForecast.php.html#357\">App\\Entity\\Api\\Weather\\DayForecast::setRelHumidity<\/a>"],[100,1,"<a href=\"DayForecast.php.html#364\">App\\Entity\\Api\\Weather\\DayForecast::getWndSpdKm<\/a>"],[0,1,"<a href=\"DayForecast.php.html#369\">App\\Entity\\Api\\Weather\\DayForecast::setWndSpdKm<\/a>"],[0,1,"<a href=\"DayForecast.php.html#376\">App\\Entity\\Api\\Weather\\DayForecast::getWndSpdKmNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#381\">App\\Entity\\Api\\Weather\\DayForecast::setWndSpdKmNight<\/a>"],[100,1,"<a href=\"DayForecast.php.html#388\">App\\Entity\\Api\\Weather\\DayForecast::getWndSpdMph<\/a>"],[0,1,"<a href=\"DayForecast.php.html#393\">App\\Entity\\Api\\Weather\\DayForecast::setWndSpdMph<\/a>"],[0,1,"<a href=\"DayForecast.php.html#400\">App\\Entity\\Api\\Weather\\DayForecast::getWndSpdMphNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#405\">App\\Entity\\Api\\Weather\\DayForecast::setWndSpdMphNight<\/a>"],[100,1,"<a href=\"DayForecast.php.html#412\">App\\Entity\\Api\\Weather\\DayForecast::getWndDirCardinal<\/a>"],[0,1,"<a href=\"DayForecast.php.html#417\">App\\Entity\\Api\\Weather\\DayForecast::setWndDirCardinal<\/a>"],[0,1,"<a href=\"DayForecast.php.html#424\">App\\Entity\\Api\\Weather\\DayForecast::getWndDirCardinalNight<\/a>"],[0,1,"<a href=\"DayForecast.php.html#429\">App\\Entity\\Api\\Weather\\DayForecast::setWndDirCardinalNight<\/a>"],[100,1,"<a href=\"DayForecast.php.html#436\">App\\Entity\\Api\\Weather\\DayForecast::getIconUrl<\/a>"],[100,1,"<a href=\"DayForecast.php.html#441\">App\\Entity\\Api\\Weather\\DayForecast::setIconUrl<\/a>"],[100,1,"<a href=\"DayForecast.php.html#448\">App\\Entity\\Api\\Weather\\DayForecast::jsonSerialize<\/a>"],[100,3,"<a href=\"Forecast.php.html#7\">App\\Entity\\Api\\Weather\\Forecast::buildDateTime<\/a>"],[100,1,"<a href=\"HourForecast.php.html#9\">App\\Entity\\Api\\Weather\\HourForecast::__construct<\/a>"],[100,1,"<a href=\"HourForecast.php.html#13\">App\\Entity\\Api\\Weather\\HourForecast::fromArray<\/a>"],[0,1,"<a href=\"HourForecast.php.html#45\">App\\Entity\\Api\\Weather\\HourForecast::getHourNum<\/a>"],[0,1,"<a href=\"HourForecast.php.html#50\">App\\Entity\\Api\\Weather\\HourForecast::setHourNum<\/a>"],[0,1,"<a href=\"HourForecast.php.html#57\">App\\Entity\\Api\\Weather\\HourForecast::getDayOfWeek<\/a>"],[0,1,"<a href=\"HourForecast.php.html#62\">App\\Entity\\Api\\Weather\\HourForecast::setDayOfWeek<\/a>"],[100,1,"<a href=\"HourForecast.php.html#69\">App\\Entity\\Api\\Weather\\HourForecast::getFeelsLikeF<\/a>"],[0,1,"<a href=\"HourForecast.php.html#74\">App\\Entity\\Api\\Weather\\HourForecast::setFeelsLikeF<\/a>"],[100,1,"<a href=\"HourForecast.php.html#81\">App\\Entity\\Api\\Weather\\HourForecast::getIconCode<\/a>"],[0,1,"<a href=\"HourForecast.php.html#86\">App\\Entity\\Api\\Weather\\HourForecast::setIconCode<\/a>"],[100,1,"<a href=\"HourForecast.php.html#93\">App\\Entity\\Api\\Weather\\HourForecast::getSkyLong<\/a>"],[0,1,"<a href=\"HourForecast.php.html#98\">App\\Entity\\Api\\Weather\\HourForecast::setSkyLong<\/a>"],[0,1,"<a href=\"HourForecast.php.html#105\">App\\Entity\\Api\\Weather\\HourForecast::getSkyShort<\/a>"],[0,1,"<a href=\"HourForecast.php.html#110\">App\\Entity\\Api\\Weather\\HourForecast::setSkyShort<\/a>"],[100,1,"<a href=\"HourForecast.php.html#117\">App\\Entity\\Api\\Weather\\HourForecast::getPrecipChance<\/a>"],[0,1,"<a href=\"HourForecast.php.html#122\">App\\Entity\\Api\\Weather\\HourForecast::setPrecipChance<\/a>"],[0,1,"<a href=\"HourForecast.php.html#129\">App\\Entity\\Api\\Weather\\HourForecast::getRelHumidity<\/a>"],[0,1,"<a href=\"HourForecast.php.html#134\">App\\Entity\\Api\\Weather\\HourForecast::setRelHumidity<\/a>"],[100,1,"<a href=\"HourForecast.php.html#141\">App\\Entity\\Api\\Weather\\HourForecast::getWndSpdMph<\/a>"],[0,1,"<a href=\"HourForecast.php.html#146\">App\\Entity\\Api\\Weather\\HourForecast::setWndSpdMph<\/a>"],[100,1,"<a href=\"HourForecast.php.html#153\">App\\Entity\\Api\\Weather\\HourForecast::getWndDirDegr<\/a>"],[0,1,"<a href=\"HourForecast.php.html#158\">App\\Entity\\Api\\Weather\\HourForecast::setWndDirDegr<\/a>"],[0,1,"<a href=\"HourForecast.php.html#165\">App\\Entity\\Api\\Weather\\HourForecast::getWndDirCardinal<\/a>"],[0,1,"<a href=\"HourForecast.php.html#170\">App\\Entity\\Api\\Weather\\HourForecast::setWndDirCardinal<\/a>"],[100,1,"<a href=\"HourForecast.php.html#177\">App\\Entity\\Api\\Weather\\HourForecast::getDayNight<\/a>"],[0,1,"<a href=\"HourForecast.php.html#182\">App\\Entity\\Api\\Weather\\HourForecast::setDayNight<\/a>"],[100,1,"<a href=\"HourForecast.php.html#189\">App\\Entity\\Api\\Weather\\HourForecast::getPressure<\/a>"],[0,1,"<a href=\"HourForecast.php.html#194\">App\\Entity\\Api\\Weather\\HourForecast::setPressure<\/a>"],[0,1,"<a href=\"HourForecast.php.html#201\">App\\Entity\\Api\\Weather\\HourForecast::getUvIdx<\/a>"],[0,1,"<a href=\"HourForecast.php.html#206\">App\\Entity\\Api\\Weather\\HourForecast::setUvIdx<\/a>"],[0,1,"<a href=\"HourForecast.php.html#213\">App\\Entity\\Api\\Weather\\HourForecast::getUvDescr<\/a>"],[0,1,"<a href=\"HourForecast.php.html#218\">App\\Entity\\Api\\Weather\\HourForecast::setUvDescr<\/a>"],[100,1,"<a href=\"HourForecast.php.html#225\">App\\Entity\\Api\\Weather\\HourForecast::getVisibility<\/a>"],[0,1,"<a href=\"HourForecast.php.html#230\">App\\Entity\\Api\\Weather\\HourForecast::setVisibility<\/a>"],[100,1,"<a href=\"HourForecast.php.html#237\">App\\Entity\\Api\\Weather\\HourForecast::getTempF<\/a>"],[0,1,"<a href=\"HourForecast.php.html#242\">App\\Entity\\Api\\Weather\\HourForecast::setTempF<\/a>"],[100,1,"<a href=\"HourForecast.php.html#249\">App\\Entity\\Api\\Weather\\HourForecast::getTempC<\/a>"],[0,1,"<a href=\"HourForecast.php.html#254\">App\\Entity\\Api\\Weather\\HourForecast::setTempC<\/a>"],[0,1,"<a href=\"HourForecast.php.html#261\">App\\Entity\\Api\\Weather\\HourForecast::getValidDateUtc<\/a>"],[0,1,"<a href=\"HourForecast.php.html#266\">App\\Entity\\Api\\Weather\\HourForecast::setValidDateUtc<\/a>"],[100,1,"<a href=\"HourForecast.php.html#273\">App\\Entity\\Api\\Weather\\HourForecast::getValidDateLocal<\/a>"],[0,1,"<a href=\"HourForecast.php.html#278\">App\\Entity\\Api\\Weather\\HourForecast::setValidDateLocal<\/a>"],[100,1,"<a href=\"HourForecast.php.html#285\">App\\Entity\\Api\\Weather\\HourForecast::getFeelsLikeC<\/a>"],[0,1,"<a href=\"HourForecast.php.html#290\">App\\Entity\\Api\\Weather\\HourForecast::setFeelsLikeC<\/a>"],[100,1,"<a href=\"HourForecast.php.html#297\">App\\Entity\\Api\\Weather\\HourForecast::getVisibilityKm<\/a>"],[0,1,"<a href=\"HourForecast.php.html#302\">App\\Entity\\Api\\Weather\\HourForecast::setVisibilityKm<\/a>"],[100,1,"<a href=\"HourForecast.php.html#309\">App\\Entity\\Api\\Weather\\HourForecast::getWndSpdKm<\/a>"],[0,1,"<a href=\"HourForecast.php.html#314\">App\\Entity\\Api\\Weather\\HourForecast::setWndSpdKm<\/a>"],[100,1,"<a href=\"HourForecast.php.html#321\">App\\Entity\\Api\\Weather\\HourForecast::getThreeHrPrecip<\/a>"],[0,1,"<a href=\"HourForecast.php.html#326\">App\\Entity\\Api\\Weather\\HourForecast::setThreeHrPrecip<\/a>"],[100,1,"<a href=\"HourForecast.php.html#333\">App\\Entity\\Api\\Weather\\HourForecast::getDisplayTime<\/a>"],[100,1,"<a href=\"HourForecast.php.html#338\">App\\Entity\\Api\\Weather\\HourForecast::setDisplayTime<\/a>"],[100,1,"<a href=\"HourForecast.php.html#345\">App\\Entity\\Api\\Weather\\HourForecast::getIconUrl<\/a>"],[100,1,"<a href=\"HourForecast.php.html#350\">App\\Entity\\Api\\Weather\\HourForecast::setIconUrl<\/a>"],[100,1,"<a href=\"HourForecast.php.html#357\">App\\Entity\\Api\\Weather\\HourForecast::jsonSerialize<\/a>"],[100,1,"<a href=\"HourlyForecast.php.html#17\">App\\Entity\\Api\\Weather\\HourlyForecast::getHours<\/a>"],[100,1,"<a href=\"HourlyForecast.php.html#25\">App\\Entity\\Api\\Weather\\HourlyForecast::setHours<\/a>"],[100,1,"<a href=\"HourlyForecast.php.html#32\">App\\Entity\\Api\\Weather\\HourlyForecast::jsonSerialize<\/a>"],[100,1,"<a href=\"Location.php.html#13\">App\\Entity\\Api\\Weather\\Location::getId<\/a>"],[100,1,"<a href=\"Location.php.html#18\">App\\Entity\\Api\\Weather\\Location::setId<\/a>"],[100,1,"<a href=\"Location.php.html#25\">App\\Entity\\Api\\Weather\\Location::getUrlSafeValue<\/a>"],[100,1,"<a href=\"Location.php.html#30\">App\\Entity\\Api\\Weather\\Location::setUrlSafeValue<\/a>"],[100,1,"<a href=\"Location.php.html#37\">App\\Entity\\Api\\Weather\\Location::getTitle<\/a>"],[100,1,"<a href=\"Location.php.html#42\">App\\Entity\\Api\\Weather\\Location::setTitle<\/a>"],[0,1,"<a href=\"Location.php.html#49\">App\\Entity\\Api\\Weather\\Location::jsonSerialize<\/a>"],[100,1,"<a href=\"State.php.html#18\">App\\Entity\\Api\\Weather\\State::getId<\/a>"],[100,1,"<a href=\"State.php.html#23\">App\\Entity\\Api\\Weather\\State::setId<\/a>"],[100,1,"<a href=\"State.php.html#30\">App\\Entity\\Api\\Weather\\State::getUrlSafeValue<\/a>"],[100,1,"<a href=\"State.php.html#35\">App\\Entity\\Api\\Weather\\State::setUrlSafeValue<\/a>"],[100,1,"<a href=\"State.php.html#42\">App\\Entity\\Api\\Weather\\State::getTitle<\/a>"],[100,1,"<a href=\"State.php.html#47\">App\\Entity\\Api\\Weather\\State::setTitle<\/a>"],[0,1,"<a href=\"State.php.html#54\">App\\Entity\\Api\\Weather\\State::jsonSerialize<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Api/Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Api</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Http</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ThirdPartApiHttp.php.html#7">App\Component\Api\Http\ThirdPartApiHttp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#10">App\Component\Api\Http\AbstractApiHttp</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#7">App\Component\Api\Http\TouchLineApiHttp</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#26">App\Component\Api\Http\EuronewsApiHttp</a></td><td class="text-right">59%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EuronewsApiHttp.php.html#26">App\Component\Api\Http\EuronewsApiHttp</a></td><td class="text-right">325</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#10">App\Component\Api\Http\AbstractApiHttp</a></td><td class="text-right">120</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#7">App\Component\Api\Http\TouchLineApiHttp</a></td><td class="text-right">25</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractApiHttp.php.html#22"><abbr title="App\Component\Api\Http\AbstractApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#27"><abbr title="App\Component\Api\Http\AbstractApiHttp::getClient">getClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#46"><abbr title="App\Component\Api\Http\AbstractApiHttp::call">call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#72"><abbr title="App\Component\Api\Http\AbstractApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#77"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponse">getResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#85"><abbr title="App\Component\Api\Http\AbstractApiHttp::isValid">isValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#93"><abbr title="App\Component\Api\Http\AbstractApiHttp::isEmptyContent">isEmptyContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#101"><abbr title="App\Component\Api\Http\AbstractApiHttp::isRedirect">isRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#111"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponseCode">getResponseCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#207"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getExtra">getExtra</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#332"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#347"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setDebug">setDebug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#354"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getEventDispatcher">getEventDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPartApiHttp.php.html#9"><abbr title="App\Component\Api\Http\ThirdPartApiHttp::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdPartApiHttp.php.html#20"><abbr title="App\Component\Api\Http\ThirdPartApiHttp::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#17"><abbr title="App\Component\Api\Http\TouchLineApiHttp::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#31"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#272"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setChannel">setChannel</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#363"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setClientForEndpoint">setClientForEndpoint</abbr></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#158"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getItems">getItems</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#79"><abbr title="App\Component\Api\Http\EuronewsApiHttp::get">get</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#43"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getResponseResults">getResponseResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#56"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getFixturesResults">getFixturesResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#69"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getRankingResults">getRankingResults</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#142"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#292"><abbr title="App\Component\Api\Http\EuronewsApiHttp::checkChannel">checkChannel</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EuronewsApiHttp.php.html#207"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getExtra">getExtra</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#158"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getItems">getItems</abbr></a></td><td class="text-right">33</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#79"><abbr title="App\Component\Api\Http\EuronewsApiHttp::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#332"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#27"><abbr title="App\Component\Api\Http\AbstractApiHttp::getClient">getClient</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#72"><abbr title="App\Component\Api\Http\AbstractApiHttp::getRawResponse">getRawResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AbstractApiHttp.php.html#111"><abbr title="App\Component\Api\Http\AbstractApiHttp::getResponseCode">getResponseCode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#142"><abbr title="App\Component\Api\Http\EuronewsApiHttp::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#292"><abbr title="App\Component\Api\Http\EuronewsApiHttp::checkChannel">checkChannel</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#272"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setChannel">setChannel</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EuronewsApiHttp.php.html#363"><abbr title="App\Component\Api\Http\EuronewsApiHttp::setClientForEndpoint">setClientForEndpoint</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#43"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getResponseResults">getResponseResults</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#56"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getFixturesResults">getFixturesResults</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="TouchLineApiHttp.php.html#69"><abbr title="App\Component\Api\Http\TouchLineApiHttp::getRankingResults">getRankingResults</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,1,0,0,2,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([17,0,0,0,0,0,3,1,3,2,1,11], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[25.925925925925924,16,"<a href=\"AbstractApiHttp.php.html#10\">App\\Component\\Api\\Http\\AbstractApiHttp<\/a>"],[59.09090909090909,62,"<a href=\"EuronewsApiHttp.php.html#26\">App\\Component\\Api\\Http\\EuronewsApiHttp<\/a>"],[0,2,"<a href=\"ThirdPartApiHttp.php.html#7\">App\\Component\\Api\\Http\\ThirdPartApiHttp<\/a>"],[58.333333333333336,13,"<a href=\"TouchLineApiHttp.php.html#7\">App\\Component\\Api\\Http\\TouchLineApiHttp<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AbstractApiHttp.php.html#17\">App\\Component\\Api\\Http\\AbstractApiHttp::__construct<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#22\">App\\Component\\Api\\Http\\AbstractApiHttp::getQueryParams<\/a>"],[0,2,"<a href=\"AbstractApiHttp.php.html#27\">App\\Component\\Api\\Http\\AbstractApiHttp::getClient<\/a>"],[100,1,"<a href=\"AbstractApiHttp.php.html#36\">App\\Component\\Api\\Http\\AbstractApiHttp::setClient<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#46\">App\\Component\\Api\\Http\\AbstractApiHttp::call<\/a>"],[100,1,"<a href=\"AbstractApiHttp.php.html#58\">App\\Component\\Api\\Http\\AbstractApiHttp::setLogger<\/a>"],[100,1,"<a href=\"AbstractApiHttp.php.html#65\">App\\Component\\Api\\Http\\AbstractApiHttp::setQueryParams<\/a>"],[0,2,"<a href=\"AbstractApiHttp.php.html#72\">App\\Component\\Api\\Http\\AbstractApiHttp::getRawResponse<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#77\">App\\Component\\Api\\Http\\AbstractApiHttp::getResponse<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#85\">App\\Component\\Api\\Http\\AbstractApiHttp::isValid<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#93\">App\\Component\\Api\\Http\\AbstractApiHttp::isEmptyContent<\/a>"],[0,1,"<a href=\"AbstractApiHttp.php.html#101\">App\\Component\\Api\\Http\\AbstractApiHttp::isRedirect<\/a>"],[0,2,"<a href=\"AbstractApiHttp.php.html#111\">App\\Component\\Api\\Http\\AbstractApiHttp::getResponseCode<\/a>"],[100,0,"<a href=\"AbstractApiHttp.php.html#124\">App\\Component\\Api\\Http\\AbstractApiHttp::get<\/a>"],[100,1,"<a href=\"EuronewsApiHttp.php.html#60\">App\\Component\\Api\\Http\\EuronewsApiHttp::__construct<\/a>"],[66.66666666666666,9,"<a href=\"EuronewsApiHttp.php.html#79\">App\\Component\\Api\\Http\\EuronewsApiHttp::get<\/a>"],[85.71428571428571,4,"<a href=\"EuronewsApiHttp.php.html#142\">App\\Component\\Api\\Http\\EuronewsApiHttp::getQueryParams<\/a>"],[56.52173913043478,15,"<a href=\"EuronewsApiHttp.php.html#158\">App\\Component\\Api\\Http\\EuronewsApiHttp::getItems<\/a>"],[0,11,"<a href=\"EuronewsApiHttp.php.html#207\">App\\Component\\Api\\Http\\EuronewsApiHttp::getExtra<\/a>"],[100,2,"<a href=\"EuronewsApiHttp.php.html#248\">App\\Component\\Api\\Http\\EuronewsApiHttp::setLocale<\/a>"],[100,1,"<a href=\"EuronewsApiHttp.php.html#260\">App\\Component\\Api\\Http\\EuronewsApiHttp::setEndpointVersions<\/a>"],[50,2,"<a href=\"EuronewsApiHttp.php.html#272\">App\\Component\\Api\\Http\\EuronewsApiHttp::setChannel<\/a>"],[87.5,3,"<a href=\"EuronewsApiHttp.php.html#292\">App\\Component\\Api\\Http\\EuronewsApiHttp::checkChannel<\/a>"],[90,6,"<a href=\"EuronewsApiHttp.php.html#308\">App\\Component\\Api\\Http\\EuronewsApiHttp::addChannelFieldIfRequired<\/a>"],[0,3,"<a href=\"EuronewsApiHttp.php.html#332\">App\\Component\\Api\\Http\\EuronewsApiHttp::getRawResponse<\/a>"],[100,1,"<a href=\"EuronewsApiHttp.php.html#342\">App\\Component\\Api\\Http\\EuronewsApiHttp::getChannel<\/a>"],[0,1,"<a href=\"EuronewsApiHttp.php.html#347\">App\\Component\\Api\\Http\\EuronewsApiHttp::setDebug<\/a>"],[0,1,"<a href=\"EuronewsApiHttp.php.html#354\">App\\Component\\Api\\Http\\EuronewsApiHttp::getEventDispatcher<\/a>"],[53.84615384615385,2,"<a href=\"EuronewsApiHttp.php.html#363\">App\\Component\\Api\\Http\\EuronewsApiHttp::setClientForEndpoint<\/a>"],[0,1,"<a href=\"ThirdPartApiHttp.php.html#9\">App\\Component\\Api\\Http\\ThirdPartApiHttp::get<\/a>"],[0,1,"<a href=\"ThirdPartApiHttp.php.html#20\">App\\Component\\Api\\Http\\ThirdPartApiHttp::getItems<\/a>"],[100,1,"<a href=\"TouchLineApiHttp.php.html#9\">App\\Component\\Api\\Http\\TouchLineApiHttp::__construct<\/a>"],[0,1,"<a href=\"TouchLineApiHttp.php.html#17\">App\\Component\\Api\\Http\\TouchLineApiHttp::get<\/a>"],[0,1,"<a href=\"TouchLineApiHttp.php.html#31\">App\\Component\\Api\\Http\\TouchLineApiHttp::getItems<\/a>"],[75,2,"<a href=\"TouchLineApiHttp.php.html#43\">App\\Component\\Api\\Http\\TouchLineApiHttp::getResponseResults<\/a>"],[75,2,"<a href=\"TouchLineApiHttp.php.html#56\">App\\Component\\Api\\Http\\TouchLineApiHttp::getFixturesResults<\/a>"],[75,2,"<a href=\"TouchLineApiHttp.php.html#69\">App\\Component\\Api\\Http\\TouchLineApiHttp::getRankingResults<\/a>"],[100,4,"<a href=\"TouchLineApiHttp.php.html#79\">App\\Component\\Api\\Http\\TouchLineApiHttp::isResValid<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Ads</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Ads</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdvertisingDataBuilder.php.html#711"><abbr title="App\Component\Ads\AdvertisingDataBuilder::getDfpTheme">getDfpTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#105"><abbr title="App\Component\Ads\DFPBuilder::buildLogin">buildLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#316"><abbr title="App\Component\Ads\DFPBuilder::buildShowroom">buildShowroom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#402"><abbr title="App\Component\Ads\DFPBuilder::buildCity">buildCity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#440"><abbr title="App\Component\Ads\DFPBuilder::buildError">buildError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#270"><abbr title="App\Component\Ads\DFPBuilder::buildVideoArticle">buildVideoArticle</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#208"><abbr title="App\Component\Ads\DFPBuilder::buildProgram">buildProgram</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#222"><abbr title="App\Component\Ads\DFPBuilder::buildHubPage">buildHubPage</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#240"><abbr title="App\Component\Ads\DFPBuilder::buildTag">buildTag</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdvertisingDataBuilder.php.html#711"><abbr title="App\Component\Ads\AdvertisingDataBuilder::getDfpTheme">getDfpTheme</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#270"><abbr title="App\Component\Ads\DFPBuilder::buildVideoArticle">buildVideoArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#222"><abbr title="App\Component\Ads\DFPBuilder::buildHubPage">buildHubPage</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#208"><abbr title="App\Component\Ads\DFPBuilder::buildProgram">buildProgram</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="DFPBuilder.php.html#240"><abbr title="App\Component\Ads\DFPBuilder::buildTag">buildTag</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,0,0,0,0,2,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,0,0,0,4,0,70], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[98.0295566502463,76,"<a href=\"AdvertisingDataBuilder.php.html#24\">App\\Component\\Ads\\AdvertisingDataBuilder<\/a>"],[91.3265306122449,74,"<a href=\"DFPBuilder.php.html#24\">App\\Component\\Ads\\DFPBuilder<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AdvertisingDataBuilder.php.html#34\">App\\Component\\Ads\\AdvertisingDataBuilder::__construct<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#44\">App\\Component\\Ads\\AdvertisingDataBuilder::setWeatherApi<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#51\">App\\Component\\Ads\\AdvertisingDataBuilder::setProgramsApi<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#58\">App\\Component\\Ads\\AdvertisingDataBuilder::getCommonKeyvalues<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#63\">App\\Component\\Ads\\AdvertisingDataBuilder::getCommonSlotSpecificKeyvalues<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#72\">App\\Component\\Ads\\AdvertisingDataBuilder::buildHome<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#89\">App\\Component\\Ads\\AdvertisingDataBuilder::buildLogin<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#106\">App\\Component\\Ads\\AdvertisingDataBuilder::buildArticle<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#123\">App\\Component\\Ads\\AdvertisingDataBuilder::buildVideoArticle<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#139\">App\\Component\\Ads\\AdvertisingDataBuilder::buildVertical<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#157\">App\\Component\\Ads\\AdvertisingDataBuilder::buildTheme<\/a>"],[100,3,"<a href=\"AdvertisingDataBuilder.php.html#175\">App\\Component\\Ads\\AdvertisingDataBuilder::buildProgram<\/a>"],[100,3,"<a href=\"AdvertisingDataBuilder.php.html#198\">App\\Component\\Ads\\AdvertisingDataBuilder::buildHubPage<\/a>"],[100,2,"<a href=\"AdvertisingDataBuilder.php.html#225\">App\\Component\\Ads\\AdvertisingDataBuilder::buildTag<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#249\">App\\Component\\Ads\\AdvertisingDataBuilder::buildLandingNoComment<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#265\">App\\Component\\Ads\\AdvertisingDataBuilder::buildIndexProgram<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#281\">App\\Component\\Ads\\AdvertisingDataBuilder::buildStatic<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#298\">App\\Component\\Ads\\AdvertisingDataBuilder::buildVideoLanding<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#314\">App\\Component\\Ads\\AdvertisingDataBuilder::buildShowroom<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#330\">App\\Component\\Ads\\AdvertisingDataBuilder::buildVideoLive<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#346\">App\\Component\\Ads\\AdvertisingDataBuilder::buildVideoBulletin<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#362\">App\\Component\\Ads\\AdvertisingDataBuilder::buildFixture<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#379\">App\\Component\\Ads\\AdvertisingDataBuilder::buildResult<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#396\">App\\Component\\Ads\\AdvertisingDataBuilder::buildRanking<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#413\">App\\Component\\Ads\\AdvertisingDataBuilder::buildContinent<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#430\">App\\Component\\Ads\\AdvertisingDataBuilder::buildCountry<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#447\">App\\Component\\Ads\\AdvertisingDataBuilder::buildCity<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#464\">App\\Component\\Ads\\AdvertisingDataBuilder::buildTimeline<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#480\">App\\Component\\Ads\\AdvertisingDataBuilder::buildArchive<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#496\">App\\Component\\Ads\\AdvertisingDataBuilder::buildSearch<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#513\">App\\Component\\Ads\\AdvertisingDataBuilder::buildError<\/a>"],[100,10,"<a href=\"AdvertisingDataBuilder.php.html#529\">App\\Component\\Ads\\AdvertisingDataBuilder::buildWeather<\/a>"],[100,15,"<a href=\"AdvertisingDataBuilder.php.html#560\">App\\Component\\Ads\\AdvertisingDataBuilder::getArticleKeyValues<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#645\">App\\Component\\Ads\\AdvertisingDataBuilder::getArticleSlotSpecificKeyValues<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#654\">App\\Component\\Ads\\AdvertisingDataBuilder::filterSensitiveTags<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#675\">App\\Component\\Ads\\AdvertisingDataBuilder::cleanStringForComparison<\/a>"],[100,3,"<a href=\"AdvertisingDataBuilder.php.html#690\">App\\Component\\Ads\\AdvertisingDataBuilder::getArticleAdUnit<\/a>"],[0,5,"<a href=\"AdvertisingDataBuilder.php.html#711\">App\\Component\\Ads\\AdvertisingDataBuilder::getDfpTheme<\/a>"],[100,3,"<a href=\"AdvertisingDataBuilder.php.html#728\">App\\Component\\Ads\\AdvertisingDataBuilder::getVideoDurationValue<\/a>"],[100,1,"<a href=\"AdvertisingDataBuilder.php.html#737\">App\\Component\\Ads\\AdvertisingDataBuilder::buildFullAdUnit<\/a>"],[100,2,"<a href=\"DFPBuilder.php.html#34\">App\\Component\\Ads\\DFPBuilder::__construct<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#54\">App\\Component\\Ads\\DFPBuilder::setWeatherApi<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#61\">App\\Component\\Ads\\DFPBuilder::setProgramsApi<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#68\">App\\Component\\Ads\\DFPBuilder::setLocale<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#76\">App\\Component\\Ads\\DFPBuilder::setLogger<\/a>"],[100,2,"<a href=\"DFPBuilder.php.html#83\">App\\Component\\Ads\\DFPBuilder::build<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#97\">App\\Component\\Ads\\DFPBuilder::buildHome<\/a>"],[0,1,"<a href=\"DFPBuilder.php.html#105\">App\\Component\\Ads\\DFPBuilder::buildLogin<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#118\">App\\Component\\Ads\\DFPBuilder::filterSensitiveTags<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#126\">App\\Component\\Ads\\DFPBuilder::cleanToCompare<\/a>"],[100,9,"<a href=\"DFPBuilder.php.html#138\">App\\Component\\Ads\\DFPBuilder::buildArticle<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#187\">App\\Component\\Ads\\DFPBuilder::buildVertical<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#196\">App\\Component\\Ads\\DFPBuilder::buildTheme<\/a>"],[85.71428571428571,2,"<a href=\"DFPBuilder.php.html#208\">App\\Component\\Ads\\DFPBuilder::buildProgram<\/a>"],[87.5,3,"<a href=\"DFPBuilder.php.html#222\">App\\Component\\Ads\\DFPBuilder::buildHubPage<\/a>"],[87.5,2,"<a href=\"DFPBuilder.php.html#240\">App\\Component\\Ads\\DFPBuilder::buildTag<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#254\">App\\Component\\Ads\\DFPBuilder::buildLandingNoComment<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#262\">App\\Component\\Ads\\DFPBuilder::buildIndexProgram<\/a>"],[81.25,6,"<a href=\"DFPBuilder.php.html#270\">App\\Component\\Ads\\DFPBuilder::buildVideoArticle<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#299\">App\\Component\\Ads\\DFPBuilder::buildStatic<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#308\">App\\Component\\Ads\\DFPBuilder::buildVideoLanding<\/a>"],[0,1,"<a href=\"DFPBuilder.php.html#316\">App\\Component\\Ads\\DFPBuilder::buildShowroom<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#324\">App\\Component\\Ads\\DFPBuilder::buildVideoLive<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#332\">App\\Component\\Ads\\DFPBuilder::buildVideoBulletin<\/a>"],[100,9,"<a href=\"DFPBuilder.php.html#340\">App\\Component\\Ads\\DFPBuilder::buildWeather<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#362\">App\\Component\\Ads\\DFPBuilder::buildFixture<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#370\">App\\Component\\Ads\\DFPBuilder::buildResult<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#378\">App\\Component\\Ads\\DFPBuilder::buildRanking<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#386\">App\\Component\\Ads\\DFPBuilder::buildContinent<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#394\">App\\Component\\Ads\\DFPBuilder::buildCountry<\/a>"],[0,1,"<a href=\"DFPBuilder.php.html#402\">App\\Component\\Ads\\DFPBuilder::buildCity<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#410\">App\\Component\\Ads\\DFPBuilder::buildTimeline<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#423\">App\\Component\\Ads\\DFPBuilder::buildArchive<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#431\">App\\Component\\Ads\\DFPBuilder::buildSearch<\/a>"],[0,1,"<a href=\"DFPBuilder.php.html#440\">App\\Component\\Ads\\DFPBuilder::buildError<\/a>"],[100,3,"<a href=\"DFPBuilder.php.html#447\">App\\Component\\Ads\\DFPBuilder::getArticleAdUnit<\/a>"],[100,5,"<a href=\"DFPBuilder.php.html#464\">App\\Component\\Ads\\DFPBuilder::getDfpTheme<\/a>"],[100,3,"<a href=\"DFPBuilder.php.html#481\">App\\Component\\Ads\\DFPBuilder::setVideoDurationToKeyValues<\/a>"],[100,1,"<a href=\"DFPBuilder.php.html#491\">App\\Component\\Ads\\DFPBuilder::generate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

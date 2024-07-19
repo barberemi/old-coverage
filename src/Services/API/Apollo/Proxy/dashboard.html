@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Services/API/Apollo/Proxy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/var/www/html/application</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Services</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">API</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Apollo</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Proxy</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ApiVersion.php.html#7">Shared\Services\API\Apollo\Proxy\ApiVersion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MarketsApi.php.html#7">Shared\Services\API\Apollo\Proxy\MarketsApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeApi.php.html#7">Shared\Services\API\Apollo\Proxy\ThemeApi</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#7">Shared\Services\API\Apollo\Proxy\KeyvalueApi</a></td><td class="text-right">17%</td></tr>
+       <tr><td><a href="SearchApi.php.html#7">Shared\Services\API\Apollo\Proxy\SearchApi</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="KeywordApi.php.html#11">Shared\Services\API\Apollo\Proxy\KeywordApi</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="VerticalApi.php.html#8">Shared\Services\API\Apollo\Proxy\VerticalApi</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="TagApi.php.html#10">Shared\Services\API\Apollo\Proxy\TagApi</a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#15">Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="GalleriesApi.php.html#7">Shared\Services\API\Apollo\Proxy\GalleriesApi</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#24">Shared\Services\API\Apollo\Proxy\WeatherApi</a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="WeatherApi.php.html#24">Shared\Services\API\Apollo\Proxy\WeatherApi</a></td><td class="text-right">107</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#7">Shared\Services\API\Apollo\Proxy\KeyvalueApi</a></td><td class="text-right">93</td></tr>
+       <tr><td><a href="KeywordApi.php.html#11">Shared\Services\API\Apollo\Proxy\KeywordApi</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#15">Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="VerticalApi.php.html#8">Shared\Services\API\Apollo\Proxy\VerticalApi</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TagApi.php.html#10">Shared\Services\API\Apollo\Proxy\TagApi</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SearchApi.php.html#7">Shared\Services\API\Apollo\Proxy\SearchApi</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="GalleriesApi.php.html#7">Shared\Services\API\Apollo\Proxy\GalleriesApi</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractEuronewsApi.php.html#90"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::setApiParams">setApiParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApiVersion.php.html#9"><abbr title="Shared\Services\API\Apollo\Proxy\ApiVersion::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApiVersion.php.html#14"><abbr title="Shared\Services\API\Apollo\Proxy\ApiVersion::getVersion">getVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApiVersion.php.html#19"><abbr title="Shared\Services\API\Apollo\Proxy\ApiVersion::setApiHttp">setApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FootballApi.php.html#396"><abbr title="Shared\Services\API\Apollo\Proxy\FootballApi::getLastResults">getLastResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FootballApi.php.html#433"><abbr title="Shared\Services\API\Apollo\Proxy\FootballApi::getCacheManager">getCacheManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FootballApi.php.html#438"><abbr title="Shared\Services\API\Apollo\Proxy\FootballApi::getApiHttp">getApiHttp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#11"><abbr title="Shared\Services\API\Apollo\Proxy\KeyvalueApi::getKeyvalues">getKeyvalues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#30"><abbr title="Shared\Services\API\Apollo\Proxy\KeyvalueApi::getOneJsonValue">getOneJsonValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#44"><abbr title="Shared\Services\API\Apollo\Proxy\KeyvalueApi::getMultipleKeyvaluesJsonValue">getMultipleKeyvaluesJsonValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeywordApi.php.html#116"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getEnglish">getEnglish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KeywordApi.php.html#133"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getTagById">getTagById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MarketsApi.php.html#11"><abbr title="Shared\Services\API\Apollo\Proxy\MarketsApi::getCurrency">getCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MarketsApi.php.html#16"><abbr title="Shared\Services\API\Apollo\Proxy\MarketsApi::getCommodities">getCommodities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MarketsApi.php.html#21"><abbr title="Shared\Services\API\Apollo\Proxy\MarketsApi::getIndexes">getIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchApi.php.html#42"><abbr title="Shared\Services\API\Apollo\Proxy\SearchApi::getSearch">getSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeApi.php.html#13"><abbr title="Shared\Services\API\Apollo\Proxy\ThemeApi::getThemes">getThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeApi.php.html#25"><abbr title="Shared\Services\API\Apollo\Proxy\ThemeApi::setParams">setParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VerticalApi.php.html#45"><abbr title="Shared\Services\API\Apollo\Proxy\VerticalApi::setParams">setParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#220"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::getCountryByName">getCountryByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagApi.php.html#17"><abbr title="Shared\Services\API\Apollo\Proxy\TagApi::getTags">getTags</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="SearchApi.php.html#12"><abbr title="Shared\Services\API\Apollo\Proxy\SearchApi::get">get</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#104"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::getItems">getItems</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="KeywordApi.php.html#18"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getKeywords">getKeywords</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#265"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::getCityByCoords">getCityByCoords</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="VerticalApi.php.html#14"><abbr title="Shared\Services\API\Apollo\Proxy\VerticalApi::getVerticals">getVerticals</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#306"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::minimizeJson">minimizeJson</abbr></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#116"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::hasCacheOnArticle">hasCacheOnArticle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#55"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::addExcludedArticleIdsToParams">addExcludedArticleIdsToParams</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="ArticleApi.php.html#738"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::getArticleRaw">getArticleRaw</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ArticleApi.php.html#962"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::getAllArticleKeywords">getAllArticleKeywords</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="FootballLeaguesApi.php.html#178"><abbr title="Shared\Services\API\Apollo\Proxy\FootballLeaguesApi::getCountryById">getCountryById</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="GalleriesApi.php.html#14"><abbr title="Shared\Services\API\Apollo\Proxy\GalleriesApi::getGallery">getGallery</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#391"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::findCityByInfos">findCityByInfos</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="KeywordApi.php.html#72"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getTagTranslation">getTagTranslation</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="ArticleApi.php.html#770"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::findByStoryId">findByStoryId</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="FootballLeaguesApi.php.html#28"><abbr title="Shared\Services\API\Apollo\Proxy\FootballLeaguesApi::__construct">__construct</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="WeatherApi.php.html#435"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::findByInfos">findByInfos</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="WeatherApi.php.html#306"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::minimizeJson">minimizeJson</abbr></a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#30"><abbr title="Shared\Services\API\Apollo\Proxy\KeyvalueApi::getOneJsonValue">getOneJsonValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TagApi.php.html#17"><abbr title="Shared\Services\API\Apollo\Proxy\TagApi::getTags">getTags</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="KeyvalueApi.php.html#44"><abbr title="Shared\Services\API\Apollo\Proxy\KeyvalueApi::getMultipleKeyvaluesJsonValue">getMultipleKeyvaluesJsonValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="KeywordApi.php.html#116"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getEnglish">getEnglish</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="VerticalApi.php.html#14"><abbr title="Shared\Services\API\Apollo\Proxy\VerticalApi::getVerticals">getVerticals</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="FootballApi.php.html#396"><abbr title="Shared\Services\API\Apollo\Proxy\FootballApi::getLastResults">getLastResults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="WeatherApi.php.html#220"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::getCountryByName">getCountryByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="WeatherApi.php.html#265"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::getCityByCoords">getCityByCoords</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchApi.php.html#12"><abbr title="Shared\Services\API\Apollo\Proxy\SearchApi::get">get</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="WeatherApi.php.html#435"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::findByInfos">findByInfos</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#104"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::getItems">getItems</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="KeywordApi.php.html#18"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getKeywords">getKeywords</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="KeywordApi.php.html#72"><abbr title="Shared\Services\API\Apollo\Proxy\KeywordApi::getTagTranslation">getTagTranslation</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#55"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::addExcludedArticleIdsToParams">addExcludedArticleIdsToParams</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ArticleApi.php.html#962"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::getAllArticleKeywords">getAllArticleKeywords</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="FootballLeaguesApi.php.html#28"><abbr title="Shared\Services\API\Apollo\Proxy\FootballLeaguesApi::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AbstractEuronewsApi.php.html#116"><abbr title="Shared\Services\API\Apollo\Proxy\AbstractEuronewsApi::hasCacheOnArticle">hasCacheOnArticle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ArticleApi.php.html#738"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::getArticleRaw">getArticleRaw</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="FootballLeaguesApi.php.html#178"><abbr title="Shared\Services\API\Apollo\Proxy\FootballLeaguesApi::getCountryById">getCountryById</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="GalleriesApi.php.html#14"><abbr title="Shared\Services\API\Apollo\Proxy\GalleriesApi::getGallery">getGallery</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="WeatherApi.php.html#391"><abbr title="Shared\Services\API\Apollo\Proxy\WeatherApi::findCityByInfos">findCityByInfos</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ArticleApi.php.html#770"><abbr title="Shared\Services\API\Apollo\Proxy\ArticleApi::findByStoryId">findByStoryId</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.9</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Jul 18 20:32:18 CEST 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,0,1,0,0,1,0,1,3,2,5,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([20,0,0,0,2,0,3,3,4,6,5,140], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,6,"<a href=\"AbstractApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi<\/a>"],[78.125,17,"<a href=\"AbstractEuronewsApi.php.html#15\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi<\/a>"],[100,2,"<a href=\"AbstractEuronewsBcsApi.php.html#5\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsBcsApi<\/a>"],[0,3,"<a href=\"ApiVersion.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\ApiVersion<\/a>"],[98.73417721518987,80,"<a href=\"ArticleApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi<\/a>"],[100,1,"<a href=\"ArticleBulletinApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleBulletinApi<\/a>"],[100,16,"<a href=\"ArticleExtraDataApi.php.html#5\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi<\/a>"],[90,2,"<a href=\"ArticleRelatedApi.php.html#8\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleRelatedApi<\/a>"],[100,1,"<a href=\"BlockContentApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\BlockContentApi<\/a>"],[100,1,"<a href=\"BreakingNewsApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\BreakingNewsApi<\/a>"],[95.05494505494505,49,"<a href=\"FootballApi.php.html#15\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi<\/a>"],[97.1830985915493,26,"<a href=\"FootballLeaguesApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi<\/a>"],[80,2,"<a href=\"GalleriesApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\GalleriesApi<\/a>"],[100,8,"<a href=\"JustinApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\JustinApi<\/a>"],[17.391304347826086,12,"<a href=\"KeyvalueApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\KeyvalueApi<\/a>"],[68.08510638297872,21,"<a href=\"KeywordApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi<\/a>"],[0,3,"<a href=\"MarketsApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\MarketsApi<\/a>"],[100,4,"<a href=\"MostviewedApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\MostviewedApi<\/a>"],[100,8,"<a href=\"ProgramApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi<\/a>"],[47.368421052631575,5,"<a href=\"SearchApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\SearchApi<\/a>"],[72,10,"<a href=\"TagApi.php.html#10\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi<\/a>"],[0,2,"<a href=\"ThemeApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\ThemeApi<\/a>"],[70.58823529411765,10,"<a href=\"VerticalApi.php.html#8\">Shared\\Services\\API\\Apollo\\Proxy\\VerticalApi<\/a>"],[80.97826086956522,72,"<a href=\"WeatherApi.php.html#24\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi<\/a>"],[98.27586206896551,19,"<a href=\"WireApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi<\/a>"],[100,1,"<a href=\"ApiProxyTrait.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\ApiProxyTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AbstractApi.php.html#20\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::__construct<\/a>"],[100,1,"<a href=\"AbstractApi.php.html#30\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::setTranslator<\/a>"],[100,1,"<a href=\"AbstractApi.php.html#37\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::setLogger<\/a>"],[100,1,"<a href=\"AbstractApi.php.html#44\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::getLogger<\/a>"],[100,1,"<a href=\"AbstractApi.php.html#49\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::setRouter<\/a>"],[100,1,"<a href=\"AbstractApi.php.html#59\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractApi::getShortFieldList<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#27\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::__construct<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#44\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::setApiHttp<\/a>"],[71.42857142857143,3,"<a href=\"AbstractEuronewsApi.php.html#55\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::addExcludedArticleIdsToParams<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#71\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::addExcludedIds<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#78\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::getExcludedIds<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#83\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::resetExcludedIds<\/a>"],[0,1,"<a href=\"AbstractEuronewsApi.php.html#90\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::setApiParams<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#97\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::setLocale<\/a>"],[50,3,"<a href=\"AbstractEuronewsApi.php.html#104\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::getItems<\/a>"],[66.66666666666666,2,"<a href=\"AbstractEuronewsApi.php.html#116\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::hasCacheOnArticle<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#125\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::getCacheManager<\/a>"],[100,1,"<a href=\"AbstractEuronewsApi.php.html#130\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsApi::getApiHttp<\/a>"],[100,2,"<a href=\"AbstractEuronewsBcsApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\AbstractEuronewsBcsApi::getData<\/a>"],[0,1,"<a href=\"ApiVersion.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\ApiVersion::__construct<\/a>"],[0,1,"<a href=\"ApiVersion.php.html#14\">Shared\\Services\\API\\Apollo\\Proxy\\ApiVersion::getVersion<\/a>"],[0,1,"<a href=\"ApiVersion.php.html#19\">Shared\\Services\\API\\Apollo\\Proxy\\ApiVersion::setApiHttp<\/a>"],[100,4,"<a href=\"ArticleApi.php.html#22\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getArticles<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#43\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getExtra<\/a>"],[91.66666666666666,8,"<a href=\"ArticleApi.php.html#55\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getArticleItems<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#96\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getCountryArticles<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#126\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getContinentArticlesById<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#156\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getThemeTagsArticles<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#179\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getThemeCountryTagsArticles<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#202\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getVerticalArticles<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#221\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getMoreArticlesFromAdvertising<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#240\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getMoreArticlesForProgram<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#250\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getMoreArticlesForTheme<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#262\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getProgramArticles<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#287\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getNoComment<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#310\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::findBySlugAndPublicationDate<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#347\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getVideos<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#366\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getTaggedArticles<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#391\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getThemeArticles<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#407\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getLatestArticlesForVertical<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#430\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getLatestArticlesForTheme<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#446\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getNextArticleByProgram<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#474\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getPreviousArticleByProgram<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#502\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getNextArticleSameTheme<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#530\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getPreviousArticleSameTheme<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#558\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getNextArticleSameVertical<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#586\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getPreviousArticleSameVertical<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#615\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getNextArticleSamePrimaryTheme<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#644\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getPreviousArticleSamePrimaryTheme<\/a>"],[100,5,"<a href=\"ArticleApi.php.html#672\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getPreviousOrNextArticle<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#714\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getArchivedArticles<\/a>"],[75,2,"<a href=\"ArticleApi.php.html#738\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getArticleRaw<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#756\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::findBySlug<\/a>"],[87.5,2,"<a href=\"ArticleApi.php.html#770\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::findByStoryId<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#792\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::findByIdAndLocale<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#813\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getContinentArticles<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#836\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getContinentCountryArticles<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#863\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getCountryIdArticles<\/a>"],[100,3,"<a href=\"ArticleApi.php.html#891\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getCityArticles<\/a>"],[100,2,"<a href=\"ArticleApi.php.html#921\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getArchivedArticlesByDate<\/a>"],[100,1,"<a href=\"ArticleApi.php.html#945\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getBrandedContent<\/a>"],[75,3,"<a href=\"ArticleApi.php.html#962\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleApi::getAllArticleKeywords<\/a>"],[100,1,"<a href=\"ArticleBulletinApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleBulletinApi::getDetailed<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#7\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::__construct<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#12\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::decorates<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#25\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#39\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getCountryArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#55\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getContinentArticlesById<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#71\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getThemeTagsArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#87\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getThemeCountryTagsArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#104\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getProgramArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#120\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getNoComment<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#132\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getTaggedArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#149\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getThemeArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#161\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getContinentArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#176\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getContinentCountryArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#193\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getCountryIdArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#209\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getCityArticles<\/a>"],[100,1,"<a href=\"ArticleExtraDataApi.php.html#226\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleExtraDataApi::getArchivedArticlesByDate<\/a>"],[90,2,"<a href=\"ArticleRelatedApi.php.html#19\">Shared\\Services\\API\\Apollo\\Proxy\\ArticleRelatedApi::getRelated<\/a>"],[100,1,"<a href=\"BlockContentApi.php.html#9\">Shared\\Services\\API\\Apollo\\Proxy\\BlockContentApi::getBlockContent<\/a>"],[100,1,"<a href=\"BreakingNewsApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\BreakingNewsApi::getBreakingNews<\/a>"],[100,1,"<a href=\"FootballApi.php.html#33\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::__construct<\/a>"],[100,1,"<a href=\"FootballApi.php.html#52\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getResultsByCompetitionId<\/a>"],[100,1,"<a href=\"FootballApi.php.html#77\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getFixturesByCompetitionId<\/a>"],[100,1,"<a href=\"FootballApi.php.html#102\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getRankingByCompetitionId<\/a>"],[100,2,"<a href=\"FootballApi.php.html#122\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::formatMonthToText<\/a>"],[100,1,"<a href=\"FootballApi.php.html#134\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::formatToDateTime<\/a>"],[100,2,"<a href=\"FootballApi.php.html#142\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getFixturesByRound<\/a>"],[100,2,"<a href=\"FootballApi.php.html#153\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getFixturesByDate<\/a>"],[100,2,"<a href=\"FootballApi.php.html#170\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getResults<\/a>"],[100,6,"<a href=\"FootballApi.php.html#184\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getRanking<\/a>"],[100,5,"<a href=\"FootballApi.php.html#245\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::isTeamBottomDotted<\/a>"],[100,2,"<a href=\"FootballApi.php.html#256\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getRound<\/a>"],[100,2,"<a href=\"FootballApi.php.html#288\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getMatchDatas<\/a>"],[100,1,"<a href=\"FootballApi.php.html#304\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getDateText<\/a>"],[100,5,"<a href=\"FootballApi.php.html#321\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::sortArrayByDateTimes<\/a>"],[100,3,"<a href=\"FootballApi.php.html#345\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getDefaultFixtures<\/a>"],[100,5,"<a href=\"FootballApi.php.html#365\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getDefaultResults<\/a>"],[0,2,"<a href=\"FootballApi.php.html#396\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getLastResults<\/a>"],[100,2,"<a href=\"FootballApi.php.html#411\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getIntervalDates<\/a>"],[100,1,"<a href=\"FootballApi.php.html#426\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::setApiHttp<\/a>"],[0,1,"<a href=\"FootballApi.php.html#433\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getCacheManager<\/a>"],[0,1,"<a href=\"FootballApi.php.html#438\">Shared\\Services\\API\\Apollo\\Proxy\\FootballApi::getApiHttp<\/a>"],[87.5,3,"<a href=\"FootballLeaguesApi.php.html#28\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::__construct<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#44\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#49\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getDefaultLeague<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#54\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getAllLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#62\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getAfricanLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#67\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getInternationalLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#72\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getMostPopularAfricanLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#79\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getMostPopularInternationalLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#86\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getMostPopularLeagues<\/a>"],[100,1,"<a href=\"FootballLeaguesApi.php.html#94\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getLeagueByLocale<\/a>"],[100,3,"<a href=\"FootballLeaguesApi.php.html#102\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getLeagueById<\/a>"],[100,2,"<a href=\"FootballLeaguesApi.php.html#124\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getMostPopular<\/a>"],[100,4,"<a href=\"FootballLeaguesApi.php.html#140\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::findLeagueById<\/a>"],[100,3,"<a href=\"FootballLeaguesApi.php.html#159\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getLeaguesList<\/a>"],[75,2,"<a href=\"FootballLeaguesApi.php.html#178\">Shared\\Services\\API\\Apollo\\Proxy\\FootballLeaguesApi::getCountryById<\/a>"],[80,2,"<a href=\"GalleriesApi.php.html#14\">Shared\\Services\\API\\Apollo\\Proxy\\GalleriesApi::getGallery<\/a>"],[100,8,"<a href=\"JustinApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\JustinApi::getJustIn<\/a>"],[0,1,"<a href=\"KeyvalueApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\KeyvalueApi::getKeyvalues<\/a>"],[100,3,"<a href=\"KeyvalueApi.php.html#19\">Shared\\Services\\API\\Apollo\\Proxy\\KeyvalueApi::getOneValue<\/a>"],[0,5,"<a href=\"KeyvalueApi.php.html#30\">Shared\\Services\\API\\Apollo\\Proxy\\KeyvalueApi::getOneJsonValue<\/a>"],[0,3,"<a href=\"KeyvalueApi.php.html#44\">Shared\\Services\\API\\Apollo\\Proxy\\KeyvalueApi::getMultipleKeyvaluesJsonValue<\/a>"],[50,3,"<a href=\"KeywordApi.php.html#18\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getKeywords<\/a>"],[100,4,"<a href=\"KeywordApi.php.html#35\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getKeywordsInfos<\/a>"],[100,1,"<a href=\"KeywordApi.php.html#59\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::loadKeywordsFromArticle<\/a>"],[83.33333333333334,4,"<a href=\"KeywordApi.php.html#72\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getTagTranslation<\/a>"],[90,5,"<a href=\"KeywordApi.php.html#90\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getTagsTranslation<\/a>"],[0,3,"<a href=\"KeywordApi.php.html#116\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getEnglish<\/a>"],[0,1,"<a href=\"KeywordApi.php.html#133\">Shared\\Services\\API\\Apollo\\Proxy\\KeywordApi::getTagById<\/a>"],[0,1,"<a href=\"MarketsApi.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\MarketsApi::getCurrency<\/a>"],[0,1,"<a href=\"MarketsApi.php.html#16\">Shared\\Services\\API\\Apollo\\Proxy\\MarketsApi::getCommodities<\/a>"],[0,1,"<a href=\"MarketsApi.php.html#21\">Shared\\Services\\API\\Apollo\\Proxy\\MarketsApi::getIndexes<\/a>"],[100,4,"<a href=\"MostviewedApi.php.html#12\">Shared\\Services\\API\\Apollo\\Proxy\\MostviewedApi::getMostViewed<\/a>"],[100,1,"<a href=\"ProgramApi.php.html#16\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi::getPrograms<\/a>"],[100,1,"<a href=\"ProgramApi.php.html#33\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi::getProgramsOrdered<\/a>"],[100,3,"<a href=\"ProgramApi.php.html#48\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi::getProgram<\/a>"],[100,1,"<a href=\"ProgramApi.php.html#64\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi::getProgramInEnglish<\/a>"],[100,2,"<a href=\"ProgramApi.php.html#79\">Shared\\Services\\API\\Apollo\\Proxy\\ProgramApi::getProgramsForTheme<\/a>"],[33.33333333333333,3,"<a href=\"SearchApi.php.html#12\">Shared\\Services\\API\\Apollo\\Proxy\\SearchApi::get<\/a>"],[100,1,"<a href=\"SearchApi.php.html#31\">Shared\\Services\\API\\Apollo\\Proxy\\SearchApi::getSearchAutocomplete<\/a>"],[0,1,"<a href=\"SearchApi.php.html#42\">Shared\\Services\\API\\Apollo\\Proxy\\SearchApi::getSearch<\/a>"],[30,5,"<a href=\"TagApi.php.html#17\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getTags<\/a>"],[100,1,"<a href=\"TagApi.php.html#39\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getTag<\/a>"],[100,1,"<a href=\"TagApi.php.html#46\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getTagInAllLanguages<\/a>"],[100,1,"<a href=\"TagApi.php.html#53\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getTagsOfLastDay<\/a>"],[100,1,"<a href=\"TagApi.php.html#61\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getVerticalTags<\/a>"],[100,1,"<a href=\"TagApi.php.html#70\">Shared\\Services\\API\\Apollo\\Proxy\\TagApi::getThemeTags<\/a>"],[0,1,"<a href=\"ThemeApi.php.html#13\">Shared\\Services\\API\\Apollo\\Proxy\\ThemeApi::getThemes<\/a>"],[0,1,"<a href=\"ThemeApi.php.html#25\">Shared\\Services\\API\\Apollo\\Proxy\\ThemeApi::setParams<\/a>"],[62.5,6,"<a href=\"VerticalApi.php.html#14\">Shared\\Services\\API\\Apollo\\Proxy\\VerticalApi::getVerticals<\/a>"],[100,3,"<a href=\"VerticalApi.php.html#31\">Shared\\Services\\API\\Apollo\\Proxy\\VerticalApi::getVerticalsEuronews<\/a>"],[0,1,"<a href=\"VerticalApi.php.html#45\">Shared\\Services\\API\\Apollo\\Proxy\\VerticalApi::setParams<\/a>"],[100,1,"<a href=\"WeatherApi.php.html#131\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::__construct<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#155\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getWeatherCached<\/a>"],[100,1,"<a href=\"WeatherApi.php.html#171\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getMapData<\/a>"],[100,4,"<a href=\"WeatherApi.php.html#178\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::searchCity<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#196\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCityInfosById<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#208\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCityByIdAndLanguage<\/a>"],[0,2,"<a href=\"WeatherApi.php.html#220\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCountryByName<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#235\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCountryById<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#250\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getContinentById<\/a>"],[50,4,"<a href=\"WeatherApi.php.html#265\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCityByCoords<\/a>"],[100,3,"<a href=\"WeatherApi.php.html#289\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getCityWeather<\/a>"],[64.70588235294117,20,"<a href=\"WeatherApi.php.html#306\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::minimizeJson<\/a>"],[80,2,"<a href=\"WeatherApi.php.html#391\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::findCityByInfos<\/a>"],[100,1,"<a href=\"WeatherApi.php.html#403\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::findCitiesByCountry<\/a>"],[100,1,"<a href=\"WeatherApi.php.html#411\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::findCountriesByContinent<\/a>"],[100,3,"<a href=\"WeatherApi.php.html#419\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getContinents<\/a>"],[88.88888888888889,5,"<a href=\"WeatherApi.php.html#435\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::findByInfos<\/a>"],[100,2,"<a href=\"WeatherApi.php.html#456\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getIcon<\/a>"],[92,13,"<a href=\"WeatherApi.php.html#467\">Shared\\Services\\API\\Apollo\\Proxy\\WeatherApi::getUrl<\/a>"],[90.9090909090909,6,"<a href=\"WireApi.php.html#20\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getWires<\/a>"],[100,1,"<a href=\"WireApi.php.html#49\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getWiresWithExtraData<\/a>"],[100,2,"<a href=\"WireApi.php.html#64\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::findBySlugAndPublicationDate<\/a>"],[100,3,"<a href=\"WireApi.php.html#83\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::findByIdAndLocale<\/a>"],[100,1,"<a href=\"WireApi.php.html#110\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getVerticalWires<\/a>"],[100,1,"<a href=\"WireApi.php.html#127\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getThemeWires<\/a>"],[100,1,"<a href=\"WireApi.php.html#144\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getAgencyWires<\/a>"],[100,4,"<a href=\"WireApi.php.html#159\">Shared\\Services\\API\\Apollo\\Proxy\\WireApi::getNextWire<\/a>"],[100,1,"<a href=\"ApiProxyTrait.php.html#11\">Shared\\Services\\API\\Apollo\\Proxy\\ApiProxyTrait::setArticleDuplicatedStore<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

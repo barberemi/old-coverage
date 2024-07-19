@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Page/Blocks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/application</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Page</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Blocks</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ProgramsListBlock.php.html#5">Shared\Page\Blocks\ProgramsListBlock</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="SoloBlock.php.html#5">Shared\Page\Blocks\SoloBlock</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#9">Shared\Page\Blocks\TopStoriesVerticalBlock</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#9">Shared\Page\Blocks\DiscoverBlock</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#8">Shared\Page\Blocks\Markets\ArticlesBlock</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="MostViewedBlock.php.html#5">Shared\Page\Blocks\MostViewedBlock</a></td><td class="text-right">5%</td></tr>
+       <tr><td><a href="SixArticlesBlock.php.html#7">Shared\Page\Blocks\SixArticlesBlock</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="LanguageBlock.php.html#7">Shared\Page\Blocks\LanguageBlock</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Markets/CommoditiesBlock.php.html#8">Shared\Page\Blocks\Markets\CommoditiesBlock</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Markets/CurrencyBlock.php.html#8">Shared\Page\Blocks\Markets\CurrencyBlock</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Markets/IndexesBlock.php.html#8">Shared\Page\Blocks\Markets\IndexesBlock</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="MarketBlock.php.html#5">Shared\Page\Blocks\MarketBlock</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="StoryTypesBlock.php.html#8">Shared\Page\Blocks\StoryTypesBlock</a></td><td class="text-right">32%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#17">Shared\Page\Blocks\VideoBlock</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="EnhancedOptionsResolver.php.html#7">Shared\Page\Blocks\EnhancedOptionsResolver</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#20">Shared\Page\Blocks\BarreNowBlock</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="TopStoriesSixArticlesBlock.php.html#8">Shared\Page\Blocks\TopStoriesSixArticlesBlock</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="NoImagesBlock.php.html#7">Shared\Page\Blocks\NoImagesBlock</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="SmallBlock.php.html#9">Shared\Page\Blocks\SmallBlock</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#24">Shared\Page\Blocks\BaseArticleBlock</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#9">Shared\Page\Blocks\TopStoriesBlock</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="FeaturedBlock.php.html#7">Shared\Page\Blocks\FeaturedBlock</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="ArticlesIframeBlock.php.html#7">Shared\Page\Blocks\ArticlesIframeBlock</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="ProgramsVerticalBlock.php.html#5">Shared\Page\Blocks\ProgramsVerticalBlock</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ProgramsListBlock.php.html#5">Shared\Page\Blocks\ProgramsListBlock</a></td><td class="text-right">226</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#9">Shared\Page\Blocks\TopStoriesVerticalBlock</a></td><td class="text-right">121</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#9">Shared\Page\Blocks\DiscoverBlock</a></td><td class="text-right">82</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#24">Shared\Page\Blocks\BaseArticleBlock</a></td><td class="text-right">73</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#20">Shared\Page\Blocks\BarreNowBlock</a></td><td class="text-right">49</td></tr>
+       <tr><td><a href="StoryTypesBlock.php.html#8">Shared\Page\Blocks\StoryTypesBlock</a></td><td class="text-right">40</td></tr>
+       <tr><td><a href="SoloBlock.php.html#5">Shared\Page\Blocks\SoloBlock</a></td><td class="text-right">39</td></tr>
+       <tr><td><a href="ArticlesIframeBlock.php.html#7">Shared\Page\Blocks\ArticlesIframeBlock</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#8">Shared\Page\Blocks\Markets\ArticlesBlock</a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="SixArticlesBlock.php.html#7">Shared\Page\Blocks\SixArticlesBlock</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="VideoBlock.php.html#17">Shared\Page\Blocks\VideoBlock</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TopStoriesSixArticlesBlock.php.html#8">Shared\Page\Blocks\TopStoriesSixArticlesBlock</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="ProgramsVerticalBlock.php.html#5">Shared\Page\Blocks\ProgramsVerticalBlock</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="LanguageBlock.php.html#7">Shared\Page\Blocks\LanguageBlock</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="SmallBlock.php.html#9">Shared\Page\Blocks\SmallBlock</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#9">Shared\Page\Blocks\TopStoriesBlock</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="FeaturedBlock.php.html#7">Shared\Page\Blocks\FeaturedBlock</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Markets/CommoditiesBlock.php.html#8">Shared\Page\Blocks\Markets\CommoditiesBlock</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Markets/CurrencyBlock.php.html#8">Shared\Page\Blocks\Markets\CurrencyBlock</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Markets/IndexesBlock.php.html#8">Shared\Page\Blocks\Markets\IndexesBlock</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="NoImagesBlock.php.html#7">Shared\Page\Blocks\NoImagesBlock</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="MarketBlock.php.html#5">Shared\Page\Blocks\MarketBlock</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BarreNowBlock.php.html#98"><abbr title="Shared\Page\Blocks\BarreNowBlock::getArticleApi">getArticleApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#103"><abbr title="Shared\Page\Blocks\BarreNowBlock::getBreakingNewsApi">getBreakingNewsApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#113"><abbr title="Shared\Page\Blocks\BarreNowBlock::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#118"><abbr title="Shared\Page\Blocks\BarreNowBlock::getMenuManager">getMenuManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#123"><abbr title="Shared\Page\Blocks\BarreNowBlock::getProgramApi">getProgramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#128"><abbr title="Shared\Page\Blocks\BarreNowBlock::getRouter">getRouter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#138"><abbr title="Shared\Page\Blocks\BarreNowBlock::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#143"><abbr title="Shared\Page\Blocks\BarreNowBlock::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#148"><abbr title="Shared\Page\Blocks\BarreNowBlock::getVerticalConfigurationStore">getVerticalConfigurationStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#153"><abbr title="Shared\Page\Blocks\BarreNowBlock::getArticleDuplicatedStore">getArticleDuplicatedStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BarreNowBlock.php.html#158"><abbr title="Shared\Page\Blocks\BarreNowBlock::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseBlock.php.html#352"><abbr title="Shared\Page\Blocks\BaseBlock::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#16"><abbr title="Shared\Page\Blocks\DiscoverBlock::mergeOptions">mergeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#22"><abbr title="Shared\Page\Blocks\DiscoverBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#40"><abbr title="Shared\Page\Blocks\DiscoverBlock::getArticles">getArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#46"><abbr title="Shared\Page\Blocks\DiscoverBlock::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#52"><abbr title="Shared\Page\Blocks\DiscoverBlock::getVerticalColors">getVerticalColors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#60"><abbr title="Shared\Page\Blocks\DiscoverBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnhancedOptionsResolver.php.html#18"><abbr title="Shared\Page\Blocks\EnhancedOptionsResolver::getExtraInformation">getExtraInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IframeBlock.php.html#62"><abbr title="Shared\Page\Blocks\IframeBlock::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageBlock.php.html#17"><abbr title="Shared\Page\Blocks\LanguageBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageBlock.php.html#30"><abbr title="Shared\Page\Blocks\LanguageBlock::setLanguageRedirector">setLanguageRedirector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListingBlock.php.html#118"><abbr title="Shared\Page\Blocks\ListingBlock::setDefaultLimit">setDefaultLimit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MarketBlock.php.html#9"><abbr title="Shared\Page\Blocks\MarketBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#10"><abbr title="Shared\Page\Blocks\Markets\ArticlesBlock::mergeOptions">mergeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#20"><abbr title="Shared\Page\Blocks\Markets\ArticlesBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#41"><abbr title="Shared\Page\Blocks\Markets\ArticlesBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/CommoditiesBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\CommoditiesBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/CurrencyBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\CurrencyBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markets/IndexesBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\IndexesBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MostViewedBlock.php.html#10"><abbr title="Shared\Page\Blocks\MostViewedBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MostViewedBlock.php.html#30"><abbr title="Shared\Page\Blocks\MostViewedBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProgramsListBlock.php.html#7"><abbr title="Shared\Page\Blocks\ProgramsListBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProgramsListBlock.php.html#22"><abbr title="Shared\Page\Blocks\ProgramsListBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SixArticlesBlock.php.html#11"><abbr title="Shared\Page\Blocks\SixArticlesBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SixArticlesBlock.php.html#26"><abbr title="Shared\Page\Blocks\SixArticlesBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SoloBlock.php.html#9"><abbr title="Shared\Page\Blocks\SoloBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SoloBlock.php.html#53"><abbr title="Shared\Page\Blocks\SoloBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#71"><abbr title="Shared\Page\Blocks\TopStoriesBlock::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#83"><abbr title="Shared\Page\Blocks\TopStoriesBlock::getFirstArticle">getFirstArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#15"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#37"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::doLoadArticles">doLoadArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#44"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#69"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#81"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::getFirstArticle">getFirstArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#58"><abbr title="Shared\Page\Blocks\VideoBlock::getArticleBulletinApi">getArticleBulletinApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#63"><abbr title="Shared\Page\Blocks\VideoBlock::getArticleRelatedApi">getArticleRelatedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#68"><abbr title="Shared\Page\Blocks\VideoBlock::getBlockContentApi">getBlockContentApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#78"><abbr title="Shared\Page\Blocks\VideoBlock::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#83"><abbr title="Shared\Page\Blocks\VideoBlock::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#88"><abbr title="Shared\Page\Blocks\VideoBlock::getRouter">getRouter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VideoBlock.php.html#93"><abbr title="Shared\Page\Blocks\VideoBlock::getWireApi">getWireApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StoryTypesBlock.php.html#31"><abbr title="Shared\Page\Blocks\StoryTypesBlock::render">render</abbr></a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="BaseBlock.php.html#209"><abbr title="Shared\Page\Blocks\BaseBlock::transformResolverToDocumentation">transformResolverToDocumentation</abbr></a></td><td class="text-right">38%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#297"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getWires">getWires</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="TopStoriesSixArticlesBlock.php.html#44"><abbr title="Shared\Page\Blocks\TopStoriesSixArticlesBlock::render">render</abbr></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="BaseBlock.php.html#280"><abbr title="Shared\Page\Blocks\BaseBlock::translateSimpleString">translateSimpleString</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SponsoredContentBlock.php.html#52"><abbr title="Shared\Page\Blocks\SponsoredContentBlock::getCurrentUri">getCurrentUri</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SmallBlock.php.html#30"><abbr title="Shared\Page\Blocks\SmallBlock::render">render</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#205"><abbr title="Shared\Page\Blocks\BaseArticleBlock::explodeParams">explodeParams</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="NoImagesBlock.php.html#12"><abbr title="Shared\Page\Blocks\NoImagesBlock::render">render</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ArticlesIframeBlock.php.html#80"><abbr title="Shared\Page\Blocks\ArticlesIframeBlock::render">render</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#107"><abbr title="Shared\Page\Blocks\BaseArticleBlock::buildParams">buildParams</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#221"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getArticles">getArticles</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="FeaturedBlock.php.html#27"><abbr title="Shared\Page\Blocks\FeaturedBlock::render">render</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#282"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getBlockContentArticles">getBlockContentArticles</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ProgramsVerticalBlock.php.html#16"><abbr title="Shared\Page\Blocks\ProgramsVerticalBlock::render">render</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="VerticalAdaptativeBlock.php.html#56"><abbr title="Shared\Page\Blocks\VerticalAdaptativeBlock::render">render</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#31"><abbr title="Shared\Page\Blocks\TopStoriesBlock::getArticles">getArticles</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ProgramsListBlock.php.html#22"><abbr title="Shared\Page\Blocks\ProgramsListBlock::render">render</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ArticlesIframeBlock.php.html#80"><abbr title="Shared\Page\Blocks\ArticlesIframeBlock::render">render</abbr></a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="StoryTypesBlock.php.html#31"><abbr title="Shared\Page\Blocks\StoryTypesBlock::render">render</abbr></a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#107"><abbr title="Shared\Page\Blocks\BaseArticleBlock::buildParams">buildParams</abbr></a></td><td class="text-right">41</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#44"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::render">render</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TopStoriesSixArticlesBlock.php.html#44"><abbr title="Shared\Page\Blocks\TopStoriesSixArticlesBlock::render">render</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="SoloBlock.php.html#53"><abbr title="Shared\Page\Blocks\SoloBlock::render">render</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="VerticalAdaptativeBlock.php.html#56"><abbr title="Shared\Page\Blocks\VerticalAdaptativeBlock::render">render</abbr></a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="ProgramsVerticalBlock.php.html#16"><abbr title="Shared\Page\Blocks\ProgramsVerticalBlock::render">render</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="BaseBlock.php.html#209"><abbr title="Shared\Page\Blocks\BaseBlock::transformResolverToDocumentation">transformResolverToDocumentation</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="SmallBlock.php.html#30"><abbr title="Shared\Page\Blocks\SmallBlock::render">render</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="DiscoverBlock.php.html#60"><abbr title="Shared\Page\Blocks\DiscoverBlock::render">render</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SixArticlesBlock.php.html#26"><abbr title="Shared\Page\Blocks\SixArticlesBlock::render">render</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#297"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getWires">getWires</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#221"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getArticles">getArticles</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="FeaturedBlock.php.html#27"><abbr title="Shared\Page\Blocks\FeaturedBlock::render">render</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="NoImagesBlock.php.html#12"><abbr title="Shared\Page\Blocks\NoImagesBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LanguageBlock.php.html#17"><abbr title="Shared\Page\Blocks\LanguageBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MarketBlock.php.html#9"><abbr title="Shared\Page\Blocks\MarketBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Markets/ArticlesBlock.php.html#41"><abbr title="Shared\Page\Blocks\Markets\ArticlesBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Markets/CommoditiesBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\CommoditiesBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Markets/CurrencyBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\CurrencyBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Markets/IndexesBlock.php.html#15"><abbr title="Shared\Page\Blocks\Markets\IndexesBlock::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#83"><abbr title="Shared\Page\Blocks\TopStoriesBlock::getFirstArticle">getFirstArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TopStoriesVerticalBlock.php.html#81"><abbr title="Shared\Page\Blocks\TopStoriesVerticalBlock::getFirstArticle">getFirstArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#282"><abbr title="Shared\Page\Blocks\BaseArticleBlock::getBlockContentArticles">getBlockContentArticles</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="TopStoriesBlock.php.html#31"><abbr title="Shared\Page\Blocks\TopStoriesBlock::getArticles">getArticles</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="BaseBlock.php.html#280"><abbr title="Shared\Page\Blocks\BaseBlock::translateSimpleString">translateSimpleString</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SponsoredContentBlock.php.html#52"><abbr title="Shared\Page\Blocks\SponsoredContentBlock::getCurrentUri">getCurrentUri</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="BaseArticleBlock.php.html#205"><abbr title="Shared\Page\Blocks\BaseArticleBlock::explodeParams">explodeParams</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.9</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Jul 18 20:32:18 CEST 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,7,4,1,1,0,0,2,4,5,13,19], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,1,0,1,0,1,3,7,4,10,168], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[98.33333333333333,16,"<a href=\"AdaptativeBlock.php.html#7\">Shared\\Page\\Blocks\\AdaptativeBlock<\/a>"],[86.11111111111111,34,"<a href=\"ArticlesIframeBlock.php.html#7\">Shared\\Page\\Blocks\\ArticlesIframeBlock<\/a>"],[100,4,"<a href=\"ArticlesListingBlock.php.html#9\">Shared\\Page\\Blocks\\ArticlesListingBlock<\/a>"],[100,5,"<a href=\"AugmentedBannerBlock.php.html#5\">Shared\\Page\\Blocks\\AugmentedBannerBlock<\/a>"],[70,28,"<a href=\"BarreNowBlock.php.html#20\">Shared\\Page\\Blocks\\BarreNowBlock<\/a>"],[82.78145695364239,57,"<a href=\"BaseArticleBlock.php.html#24\">Shared\\Page\\Blocks\\BaseArticleBlock<\/a>"],[92.1259842519685,55,"<a href=\"BaseBlock.php.html#18\">Shared\\Page\\Blocks\\BaseBlock<\/a>"],[100,8,"<a href=\"BaseGroupBlock.php.html#5\">Shared\\Page\\Blocks\\BaseGroupBlock<\/a>"],[100,3,"<a href=\"BaseMultiDataSourceArticleBlock.php.html#5\">Shared\\Page\\Blocks\\BaseMultiDataSourceArticleBlock<\/a>"],[100,9,"<a href=\"BcsBlock.php.html#9\">Shared\\Page\\Blocks\\BcsBlock<\/a>"],[100,5,"<a href=\"BonusBlock.php.html#7\">Shared\\Page\\Blocks\\BonusBlock<\/a>"],[100,3,"<a href=\"DfpLeaderBoard.php.html#5\">Shared\\Page\\Blocks\\DfpLeaderBoard<\/a>"],[3.3333333333333335,9,"<a href=\"DiscoverBlock.php.html#9\">Shared\\Page\\Blocks\\DiscoverBlock<\/a>"],[66.66666666666666,2,"<a href=\"EnhancedOptionsResolver.php.html#7\">Shared\\Page\\Blocks\\EnhancedOptionsResolver<\/a>"],[84.375,9,"<a href=\"FeaturedBlock.php.html#7\">Shared\\Page\\Blocks\\FeaturedBlock<\/a>"],[97.87234042553192,8,"<a href=\"GalleryBlock.php.html#8\">Shared\\Page\\Blocks\\GalleryBlock<\/a>"],[96.42857142857143,6,"<a href=\"IframeBlock.php.html#5\">Shared\\Page\\Blocks\\IframeBlock<\/a>"],[10,4,"<a href=\"LanguageBlock.php.html#7\">Shared\\Page\\Blocks\\LanguageBlock<\/a>"],[100,3,"<a href=\"LargeBanner.php.html#5\">Shared\\Page\\Blocks\\LargeBanner<\/a>"],[100,9,"<a href=\"LatestBlock.php.html#5\">Shared\\Page\\Blocks\\LatestBlock<\/a>"],[97.22222222222221,11,"<a href=\"ListingBlock.php.html#8\">Shared\\Page\\Blocks\\ListingBlock<\/a>"],[20,3,"<a href=\"MarketBlock.php.html#5\">Shared\\Page\\Blocks\\MarketBlock<\/a>"],[4.545454545454546,5,"<a href=\"Markets\/ArticlesBlock.php.html#8\">Shared\\Page\\Blocks\\Markets\\ArticlesBlock<\/a>"],[14.285714285714285,3,"<a href=\"Markets\/CommoditiesBlock.php.html#8\">Shared\\Page\\Blocks\\Markets\\CommoditiesBlock<\/a>"],[14.285714285714285,3,"<a href=\"Markets\/CurrencyBlock.php.html#8\">Shared\\Page\\Blocks\\Markets\\CurrencyBlock<\/a>"],[14.285714285714285,3,"<a href=\"Markets\/IndexesBlock.php.html#8\">Shared\\Page\\Blocks\\Markets\\IndexesBlock<\/a>"],[5,3,"<a href=\"MostViewedBlock.php.html#5\">Shared\\Page\\Blocks\\MostViewedBlock<\/a>"],[94.11764705882352,6,"<a href=\"NavbarBlock.php.html#13\">Shared\\Page\\Blocks\\NavbarBlock<\/a>"],[76.47058823529412,7,"<a href=\"NoImagesBlock.php.html#7\">Shared\\Page\\Blocks\\NoImagesBlock<\/a>"],[100,4,"<a href=\"PersonalizedBanner.php.html#5\">Shared\\Page\\Blocks\\PersonalizedBanner<\/a>"],[100,8,"<a href=\"PremiumBlock.php.html#5\">Shared\\Page\\Blocks\\PremiumBlock<\/a>"],[100,6,"<a href=\"ProgramReplayBlock.php.html#5\">Shared\\Page\\Blocks\\ProgramReplayBlock<\/a>"],[96.7741935483871,4,"<a href=\"ProgramStandardBanner.php.html#5\">Shared\\Page\\Blocks\\ProgramStandardBanner<\/a>"],[2.083333333333333,15,"<a href=\"ProgramsListBlock.php.html#5\">Shared\\Page\\Blocks\\ProgramsListBlock<\/a>"],[88.46153846153845,17,"<a href=\"ProgramsVerticalBlock.php.html#5\">Shared\\Page\\Blocks\\ProgramsVerticalBlock<\/a>"],[100,3,"<a href=\"RawHtmlBlock.php.html#5\">Shared\\Page\\Blocks\\RawHtmlBlock<\/a>"],[100,3,"<a href=\"ServiceBlock.php.html#5\">Shared\\Page\\Blocks\\ServiceBlock<\/a>"],[6.25,5,"<a href=\"SixArticlesBlock.php.html#7\">Shared\\Page\\Blocks\\SixArticlesBlock<\/a>"],[77.27272727272727,13,"<a href=\"SmallBlock.php.html#9\">Shared\\Page\\Blocks\\SmallBlock<\/a>"],[2.380952380952381,6,"<a href=\"SoloBlock.php.html#5\">Shared\\Page\\Blocks\\SoloBlock<\/a>"],[94.44444444444444,8,"<a href=\"SponsoredContentBlock.php.html#8\">Shared\\Page\\Blocks\\SponsoredContentBlock<\/a>"],[92.5925925925926,7,"<a href=\"SportBlock.php.html#8\">Shared\\Page\\Blocks\\SportBlock<\/a>"],[100,4,"<a href=\"StandardBanner.php.html#5\">Shared\\Page\\Blocks\\StandardBanner<\/a>"],[32.432432432432435,10,"<a href=\"StoryTypesBlock.php.html#8\">Shared\\Page\\Blocks\\StoryTypesBlock<\/a>"],[96.15384615384616,6,"<a href=\"ThemeGroupBlock.php.html#7\">Shared\\Page\\Blocks\\ThemeGroupBlock<\/a>"],[100,6,"<a href=\"TopArticlesBlock.php.html#5\">Shared\\Page\\Blocks\\TopArticlesBlock<\/a>"],[83.33333333333334,11,"<a href=\"TopStoriesBlock.php.html#9\">Shared\\Page\\Blocks\\TopStoriesBlock<\/a>"],[76.27118644067797,16,"<a href=\"TopStoriesSixArticlesBlock.php.html#8\">Shared\\Page\\Blocks\\TopStoriesSixArticlesBlock<\/a>"],[100,6,"<a href=\"TopStoriesV2Block.php.html#5\">Shared\\Page\\Blocks\\TopStoriesV2Block<\/a>"],[2.941176470588235,11,"<a href=\"TopStoriesVerticalBlock.php.html#9\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock<\/a>"],[93.75,18,"<a href=\"VerticalAdaptativeBlock.php.html#7\">Shared\\Page\\Blocks\\VerticalAdaptativeBlock<\/a>"],[100,4,"<a href=\"VerticalThemesBlock.php.html#5\">Shared\\Page\\Blocks\\VerticalThemesBlock<\/a>"],[95.34883720930233,18,"<a href=\"VerticalTopStoriesBlock.php.html#7\">Shared\\Page\\Blocks\\VerticalTopStoriesBlock<\/a>"],[65,13,"<a href=\"VideoBlock.php.html#17\">Shared\\Page\\Blocks\\VideoBlock<\/a>"],[100,6,"<a href=\"VideosThemesBlock.php.html#5\">Shared\\Page\\Blocks\\VideosThemesBlock<\/a>"],[94.87179487179486,10,"<a href=\"ViewBlock.php.html#7\">Shared\\Page\\Blocks\\ViewBlock<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AdaptativeBlock.php.html#12\">Shared\\Page\\Blocks\\AdaptativeBlock::configureOptions<\/a>"],[96.7741935483871,14,"<a href=\"AdaptativeBlock.php.html#56\">Shared\\Page\\Blocks\\AdaptativeBlock::render<\/a>"],[100,1,"<a href=\"AdaptativeBlock.php.html#107\">Shared\\Page\\Blocks\\AdaptativeBlock::getName<\/a>"],[100,1,"<a href=\"ArticlesIframeBlock.php.html#12\">Shared\\Page\\Blocks\\ArticlesIframeBlock::configureOptions<\/a>"],[76.5625,32,"<a href=\"ArticlesIframeBlock.php.html#80\">Shared\\Page\\Blocks\\ArticlesIframeBlock::render<\/a>"],[100,1,"<a href=\"ArticlesIframeBlock.php.html#192\">Shared\\Page\\Blocks\\ArticlesIframeBlock::getName<\/a>"],[100,1,"<a href=\"ArticlesListingBlock.php.html#15\">Shared\\Page\\Blocks\\ArticlesListingBlock::configureOptions<\/a>"],[100,2,"<a href=\"ArticlesListingBlock.php.html#42\">Shared\\Page\\Blocks\\ArticlesListingBlock::render<\/a>"],[100,1,"<a href=\"ArticlesListingBlock.php.html#68\">Shared\\Page\\Blocks\\ArticlesListingBlock::getName<\/a>"],[100,1,"<a href=\"AugmentedBannerBlock.php.html#7\">Shared\\Page\\Blocks\\AugmentedBannerBlock::configureOptions<\/a>"],[100,2,"<a href=\"AugmentedBannerBlock.php.html#45\">Shared\\Page\\Blocks\\AugmentedBannerBlock::render<\/a>"],[100,1,"<a href=\"AugmentedBannerBlock.php.html#63\">Shared\\Page\\Blocks\\AugmentedBannerBlock::getDescription<\/a>"],[100,1,"<a href=\"AugmentedBannerBlock.php.html#70\">Shared\\Page\\Blocks\\AugmentedBannerBlock::getName<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#33\">Shared\\Page\\Blocks\\BarreNowBlock::configureOptions<\/a>"],[91.66666666666666,10,"<a href=\"BarreNowBlock.php.html#49\">Shared\\Page\\Blocks\\BarreNowBlock::render<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#71\">Shared\\Page\\Blocks\\BarreNowBlock::getName<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#77\">Shared\\Page\\Blocks\\BarreNowBlock::setTagApi<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#84\">Shared\\Page\\Blocks\\BarreNowBlock::setKeyvaluesApi<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#91\">Shared\\Page\\Blocks\\BarreNowBlock::setKeywordApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#98\">Shared\\Page\\Blocks\\BarreNowBlock::getArticleApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#103\">Shared\\Page\\Blocks\\BarreNowBlock::getBreakingNewsApi<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#108\">Shared\\Page\\Blocks\\BarreNowBlock::getKeyValueApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#113\">Shared\\Page\\Blocks\\BarreNowBlock::getKeywordApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#118\">Shared\\Page\\Blocks\\BarreNowBlock::getMenuManager<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#123\">Shared\\Page\\Blocks\\BarreNowBlock::getProgramApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#128\">Shared\\Page\\Blocks\\BarreNowBlock::getRouter<\/a>"],[100,1,"<a href=\"BarreNowBlock.php.html#133\">Shared\\Page\\Blocks\\BarreNowBlock::getTagApi<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#138\">Shared\\Page\\Blocks\\BarreNowBlock::getTranslator<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#143\">Shared\\Page\\Blocks\\BarreNowBlock::getVerticalHierarchyStore<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#148\">Shared\\Page\\Blocks\\BarreNowBlock::getVerticalConfigurationStore<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#153\">Shared\\Page\\Blocks\\BarreNowBlock::getArticleDuplicatedStore<\/a>"],[0,1,"<a href=\"BarreNowBlock.php.html#158\">Shared\\Page\\Blocks\\BarreNowBlock::getMostViewedApi<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#32\">Shared\\Page\\Blocks\\BaseArticleBlock::__construct<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#47\">Shared\\Page\\Blocks\\BaseArticleBlock::configureOptions<\/a>"],[100,2,"<a href=\"BaseArticleBlock.php.html#55\">Shared\\Page\\Blocks\\BaseArticleBlock::configureDataSourceResolver<\/a>"],[77.77777777777779,31,"<a href=\"BaseArticleBlock.php.html#107\">Shared\\Page\\Blocks\\BaseArticleBlock::buildParams<\/a>"],[75,2,"<a href=\"BaseArticleBlock.php.html#205\">Shared\\Page\\Blocks\\BaseArticleBlock::explodeParams<\/a>"],[77.77777777777779,7,"<a href=\"BaseArticleBlock.php.html#221\">Shared\\Page\\Blocks\\BaseArticleBlock::getArticles<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#256\">Shared\\Page\\Blocks\\BaseArticleBlock::setMostViewedApi<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#263\">Shared\\Page\\Blocks\\BaseArticleBlock::setArticleRelatedApi<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#270\">Shared\\Page\\Blocks\\BaseArticleBlock::setJustInApi<\/a>"],[80,3,"<a href=\"BaseArticleBlock.php.html#282\">Shared\\Page\\Blocks\\BaseArticleBlock::getBlockContentArticles<\/a>"],[50,6,"<a href=\"BaseArticleBlock.php.html#297\">Shared\\Page\\Blocks\\BaseArticleBlock::getWires<\/a>"],[100,1,"<a href=\"BaseArticleBlock.php.html#335\">Shared\\Page\\Blocks\\BaseArticleBlock::getArticleApiUrl<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#33\">Shared\\Page\\Blocks\\BaseBlock::__construct<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#42\">Shared\\Page\\Blocks\\BaseBlock::mergeOptions<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#55\">Shared\\Page\\Blocks\\BaseBlock::configureOptions<\/a>"],[100,2,"<a href=\"BaseBlock.php.html#72\">Shared\\Page\\Blocks\\BaseBlock::configureVisibilityRulesOptions<\/a>"],[100,2,"<a href=\"BaseBlock.php.html#92\">Shared\\Page\\Blocks\\BaseBlock::isDisplayable<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#100\">Shared\\Page\\Blocks\\BaseBlock::getTranslated<\/a>"],[100,7,"<a href=\"BaseBlock.php.html#105\">Shared\\Page\\Blocks\\BaseBlock::isDateRangeVisibilityRuleIsOK<\/a>"],[100,2,"<a href=\"BaseBlock.php.html#128\">Shared\\Page\\Blocks\\BaseBlock::isLanguageVisibilityRuleIsOK<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#138\">Shared\\Page\\Blocks\\BaseBlock::setIsTheFirstBlockOfThePage<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#145\">Shared\\Page\\Blocks\\BaseBlock::getIsTheFirstBlockOfThePage<\/a>"],[100,0,"<a href=\"BaseBlock.php.html#150\">Shared\\Page\\Blocks\\BaseBlock::getName<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#152\">Shared\\Page\\Blocks\\BaseBlock::getResolver<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#160\">Shared\\Page\\Blocks\\BaseBlock::setVertical<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#167\">Shared\\Page\\Blocks\\BaseBlock::setVerticalConfigurationStore<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#174\">Shared\\Page\\Blocks\\BaseBlock::setVerticalHierarchyStore<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#181\">Shared\\Page\\Blocks\\BaseBlock::setVerticalContextHandler<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#188\">Shared\\Page\\Blocks\\BaseBlock::setProgramContentService<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#195\">Shared\\Page\\Blocks\\BaseBlock::setCommonContentService<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#202\">Shared\\Page\\Blocks\\BaseBlock::setRouter<\/a>"],[38.46153846153847,6,"<a href=\"BaseBlock.php.html#209\">Shared\\Page\\Blocks\\BaseBlock::transformResolverToDocumentation<\/a>"],[100,4,"<a href=\"BaseBlock.php.html#231\">Shared\\Page\\Blocks\\BaseBlock::propertiesThief<\/a>"],[100,4,"<a href=\"BaseBlock.php.html#257\">Shared\\Page\\Blocks\\BaseBlock::setTitle<\/a>"],[66.66666666666666,2,"<a href=\"BaseBlock.php.html#280\">Shared\\Page\\Blocks\\BaseBlock::translateSimpleString<\/a>"],[100,4,"<a href=\"BaseBlock.php.html#296\">Shared\\Page\\Blocks\\BaseBlock::getLocalizedFieldFromStringArray<\/a>"],[100,3,"<a href=\"BaseBlock.php.html#314\">Shared\\Page\\Blocks\\BaseBlock::getTranslatedStringOrLocalizedArrayValue<\/a>"],[100,3,"<a href=\"BaseBlock.php.html#333\">Shared\\Page\\Blocks\\BaseBlock::getUnmodifiedStringOrLocalizedArrayValue<\/a>"],[100,1,"<a href=\"BaseBlock.php.html#347\">Shared\\Page\\Blocks\\BaseBlock::getTemplatingPath<\/a>"],[0,1,"<a href=\"BaseBlock.php.html#352\">Shared\\Page\\Blocks\\BaseBlock::getLogger<\/a>"],[100,1,"<a href=\"BaseGroupBlock.php.html#9\">Shared\\Page\\Blocks\\BaseGroupBlock::configureOptions<\/a>"],[100,3,"<a href=\"BaseGroupBlock.php.html#20\">Shared\\Page\\Blocks\\BaseGroupBlock::renderInnerBlocks<\/a>"],[100,4,"<a href=\"BaseGroupBlock.php.html#33\">Shared\\Page\\Blocks\\BaseGroupBlock::setIterableBlocks<\/a>"],[100,1,"<a href=\"BaseMultiDataSourceArticleBlock.php.html#7\">Shared\\Page\\Blocks\\BaseMultiDataSourceArticleBlock::configureOptions<\/a>"],[100,2,"<a href=\"BaseMultiDataSourceArticleBlock.php.html#15\">Shared\\Page\\Blocks\\BaseMultiDataSourceArticleBlock::configureDataSource<\/a>"],[100,1,"<a href=\"BcsBlock.php.html#17\">Shared\\Page\\Blocks\\BcsBlock::configureOptions<\/a>"],[100,6,"<a href=\"BcsBlock.php.html#38\">Shared\\Page\\Blocks\\BcsBlock::render<\/a>"],[100,1,"<a href=\"BcsBlock.php.html#81\">Shared\\Page\\Blocks\\BcsBlock::setContinents<\/a>"],[100,1,"<a href=\"BcsBlock.php.html#88\">Shared\\Page\\Blocks\\BcsBlock::getName<\/a>"],[100,1,"<a href=\"BonusBlock.php.html#11\">Shared\\Page\\Blocks\\BonusBlock::configureOptions<\/a>"],[100,3,"<a href=\"BonusBlock.php.html#28\">Shared\\Page\\Blocks\\BonusBlock::render<\/a>"],[100,1,"<a href=\"BonusBlock.php.html#43\">Shared\\Page\\Blocks\\BonusBlock::getName<\/a>"],[100,1,"<a href=\"DfpLeaderBoard.php.html#7\">Shared\\Page\\Blocks\\DfpLeaderBoard::configureOptions<\/a>"],[100,1,"<a href=\"DfpLeaderBoard.php.html#17\">Shared\\Page\\Blocks\\DfpLeaderBoard::render<\/a>"],[100,1,"<a href=\"DfpLeaderBoard.php.html#30\">Shared\\Page\\Blocks\\DfpLeaderBoard::getName<\/a>"],[0,1,"<a href=\"DiscoverBlock.php.html#16\">Shared\\Page\\Blocks\\DiscoverBlock::mergeOptions<\/a>"],[0,1,"<a href=\"DiscoverBlock.php.html#22\">Shared\\Page\\Blocks\\DiscoverBlock::configureOptions<\/a>"],[0,1,"<a href=\"DiscoverBlock.php.html#40\">Shared\\Page\\Blocks\\DiscoverBlock::getArticles<\/a>"],[0,1,"<a href=\"DiscoverBlock.php.html#46\">Shared\\Page\\Blocks\\DiscoverBlock::getLogger<\/a>"],[0,1,"<a href=\"DiscoverBlock.php.html#52\">Shared\\Page\\Blocks\\DiscoverBlock::getVerticalColors<\/a>"],[0,3,"<a href=\"DiscoverBlock.php.html#60\">Shared\\Page\\Blocks\\DiscoverBlock::render<\/a>"],[100,1,"<a href=\"DiscoverBlock.php.html#82\">Shared\\Page\\Blocks\\DiscoverBlock::getName<\/a>"],[100,1,"<a href=\"EnhancedOptionsResolver.php.html#11\">Shared\\Page\\Blocks\\EnhancedOptionsResolver::setExtraInformation<\/a>"],[0,1,"<a href=\"EnhancedOptionsResolver.php.html#18\">Shared\\Page\\Blocks\\EnhancedOptionsResolver::getExtraInformation<\/a>"],[100,1,"<a href=\"FeaturedBlock.php.html#11\">Shared\\Page\\Blocks\\FeaturedBlock::configureOptions<\/a>"],[78.26086956521739,7,"<a href=\"FeaturedBlock.php.html#27\">Shared\\Page\\Blocks\\FeaturedBlock::render<\/a>"],[100,1,"<a href=\"FeaturedBlock.php.html#63\">Shared\\Page\\Blocks\\FeaturedBlock::getName<\/a>"],[100,2,"<a href=\"GalleryBlock.php.html#12\">Shared\\Page\\Blocks\\GalleryBlock::configureOptions<\/a>"],[100,2,"<a href=\"GalleryBlock.php.html#30\">Shared\\Page\\Blocks\\GalleryBlock::getDefaultSliderConfig<\/a>"],[92.3076923076923,2,"<a href=\"GalleryBlock.php.html#54\">Shared\\Page\\Blocks\\GalleryBlock::render<\/a>"],[100,1,"<a href=\"GalleryBlock.php.html#76\">Shared\\Page\\Blocks\\GalleryBlock::setGalleryRepository<\/a>"],[100,1,"<a href=\"GalleryBlock.php.html#83\">Shared\\Page\\Blocks\\GalleryBlock::getName<\/a>"],[100,2,"<a href=\"IframeBlock.php.html#7\">Shared\\Page\\Blocks\\IframeBlock::configureOptions<\/a>"],[100,1,"<a href=\"IframeBlock.php.html#38\">Shared\\Page\\Blocks\\IframeBlock::render<\/a>"],[100,1,"<a href=\"IframeBlock.php.html#53\">Shared\\Page\\Blocks\\IframeBlock::getName<\/a>"],[0,1,"<a href=\"IframeBlock.php.html#62\">Shared\\Page\\Blocks\\IframeBlock::getTitle<\/a>"],[100,1,"<a href=\"IframeBlock.php.html#70\">Shared\\Page\\Blocks\\IframeBlock::getDescription<\/a>"],[0,2,"<a href=\"LanguageBlock.php.html#17\">Shared\\Page\\Blocks\\LanguageBlock::render<\/a>"],[0,1,"<a href=\"LanguageBlock.php.html#30\">Shared\\Page\\Blocks\\LanguageBlock::setLanguageRedirector<\/a>"],[100,1,"<a href=\"LanguageBlock.php.html#37\">Shared\\Page\\Blocks\\LanguageBlock::getName<\/a>"],[100,1,"<a href=\"LargeBanner.php.html#7\">Shared\\Page\\Blocks\\LargeBanner::configureOptions<\/a>"],[100,1,"<a href=\"LargeBanner.php.html#22\">Shared\\Page\\Blocks\\LargeBanner::render<\/a>"],[100,1,"<a href=\"LargeBanner.php.html#40\">Shared\\Page\\Blocks\\LargeBanner::getName<\/a>"],[100,1,"<a href=\"LatestBlock.php.html#9\">Shared\\Page\\Blocks\\LatestBlock::mergeOptions<\/a>"],[100,1,"<a href=\"LatestBlock.php.html#18\">Shared\\Page\\Blocks\\LatestBlock::configureOptions<\/a>"],[100,6,"<a href=\"LatestBlock.php.html#41\">Shared\\Page\\Blocks\\LatestBlock::render<\/a>"],[100,1,"<a href=\"LatestBlock.php.html#78\">Shared\\Page\\Blocks\\LatestBlock::getName<\/a>"],[100,1,"<a href=\"ListingBlock.php.html#14\">Shared\\Page\\Blocks\\ListingBlock::configureOptions<\/a>"],[97.2972972972973,8,"<a href=\"ListingBlock.php.html#68\">Shared\\Page\\Blocks\\ListingBlock::render<\/a>"],[0,1,"<a href=\"ListingBlock.php.html#118\">Shared\\Page\\Blocks\\ListingBlock::setDefaultLimit<\/a>"],[100,1,"<a href=\"ListingBlock.php.html#123\">Shared\\Page\\Blocks\\ListingBlock::getName<\/a>"],[0,2,"<a href=\"MarketBlock.php.html#9\">Shared\\Page\\Blocks\\MarketBlock::render<\/a>"],[100,1,"<a href=\"MarketBlock.php.html#19\">Shared\\Page\\Blocks\\MarketBlock::getName<\/a>"],[0,1,"<a href=\"Markets\/ArticlesBlock.php.html#10\">Shared\\Page\\Blocks\\Markets\\ArticlesBlock::mergeOptions<\/a>"],[0,1,"<a href=\"Markets\/ArticlesBlock.php.html#20\">Shared\\Page\\Blocks\\Markets\\ArticlesBlock::configureOptions<\/a>"],[0,2,"<a href=\"Markets\/ArticlesBlock.php.html#41\">Shared\\Page\\Blocks\\Markets\\ArticlesBlock::render<\/a>"],[100,1,"<a href=\"Markets\/ArticlesBlock.php.html#58\">Shared\\Page\\Blocks\\Markets\\ArticlesBlock::getName<\/a>"],[0,2,"<a href=\"Markets\/CommoditiesBlock.php.html#15\">Shared\\Page\\Blocks\\Markets\\CommoditiesBlock::render<\/a>"],[100,1,"<a href=\"Markets\/CommoditiesBlock.php.html#26\">Shared\\Page\\Blocks\\Markets\\CommoditiesBlock::getName<\/a>"],[0,2,"<a href=\"Markets\/CurrencyBlock.php.html#15\">Shared\\Page\\Blocks\\Markets\\CurrencyBlock::render<\/a>"],[100,1,"<a href=\"Markets\/CurrencyBlock.php.html#26\">Shared\\Page\\Blocks\\Markets\\CurrencyBlock::getName<\/a>"],[0,2,"<a href=\"Markets\/IndexesBlock.php.html#15\">Shared\\Page\\Blocks\\Markets\\IndexesBlock::render<\/a>"],[100,1,"<a href=\"Markets\/IndexesBlock.php.html#26\">Shared\\Page\\Blocks\\Markets\\IndexesBlock::getName<\/a>"],[0,1,"<a href=\"MostViewedBlock.php.html#10\">Shared\\Page\\Blocks\\MostViewedBlock::render<\/a>"],[0,1,"<a href=\"MostViewedBlock.php.html#30\">Shared\\Page\\Blocks\\MostViewedBlock::configureOptions<\/a>"],[100,1,"<a href=\"MostViewedBlock.php.html#42\">Shared\\Page\\Blocks\\MostViewedBlock::getName<\/a>"],[100,1,"<a href=\"NavbarBlock.php.html#15\">Shared\\Page\\Blocks\\NavbarBlock::__construct<\/a>"],[90,3,"<a href=\"NavbarBlock.php.html#27\">Shared\\Page\\Blocks\\NavbarBlock::configureOptions<\/a>"],[100,1,"<a href=\"NavbarBlock.php.html#52\">Shared\\Page\\Blocks\\NavbarBlock::getName<\/a>"],[100,1,"<a href=\"NavbarBlock.php.html#58\">Shared\\Page\\Blocks\\NavbarBlock::render<\/a>"],[75,6,"<a href=\"NoImagesBlock.php.html#12\">Shared\\Page\\Blocks\\NoImagesBlock::render<\/a>"],[100,1,"<a href=\"NoImagesBlock.php.html#42\">Shared\\Page\\Blocks\\NoImagesBlock::getName<\/a>"],[100,1,"<a href=\"PersonalizedBanner.php.html#7\">Shared\\Page\\Blocks\\PersonalizedBanner::configureOptions<\/a>"],[100,2,"<a href=\"PersonalizedBanner.php.html#50\">Shared\\Page\\Blocks\\PersonalizedBanner::render<\/a>"],[100,1,"<a href=\"PersonalizedBanner.php.html#68\">Shared\\Page\\Blocks\\PersonalizedBanner::getName<\/a>"],[100,1,"<a href=\"PremiumBlock.php.html#9\">Shared\\Page\\Blocks\\PremiumBlock::configureOptions<\/a>"],[100,6,"<a href=\"PremiumBlock.php.html#53\">Shared\\Page\\Blocks\\PremiumBlock::render<\/a>"],[100,1,"<a href=\"PremiumBlock.php.html#79\">Shared\\Page\\Blocks\\PremiumBlock::getName<\/a>"],[100,1,"<a href=\"ProgramReplayBlock.php.html#9\">Shared\\Page\\Blocks\\ProgramReplayBlock::configureOptions<\/a>"],[100,4,"<a href=\"ProgramReplayBlock.php.html#23\">Shared\\Page\\Blocks\\ProgramReplayBlock::render<\/a>"],[100,1,"<a href=\"ProgramReplayBlock.php.html#49\">Shared\\Page\\Blocks\\ProgramReplayBlock::getName<\/a>"],[100,1,"<a href=\"ProgramStandardBanner.php.html#7\">Shared\\Page\\Blocks\\ProgramStandardBanner::configureOptions<\/a>"],[93.75,2,"<a href=\"ProgramStandardBanner.php.html#32\">Shared\\Page\\Blocks\\ProgramStandardBanner::render<\/a>"],[100,1,"<a href=\"ProgramStandardBanner.php.html#56\">Shared\\Page\\Blocks\\ProgramStandardBanner::getName<\/a>"],[0,1,"<a href=\"ProgramsListBlock.php.html#7\">Shared\\Page\\Blocks\\ProgramsListBlock::configureOptions<\/a>"],[0,13,"<a href=\"ProgramsListBlock.php.html#22\">Shared\\Page\\Blocks\\ProgramsListBlock::render<\/a>"],[100,1,"<a href=\"ProgramsListBlock.php.html#86\">Shared\\Page\\Blocks\\ProgramsListBlock::getName<\/a>"],[100,1,"<a href=\"ProgramsVerticalBlock.php.html#7\">Shared\\Page\\Blocks\\ProgramsVerticalBlock::configureOptions<\/a>"],[87.5,15,"<a href=\"ProgramsVerticalBlock.php.html#16\">Shared\\Page\\Blocks\\ProgramsVerticalBlock::render<\/a>"],[100,1,"<a href=\"ProgramsVerticalBlock.php.html#93\">Shared\\Page\\Blocks\\ProgramsVerticalBlock::getName<\/a>"],[100,1,"<a href=\"RawHtmlBlock.php.html#7\">Shared\\Page\\Blocks\\RawHtmlBlock::configureOptions<\/a>"],[100,1,"<a href=\"RawHtmlBlock.php.html#17\">Shared\\Page\\Blocks\\RawHtmlBlock::render<\/a>"],[100,1,"<a href=\"RawHtmlBlock.php.html#25\">Shared\\Page\\Blocks\\RawHtmlBlock::getName<\/a>"],[100,2,"<a href=\"ServiceBlock.php.html#9\">Shared\\Page\\Blocks\\ServiceBlock::render<\/a>"],[100,1,"<a href=\"ServiceBlock.php.html#19\">Shared\\Page\\Blocks\\ServiceBlock::getName<\/a>"],[0,1,"<a href=\"SixArticlesBlock.php.html#11\">Shared\\Page\\Blocks\\SixArticlesBlock::configureOptions<\/a>"],[0,3,"<a href=\"SixArticlesBlock.php.html#26\">Shared\\Page\\Blocks\\SixArticlesBlock::render<\/a>"],[100,1,"<a href=\"SixArticlesBlock.php.html#44\">Shared\\Page\\Blocks\\SixArticlesBlock::getName<\/a>"],[100,1,"<a href=\"SmallBlock.php.html#11\">Shared\\Page\\Blocks\\SmallBlock::configureOptions<\/a>"],[72.97297297297297,11,"<a href=\"SmallBlock.php.html#30\">Shared\\Page\\Blocks\\SmallBlock::render<\/a>"],[100,1,"<a href=\"SmallBlock.php.html#90\">Shared\\Page\\Blocks\\SmallBlock::getName<\/a>"],[0,1,"<a href=\"SoloBlock.php.html#9\">Shared\\Page\\Blocks\\SoloBlock::configureOptions<\/a>"],[0,4,"<a href=\"SoloBlock.php.html#53\">Shared\\Page\\Blocks\\SoloBlock::render<\/a>"],[100,1,"<a href=\"SoloBlock.php.html#80\">Shared\\Page\\Blocks\\SoloBlock::getName<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#13\">Shared\\Page\\Blocks\\SponsoredContentBlock::configureOptions<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#21\">Shared\\Page\\Blocks\\SponsoredContentBlock::prepareParamsRender<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#29\">Shared\\Page\\Blocks\\SponsoredContentBlock::render<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#38\">Shared\\Page\\Blocks\\SponsoredContentBlock::setRequestStack<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#45\">Shared\\Page\\Blocks\\SponsoredContentBlock::setOutbrainProvider<\/a>"],[66.66666666666666,2,"<a href=\"SponsoredContentBlock.php.html#52\">Shared\\Page\\Blocks\\SponsoredContentBlock::getCurrentUri<\/a>"],[100,1,"<a href=\"SponsoredContentBlock.php.html#61\">Shared\\Page\\Blocks\\SponsoredContentBlock::getName<\/a>"],[90.9090909090909,4,"<a href=\"SportBlock.php.html#14\">Shared\\Page\\Blocks\\SportBlock::render<\/a>"],[100,1,"<a href=\"SportBlock.php.html#47\">Shared\\Page\\Blocks\\SportBlock::setApiProxyFootball<\/a>"],[100,1,"<a href=\"SportBlock.php.html#54\">Shared\\Page\\Blocks\\SportBlock::setApiProxyFootballLeagues<\/a>"],[100,1,"<a href=\"SportBlock.php.html#61\">Shared\\Page\\Blocks\\SportBlock::getName<\/a>"],[100,1,"<a href=\"StandardBanner.php.html#7\">Shared\\Page\\Blocks\\StandardBanner::configureOptions<\/a>"],[100,2,"<a href=\"StandardBanner.php.html#44\">Shared\\Page\\Blocks\\StandardBanner::render<\/a>"],[100,1,"<a href=\"StandardBanner.php.html#62\">Shared\\Page\\Blocks\\StandardBanner::getName<\/a>"],[100,1,"<a href=\"StoryTypesBlock.php.html#13\">Shared\\Page\\Blocks\\StoryTypesBlock::configureOptions<\/a>"],[16.666666666666664,8,"<a href=\"StoryTypesBlock.php.html#31\">Shared\\Page\\Blocks\\StoryTypesBlock::render<\/a>"],[100,1,"<a href=\"StoryTypesBlock.php.html#72\">Shared\\Page\\Blocks\\StoryTypesBlock::getName<\/a>"],[100,1,"<a href=\"ThemeGroupBlock.php.html#13\">Shared\\Page\\Blocks\\ThemeGroupBlock::configureOptions<\/a>"],[94.44444444444444,3,"<a href=\"ThemeGroupBlock.php.html#24\">Shared\\Page\\Blocks\\ThemeGroupBlock::render<\/a>"],[100,1,"<a href=\"ThemeGroupBlock.php.html#52\">Shared\\Page\\Blocks\\ThemeGroupBlock::setMostViewedApi<\/a>"],[100,1,"<a href=\"ThemeGroupBlock.php.html#59\">Shared\\Page\\Blocks\\ThemeGroupBlock::getName<\/a>"],[100,1,"<a href=\"TopArticlesBlock.php.html#9\">Shared\\Page\\Blocks\\TopArticlesBlock::configureOptions<\/a>"],[100,4,"<a href=\"TopArticlesBlock.php.html#22\">Shared\\Page\\Blocks\\TopArticlesBlock::render<\/a>"],[100,1,"<a href=\"TopArticlesBlock.php.html#43\">Shared\\Page\\Blocks\\TopArticlesBlock::getName<\/a>"],[100,1,"<a href=\"TopStoriesBlock.php.html#16\">Shared\\Page\\Blocks\\TopStoriesBlock::configureOptions<\/a>"],[88.88888888888889,3,"<a href=\"TopStoriesBlock.php.html#31\">Shared\\Page\\Blocks\\TopStoriesBlock::getArticles<\/a>"],[100,1,"<a href=\"TopStoriesBlock.php.html#50\">Shared\\Page\\Blocks\\TopStoriesBlock::doLoadArticles<\/a>"],[100,2,"<a href=\"TopStoriesBlock.php.html#57\">Shared\\Page\\Blocks\\TopStoriesBlock::render<\/a>"],[0,1,"<a href=\"TopStoriesBlock.php.html#71\">Shared\\Page\\Blocks\\TopStoriesBlock::getLogger<\/a>"],[100,1,"<a href=\"TopStoriesBlock.php.html#77\">Shared\\Page\\Blocks\\TopStoriesBlock::getName<\/a>"],[0,2,"<a href=\"TopStoriesBlock.php.html#83\">Shared\\Page\\Blocks\\TopStoriesBlock::getFirstArticle<\/a>"],[100,1,"<a href=\"TopStoriesSixArticlesBlock.php.html#13\">Shared\\Page\\Blocks\\TopStoriesSixArticlesBlock::configureOptions<\/a>"],[65,14,"<a href=\"TopStoriesSixArticlesBlock.php.html#44\">Shared\\Page\\Blocks\\TopStoriesSixArticlesBlock::render<\/a>"],[100,1,"<a href=\"TopStoriesSixArticlesBlock.php.html#105\">Shared\\Page\\Blocks\\TopStoriesSixArticlesBlock::getName<\/a>"],[100,1,"<a href=\"TopStoriesV2Block.php.html#9\">Shared\\Page\\Blocks\\TopStoriesV2Block::mergeOptions<\/a>"],[100,1,"<a href=\"TopStoriesV2Block.php.html#17\">Shared\\Page\\Blocks\\TopStoriesV2Block::configureOptions<\/a>"],[100,3,"<a href=\"TopStoriesV2Block.php.html#32\">Shared\\Page\\Blocks\\TopStoriesV2Block::render<\/a>"],[100,1,"<a href=\"TopStoriesV2Block.php.html#52\">Shared\\Page\\Blocks\\TopStoriesV2Block::getName<\/a>"],[0,1,"<a href=\"TopStoriesVerticalBlock.php.html#15\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::configureOptions<\/a>"],[0,1,"<a href=\"TopStoriesVerticalBlock.php.html#37\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::doLoadArticles<\/a>"],[0,5,"<a href=\"TopStoriesVerticalBlock.php.html#44\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::render<\/a>"],[0,1,"<a href=\"TopStoriesVerticalBlock.php.html#69\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::getLogger<\/a>"],[100,1,"<a href=\"TopStoriesVerticalBlock.php.html#75\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::getName<\/a>"],[0,2,"<a href=\"TopStoriesVerticalBlock.php.html#81\">Shared\\Page\\Blocks\\TopStoriesVerticalBlock::getFirstArticle<\/a>"],[100,1,"<a href=\"VerticalAdaptativeBlock.php.html#12\">Shared\\Page\\Blocks\\VerticalAdaptativeBlock::configureOptions<\/a>"],[88.57142857142857,16,"<a href=\"VerticalAdaptativeBlock.php.html#56\">Shared\\Page\\Blocks\\VerticalAdaptativeBlock::render<\/a>"],[100,1,"<a href=\"VerticalAdaptativeBlock.php.html#117\">Shared\\Page\\Blocks\\VerticalAdaptativeBlock::getName<\/a>"],[100,3,"<a href=\"VerticalThemesBlock.php.html#7\">Shared\\Page\\Blocks\\VerticalThemesBlock::render<\/a>"],[100,1,"<a href=\"VerticalThemesBlock.php.html#27\">Shared\\Page\\Blocks\\VerticalThemesBlock::getName<\/a>"],[100,1,"<a href=\"VerticalTopStoriesBlock.php.html#12\">Shared\\Page\\Blocks\\VerticalTopStoriesBlock::mergeOptions<\/a>"],[100,1,"<a href=\"VerticalTopStoriesBlock.php.html#21\">Shared\\Page\\Blocks\\VerticalTopStoriesBlock::configureOptions<\/a>"],[92.15686274509804,15,"<a href=\"VerticalTopStoriesBlock.php.html#71\">Shared\\Page\\Blocks\\VerticalTopStoriesBlock::render<\/a>"],[100,1,"<a href=\"VerticalTopStoriesBlock.php.html#146\">Shared\\Page\\Blocks\\VerticalTopStoriesBlock::getName<\/a>"],[100,2,"<a href=\"VideoBlock.php.html#32\">Shared\\Page\\Blocks\\VideoBlock::render<\/a>"],[100,1,"<a href=\"VideoBlock.php.html#44\">Shared\\Page\\Blocks\\VideoBlock::configureOptions<\/a>"],[100,1,"<a href=\"VideoBlock.php.html#53\">Shared\\Page\\Blocks\\VideoBlock::getArticleApi<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#58\">Shared\\Page\\Blocks\\VideoBlock::getArticleBulletinApi<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#63\">Shared\\Page\\Blocks\\VideoBlock::getArticleRelatedApi<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#68\">Shared\\Page\\Blocks\\VideoBlock::getBlockContentApi<\/a>"],[100,1,"<a href=\"VideoBlock.php.html#73\">Shared\\Page\\Blocks\\VideoBlock::getArticleDuplicatedStore<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#78\">Shared\\Page\\Blocks\\VideoBlock::getKeywordApi<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#83\">Shared\\Page\\Blocks\\VideoBlock::getMostViewedApi<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#88\">Shared\\Page\\Blocks\\VideoBlock::getRouter<\/a>"],[0,1,"<a href=\"VideoBlock.php.html#93\">Shared\\Page\\Blocks\\VideoBlock::getWireApi<\/a>"],[100,1,"<a href=\"VideoBlock.php.html#98\">Shared\\Page\\Blocks\\VideoBlock::getName<\/a>"],[100,1,"<a href=\"VideosThemesBlock.php.html#10\">Shared\\Page\\Blocks\\VideosThemesBlock::configureOptions<\/a>"],[100,4,"<a href=\"VideosThemesBlock.php.html#21\">Shared\\Page\\Blocks\\VideosThemesBlock::render<\/a>"],[100,1,"<a href=\"VideosThemesBlock.php.html#38\">Shared\\Page\\Blocks\\VideosThemesBlock::getName<\/a>"],[100,1,"<a href=\"ViewBlock.php.html#9\">Shared\\Page\\Blocks\\ViewBlock::configureOptions<\/a>"],[93.10344827586206,8,"<a href=\"ViewBlock.php.html#26\">Shared\\Page\\Blocks\\ViewBlock::render<\/a>"],[100,1,"<a href=\"ViewBlock.php.html#67\">Shared\\Page\\Blocks\\ViewBlock::getName<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Menu</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#8">App\Component\Menu\SpecialCoverageMenuConfiguratorManager</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#25">App\Component\Menu\MenuBuilder</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#14">App\Component\Menu\AbstractMenuConfiguratorManager</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="MenuManager.php.html#21">App\Component\Menu\MenuManager</a></td><td class="text-right">63%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuBuilder.php.html#25">App\Component\Menu\MenuBuilder</a></td><td class="text-right">1254</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#8">App\Component\Menu\SpecialCoverageMenuConfiguratorManager</a></td><td class="text-right">468</td></tr>
+       <tr><td><a href="MenuManager.php.html#21">App\Component\Menu\MenuManager</a></td><td class="text-right">52</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#14">App\Component\Menu\AbstractMenuConfiguratorManager</a></td><td class="text-right">36</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#51"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#61"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#66"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getProgramManager">getProgramManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#71"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#92"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getHubConfiguratorManager">getHubConfiguratorManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#97"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getProgramConfiguratorManager">getProgramConfiguratorManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#102"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getThemeConfiguratorManager">getThemeConfiguratorManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#107"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getVerticalConfiguratorManager">getVerticalConfiguratorManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#112"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getCustomConfiguratorManager">getCustomConfiguratorManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#196"><abbr title="App\Component\Menu\MenuBuilder::addProgramsBlocks">addProgramsBlocks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#485"><abbr title="App\Component\Menu\MenuBuilder::convertConfigItemToMenuItem">convertConfigItemToMenuItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#535"><abbr title="App\Component\Menu\MenuBuilder::extractLocalizedValueFromConfigItem">extractLocalizedValueFromConfigItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#544"><abbr title="App\Component\Menu\MenuBuilder::getKeyValueApi">getKeyValueApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#549"><abbr title="App\Component\Menu\MenuBuilder::getArticleApi">getArticleApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#554"><abbr title="App\Component\Menu\MenuBuilder::getBreakingNewsApi">getBreakingNewsApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#559"><abbr title="App\Component\Menu\MenuBuilder::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#564"><abbr title="App\Component\Menu\MenuBuilder::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#569"><abbr title="App\Component\Menu\MenuBuilder::getMenuManager">getMenuManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#574"><abbr title="App\Component\Menu\MenuBuilder::getProgramApi">getProgramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#584"><abbr title="App\Component\Menu\MenuBuilder::getTagApi">getTagApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#589"><abbr title="App\Component\Menu\MenuBuilder::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#594"><abbr title="App\Component\Menu\MenuBuilder::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#599"><abbr title="App\Component\Menu\MenuBuilder::getVerticalConfigurationStore">getVerticalConfigurationStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#604"><abbr title="App\Component\Menu\MenuBuilder::getDuplicatedManager">getDuplicatedManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#609"><abbr title="App\Component\Menu\MenuBuilder::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#99"><abbr title="App\Component\Menu\MenuManager::getArticleApi">getArticleApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#104"><abbr title="App\Component\Menu\MenuManager::getBreakingNewsApi">getBreakingNewsApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#109"><abbr title="App\Component\Menu\MenuManager::getKeyValueApi">getKeyValueApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#114"><abbr title="App\Component\Menu\MenuManager::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#131"><abbr title="App\Component\Menu\MenuManager::getMenuManager">getMenuManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#136"><abbr title="App\Component\Menu\MenuManager::getProgramApi">getProgramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#141"><abbr title="App\Component\Menu\MenuManager::getRouter">getRouter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#146"><abbr title="App\Component\Menu\MenuManager::getTagApi">getTagApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#151"><abbr title="App\Component\Menu\MenuManager::getTranslator">getTranslator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#156"><abbr title="App\Component\Menu\MenuManager::getVerticalHierarchyStore">getVerticalHierarchyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#161"><abbr title="App\Component\Menu\MenuManager::getVerticalConfigurationStore">getVerticalConfigurationStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#166"><abbr title="App\Component\Menu\MenuManager::getDuplicatedManager">getDuplicatedManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuManager.php.html#171"><abbr title="App\Component\Menu\MenuManager::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#394"><abbr title="App\Component\Menu\MenuBuilder::sortByKey">sortByKey</abbr></a></td><td class="text-right">12%</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#85"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::prepareEntry">prepareEntry</abbr></a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#191"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::isEntryVisibleForLocale">isEntryVisibleForLocale</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#208"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::getOrderEntryForLocale">getOrderEntryForLocale</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#210"><abbr title="App\Component\Menu\MenuBuilder::addProgramBlock">addProgramBlock</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#108"><abbr title="App\Component\Menu\MenuBuilder::buildMainItem">buildMainItem</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#83"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getConfigurationManager">getConfigurationManager</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MenuManager.php.html#84"><abbr title="App\Component\Menu\MenuManager::setLocale">setLocale</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#225"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::getTitleForLocale">getTitleForLocale</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#42"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::prepareMenu">prepareMenu</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#180"><abbr title="App\Component\Menu\MenuBuilder::addMainItem">addMainItem</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#448"><abbr title="App\Component\Menu\MenuBuilder::loadConfig">loadConfig</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#85"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::prepareEntry">prepareEntry</abbr></a></td><td class="text-right">340</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#394"><abbr title="App\Component\Menu\MenuBuilder::sortByKey">sortByKey</abbr></a></td><td class="text-right">126</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#210"><abbr title="App\Component\Menu\MenuBuilder::addProgramBlock">addProgramBlock</abbr></a></td><td class="text-right">73</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#485"><abbr title="App\Component\Menu\MenuBuilder::convertConfigItemToMenuItem">convertConfigItemToMenuItem</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#108"><abbr title="App\Component\Menu\MenuBuilder::buildMainItem">buildMainItem</abbr></a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#42"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::prepareMenu">prepareMenu</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#208"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::getOrderEntryForLocale">getOrderEntryForLocale</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#196"><abbr title="App\Component\Menu\MenuBuilder::addProgramsBlocks">addProgramsBlocks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#535"><abbr title="App\Component\Menu\MenuBuilder::extractLocalizedValueFromConfigItem">extractLocalizedValueFromConfigItem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#191"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::isEntryVisibleForLocale">isEntryVisibleForLocale</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="SpecialCoverageMenuConfiguratorManager.php.html#225"><abbr title="App\Component\Menu\SpecialCoverageMenuConfiguratorManager::getTitleForLocale">getTitleForLocale</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AbstractMenuConfiguratorManager.php.html#83"><abbr title="App\Component\Menu\AbstractMenuConfiguratorManager::getConfigurationManager">getConfigurationManager</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MenuManager.php.html#84"><abbr title="App\Component\Menu\MenuManager::setLocale">setLocale</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#180"><abbr title="App\Component\Menu\MenuBuilder::addMainItem">addMainItem</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MenuBuilder.php.html#448"><abbr title="App\Component\Menu\MenuBuilder::loadConfig">loadConfig</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,1,2,1,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([38,0,1,1,0,2,0,5,2,1,1,22], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[54.54545454545454,15,"<a href=\"AbstractMenuConfiguratorManager.php.html#14\">App\\Component\\Menu\\AbstractMenuConfiguratorManager<\/a>"],[100,0,"<a href=\"Exceptions\/MenuItemNotFoundForLocale.php.html#5\">App\\Component\\Menu\\Exceptions\\MenuItemNotFoundForLocale<\/a>"],[51.63934426229508,101,"<a href=\"MenuBuilder.php.html#25\">App\\Component\\Menu\\MenuBuilder<\/a>"],[63.1578947368421,24,"<a href=\"MenuManager.php.html#21\">App\\Component\\Menu\\MenuManager<\/a>"],[48.507462686567166,55,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#8\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#30\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::__construct<\/a>"],[100,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#46\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getKeyValueApi<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#51\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getLogger<\/a>"],[100,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#56\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getRouter<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#61\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getTranslator<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#66\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getProgramManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#71\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getVerticalHierarchyStore<\/a>"],[100,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#76\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::addConfigurationManager<\/a>"],[66.66666666666666,2,"<a href=\"AbstractMenuConfiguratorManager.php.html#83\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getConfigurationManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#92\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getHubConfiguratorManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#97\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getProgramConfiguratorManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#102\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getThemeConfiguratorManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#107\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getVerticalConfiguratorManager<\/a>"],[0,1,"<a href=\"AbstractMenuConfiguratorManager.php.html#112\">App\\Component\\Menu\\AbstractMenuConfiguratorManager::getCustomConfiguratorManager<\/a>"],[100,3,"<a href=\"MenuBuilder.php.html#43\">App\\Component\\Menu\\MenuBuilder::__construct<\/a>"],[100,1,"<a href=\"MenuBuilder.php.html#64\">App\\Component\\Menu\\MenuBuilder::build<\/a>"],[100,2,"<a href=\"MenuBuilder.php.html#79\">App\\Component\\Menu\\MenuBuilder::addMainItems<\/a>"],[100,1,"<a href=\"MenuBuilder.php.html#91\">App\\Component\\Menu\\MenuBuilder::addSpecialItems<\/a>"],[63.04347826086957,14,"<a href=\"MenuBuilder.php.html#108\">App\\Component\\Menu\\MenuBuilder::buildMainItem<\/a>"],[75,2,"<a href=\"MenuBuilder.php.html#180\">App\\Component\\Menu\\MenuBuilder::addMainItem<\/a>"],[0,2,"<a href=\"MenuBuilder.php.html#196\">App\\Component\\Menu\\MenuBuilder::addProgramsBlocks<\/a>"],[60,27,"<a href=\"MenuBuilder.php.html#210\">App\\Component\\Menu\\MenuBuilder::addProgramBlock<\/a>"],[100,2,"<a href=\"MenuBuilder.php.html#354\">App\\Component\\Menu\\MenuBuilder::addChannelItems<\/a>"],[100,5,"<a href=\"MenuBuilder.php.html#366\">App\\Component\\Menu\\MenuBuilder::addChannelItem<\/a>"],[12.5,13,"<a href=\"MenuBuilder.php.html#394\">App\\Component\\Menu\\MenuBuilder::sortByKey<\/a>"],[100,3,"<a href=\"MenuBuilder.php.html#430\">App\\Component\\Menu\\MenuBuilder::checkRequiredParams<\/a>"],[80,2,"<a href=\"MenuBuilder.php.html#448\">App\\Component\\Menu\\MenuBuilder::loadConfig<\/a>"],[0,8,"<a href=\"MenuBuilder.php.html#485\">App\\Component\\Menu\\MenuBuilder::convertConfigItemToMenuItem<\/a>"],[0,2,"<a href=\"MenuBuilder.php.html#535\">App\\Component\\Menu\\MenuBuilder::extractLocalizedValueFromConfigItem<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#544\">App\\Component\\Menu\\MenuBuilder::getKeyValueApi<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#549\">App\\Component\\Menu\\MenuBuilder::getArticleApi<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#554\">App\\Component\\Menu\\MenuBuilder::getBreakingNewsApi<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#559\">App\\Component\\Menu\\MenuBuilder::getKeywordApi<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#564\">App\\Component\\Menu\\MenuBuilder::getLogger<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#569\">App\\Component\\Menu\\MenuBuilder::getMenuManager<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#574\">App\\Component\\Menu\\MenuBuilder::getProgramApi<\/a>"],[100,1,"<a href=\"MenuBuilder.php.html#579\">App\\Component\\Menu\\MenuBuilder::getRouter<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#584\">App\\Component\\Menu\\MenuBuilder::getTagApi<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#589\">App\\Component\\Menu\\MenuBuilder::getTranslator<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#594\">App\\Component\\Menu\\MenuBuilder::getVerticalHierarchyStore<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#599\">App\\Component\\Menu\\MenuBuilder::getVerticalConfigurationStore<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#604\">App\\Component\\Menu\\MenuBuilder::getDuplicatedManager<\/a>"],[0,1,"<a href=\"MenuBuilder.php.html#609\">App\\Component\\Menu\\MenuBuilder::getMostViewedApi<\/a>"],[100,1,"<a href=\"MenuManager.php.html#42\">App\\Component\\Menu\\MenuManager::getMenuBuilder<\/a>"],[100,1,"<a href=\"MenuManager.php.html#59\">App\\Component\\Menu\\MenuManager::setVerticalHierarchyStore<\/a>"],[100,1,"<a href=\"MenuManager.php.html#64\">App\\Component\\Menu\\MenuManager::setVerticalConfigurationStore<\/a>"],[100,1,"<a href=\"MenuManager.php.html#69\">App\\Component\\Menu\\MenuManager::setTranslator<\/a>"],[100,1,"<a href=\"MenuManager.php.html#74\">App\\Component\\Menu\\MenuManager::setRouter<\/a>"],[100,1,"<a href=\"MenuManager.php.html#79\">App\\Component\\Menu\\MenuManager::setKeyvaluesApi<\/a>"],[66.66666666666666,2,"<a href=\"MenuManager.php.html#84\">App\\Component\\Menu\\MenuManager::setLocale<\/a>"],[100,1,"<a href=\"MenuManager.php.html#92\">App\\Component\\Menu\\MenuManager::setTagApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#99\">App\\Component\\Menu\\MenuManager::getArticleApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#104\">App\\Component\\Menu\\MenuManager::getBreakingNewsApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#109\">App\\Component\\Menu\\MenuManager::getKeyValueApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#114\">App\\Component\\Menu\\MenuManager::getKeywordApi<\/a>"],[100,1,"<a href=\"MenuManager.php.html#119\">App\\Component\\Menu\\MenuManager::setLogger<\/a>"],[100,1,"<a href=\"MenuManager.php.html#126\">App\\Component\\Menu\\MenuManager::getLogger<\/a>"],[0,1,"<a href=\"MenuManager.php.html#131\">App\\Component\\Menu\\MenuManager::getMenuManager<\/a>"],[0,1,"<a href=\"MenuManager.php.html#136\">App\\Component\\Menu\\MenuManager::getProgramApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#141\">App\\Component\\Menu\\MenuManager::getRouter<\/a>"],[0,1,"<a href=\"MenuManager.php.html#146\">App\\Component\\Menu\\MenuManager::getTagApi<\/a>"],[0,1,"<a href=\"MenuManager.php.html#151\">App\\Component\\Menu\\MenuManager::getTranslator<\/a>"],[0,1,"<a href=\"MenuManager.php.html#156\">App\\Component\\Menu\\MenuManager::getVerticalHierarchyStore<\/a>"],[0,1,"<a href=\"MenuManager.php.html#161\">App\\Component\\Menu\\MenuManager::getVerticalConfigurationStore<\/a>"],[0,1,"<a href=\"MenuManager.php.html#166\">App\\Component\\Menu\\MenuManager::getDuplicatedManager<\/a>"],[0,1,"<a href=\"MenuManager.php.html#171\">App\\Component\\Menu\\MenuManager::getMostViewedApi<\/a>"],[92.85714285714286,7,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#14\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::prepare<\/a>"],[72.72727272727273,10,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#42\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::prepareMenu<\/a>"],[22.535211267605636,26,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#85\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::prepareEntry<\/a>"],[40,3,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#191\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::isEntryVisibleForLocale<\/a>"],[40,4,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#208\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::getOrderEntryForLocale<\/a>"],[66.66666666666666,3,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#225\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::getTitleForLocale<\/a>"],[100,2,"<a href=\"SpecialCoverageMenuConfiguratorManager.php.html#234\">App\\Component\\Menu\\SpecialCoverageMenuConfiguratorManager::buildConfigFromOld<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

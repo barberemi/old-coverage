@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/application/src/Component/Content</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/application/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Content</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FeatureFlipping.php.html#11">App\Component\Content\FeatureFlipping</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Program.php.html#14">App\Component\Content\Program</a></td><td class="text-right">78%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FeatureFlipping.php.html#11">App\Component\Content\FeatureFlipping</a></td><td class="text-right">239</td></tr>
+       <tr><td><a href="Program.php.html#14">App\Component\Content\Program</a></td><td class="text-right">49</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Common.php.html#879"><abbr title="App\Component\Content\Common::getBreakingNewsApi">getBreakingNewsApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common.php.html#889"><abbr title="App\Component\Content\Common::getKeywordApi">getKeywordApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common.php.html#894"><abbr title="App\Component\Content\Common::getLogger">getLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common.php.html#924"><abbr title="App\Component\Content\Common::getDuplicatedManager">getDuplicatedManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common.php.html#929"><abbr title="App\Component\Content\Common::getMostViewedApi">getMostViewedApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common.php.html#955"><abbr title="App\Component\Content\Common::getVerticalConfigurationStore">getVerticalConfigurationStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#36"><abbr title="App\Component\Content\FeatureFlipping::setLogger">setLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#152"><abbr title="App\Component\Content\FeatureFlipping::disableFeatures">disableFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Program.php.html#188"><abbr title="App\Component\Content\Program::getBonusTypes">getBonusTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Program.php.html#57"><abbr title="App\Component\Content\Program::getConfig">getConfig</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#198"><abbr title="App\Component\Content\FeatureFlipping::computeConfig">computeConfig</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#235"><abbr title="App\Component\Content\FeatureFlipping::getConfigForBandwidth">getConfigForBandwidth</abbr></a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#53"><abbr title="App\Component\Content\FeatureFlipping::isFeatureActive">isFeatureActive</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Common.php.html#207"><abbr title="App\Component\Content\Common::blockMenuJson">blockMenuJson</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#83"><abbr title="App\Component\Content\FeatureFlipping::isThirdparty">isThirdparty</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#134"><abbr title="App\Component\Content\FeatureFlipping::disable">disable</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#175"><abbr title="App\Component\Content\FeatureFlipping::initConfig">initConfig</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Program.php.html#92"><abbr title="App\Component\Content\Program::hasAdsLazyloaded">hasAdsLazyloaded</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#102"><abbr title="App\Component\Content\FeatureFlipping::getThirdPartiesNames">getThirdPartiesNames</abbr></a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FeatureFlipping.php.html#152"><abbr title="App\Component\Content\FeatureFlipping::disableFeatures">disableFeatures</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#235"><abbr title="App\Component\Content\FeatureFlipping::getConfigForBandwidth">getConfigForBandwidth</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Program.php.html#188"><abbr title="App\Component\Content\Program::getBonusTypes">getBonusTypes</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#198"><abbr title="App\Component\Content\FeatureFlipping::computeConfig">computeConfig</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#53"><abbr title="App\Component\Content\FeatureFlipping::isFeatureActive">isFeatureActive</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#102"><abbr title="App\Component\Content\FeatureFlipping::getThirdPartiesNames">getThirdPartiesNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#175"><abbr title="App\Component\Content\FeatureFlipping::initConfig">initConfig</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Common.php.html#207"><abbr title="App\Component\Content\Common::blockMenuJson">blockMenuJson</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Program.php.html#57"><abbr title="App\Component\Content\Program::getConfig">getConfig</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#83"><abbr title="App\Component\Content\FeatureFlipping::isThirdparty">isThirdparty</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Program.php.html#92"><abbr title="App\Component\Content\Program::hasAdsLazyloaded">hasAdsLazyloaded</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="FeatureFlipping.php.html#134"><abbr title="App\Component\Content\FeatureFlipping::disable">disable</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.4</a> and <a href="https://phpunit.de/">PHPUnit 10.5.11</a> at Thu Mar 21 11:42:36 CET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,1,0,1,0,1,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,0,0,0,1,2,2,3,2,0,2,45], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,7,"<a href=\"Article.php.html#9\">App\\Component\\Content\\Article<\/a>"],[95.28985507246377,75,"<a href=\"Common.php.html#34\">App\\Component\\Content\\Common<\/a>"],[57.647058823529406,50,"<a href=\"FeatureFlipping.php.html#11\">App\\Component\\Content\\FeatureFlipping<\/a>"],[78.26086956521739,36,"<a href=\"Program.php.html#14\">App\\Component\\Content\\Program<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Article.php.html#11\">App\\Component\\Content\\Article::__construct<\/a>"],[100,6,"<a href=\"Article.php.html#15\">App\\Component\\Content\\Article::getAuthorsStatus<\/a>"],[100,1,"<a href=\"Common.php.html#42\">App\\Component\\Content\\Common::__construct<\/a>"],[90,6,"<a href=\"Common.php.html#73\">App\\Component\\Content\\Common::getHTML<\/a>"],[100,2,"<a href=\"Common.php.html#112\">App\\Component\\Content\\Common::getMenu<\/a>"],[100,1,"<a href=\"Common.php.html#126\">App\\Component\\Content\\Common::getBurgerMenuData<\/a>"],[100,3,"<a href=\"Common.php.html#142\">App\\Component\\Content\\Common::getBurgerMenu<\/a>"],[100,1,"<a href=\"Common.php.html#181\">App\\Component\\Content\\Common::getCustomMenu<\/a>"],[100,3,"<a href=\"Common.php.html#192\">App\\Component\\Content\\Common::blockMenu<\/a>"],[57.14285714285714,4,"<a href=\"Common.php.html#207\">App\\Component\\Content\\Common::blockMenuJson<\/a>"],[91.80327868852459,18,"<a href=\"Common.php.html#227\">App\\Component\\Content\\Common::blockMenuDefault<\/a>"],[100,1,"<a href=\"Common.php.html#469\">App\\Component\\Content\\Common::blockMenuVerticalOwnDesign<\/a>"],[100,1,"<a href=\"Common.php.html#484\">App\\Component\\Content\\Common::getFooterData<\/a>"],[100,3,"<a href=\"Common.php.html#507\">App\\Component\\Content\\Common::getFooter<\/a>"],[100,1,"<a href=\"Common.php.html#544\">App\\Component\\Content\\Common::getHeaderData<\/a>"],[100,2,"<a href=\"Common.php.html#563\">App\\Component\\Content\\Common::getHeader<\/a>"],[100,3,"<a href=\"Common.php.html#611\">App\\Component\\Content\\Common::getSocialsNetworkCountry<\/a>"],[100,3,"<a href=\"Common.php.html#757\">App\\Component\\Content\\Common::getAppStoresCountry<\/a>"],[100,1,"<a href=\"Common.php.html#789\">App\\Component\\Content\\Common::getPartnersHeaderData<\/a>"],[100,1,"<a href=\"Common.php.html#800\">App\\Component\\Content\\Common::getPartnersFooterData<\/a>"],[100,1,"<a href=\"Common.php.html#812\">App\\Component\\Content\\Common::getPartnersBurgerMenuData<\/a>"],[100,1,"<a href=\"Common.php.html#825\">App\\Component\\Content\\Common::getPartnerHeader<\/a>"],[100,1,"<a href=\"Common.php.html#842\">App\\Component\\Content\\Common::getPartnerFooter<\/a>"],[100,1,"<a href=\"Common.php.html#859\">App\\Component\\Content\\Common::getPartnerBurgerMenu<\/a>"],[100,1,"<a href=\"Common.php.html#874\">App\\Component\\Content\\Common::getArticleApi<\/a>"],[0,1,"<a href=\"Common.php.html#879\">App\\Component\\Content\\Common::getBreakingNewsApi<\/a>"],[100,1,"<a href=\"Common.php.html#884\">App\\Component\\Content\\Common::getKeyValueApi<\/a>"],[0,1,"<a href=\"Common.php.html#889\">App\\Component\\Content\\Common::getKeywordApi<\/a>"],[0,1,"<a href=\"Common.php.html#894\">App\\Component\\Content\\Common::getLogger<\/a>"],[100,1,"<a href=\"Common.php.html#899\">App\\Component\\Content\\Common::getMenuManager<\/a>"],[100,1,"<a href=\"Common.php.html#904\">App\\Component\\Content\\Common::getProgramApi<\/a>"],[100,1,"<a href=\"Common.php.html#909\">App\\Component\\Content\\Common::getRouter<\/a>"],[100,1,"<a href=\"Common.php.html#914\">App\\Component\\Content\\Common::getTagApi<\/a>"],[100,1,"<a href=\"Common.php.html#919\">App\\Component\\Content\\Common::getTranslator<\/a>"],[0,1,"<a href=\"Common.php.html#924\">App\\Component\\Content\\Common::getDuplicatedManager<\/a>"],[0,1,"<a href=\"Common.php.html#929\">App\\Component\\Content\\Common::getMostViewedApi<\/a>"],[100,1,"<a href=\"Common.php.html#934\">App\\Component\\Content\\Common::getSpecialCoverageMenuConfiguratorManager<\/a>"],[100,1,"<a href=\"Common.php.html#942\">App\\Component\\Content\\Common::renderResponse<\/a>"],[100,1,"<a href=\"Common.php.html#950\">App\\Component\\Content\\Common::getVerticalHierarchyStore<\/a>"],[0,1,"<a href=\"Common.php.html#955\">App\\Component\\Content\\Common::getVerticalConfigurationStore<\/a>"],[100,1,"<a href=\"FeatureFlipping.php.html#25\">App\\Component\\Content\\FeatureFlipping::__construct<\/a>"],[0,1,"<a href=\"FeatureFlipping.php.html#36\">App\\Component\\Content\\FeatureFlipping::setLogger<\/a>"],[100,1,"<a href=\"FeatureFlipping.php.html#43\">App\\Component\\Content\\FeatureFlipping::isVersion<\/a>"],[54.54545454545454,6,"<a href=\"FeatureFlipping.php.html#53\">App\\Component\\Content\\FeatureFlipping::isFeatureActive<\/a>"],[66.66666666666666,4,"<a href=\"FeatureFlipping.php.html#83\">App\\Component\\Content\\FeatureFlipping::isThirdparty<\/a>"],[77.77777777777779,6,"<a href=\"FeatureFlipping.php.html#102\">App\\Component\\Content\\FeatureFlipping::getThirdPartiesNames<\/a>"],[100,1,"<a href=\"FeatureFlipping.php.html#126\">App\\Component\\Content\\FeatureFlipping::getGlobalConfig<\/a>"],[66.66666666666666,2,"<a href=\"FeatureFlipping.php.html#134\">App\\Component\\Content\\FeatureFlipping::disable<\/a>"],[0,7,"<a href=\"FeatureFlipping.php.html#152\">App\\Component\\Content\\FeatureFlipping::disableFeatures<\/a>"],[66.66666666666666,5,"<a href=\"FeatureFlipping.php.html#175\">App\\Component\\Content\\FeatureFlipping::initConfig<\/a>"],[42.857142857142854,5,"<a href=\"FeatureFlipping.php.html#198\">App\\Component\\Content\\FeatureFlipping::computeConfig<\/a>"],[100,2,"<a href=\"FeatureFlipping.php.html#216\">App\\Component\\Content\\FeatureFlipping::getConfig<\/a>"],[46.666666666666664,9,"<a href=\"FeatureFlipping.php.html#235\">App\\Component\\Content\\FeatureFlipping::getConfigForBandwidth<\/a>"],[100,1,"<a href=\"Program.php.html#29\">App\\Component\\Content\\Program::__construct<\/a>"],[100,1,"<a href=\"Program.php.html#47\">App\\Component\\Content\\Program::setLogger<\/a>"],[37.5,3,"<a href=\"Program.php.html#57\">App\\Component\\Content\\Program::getConfig<\/a>"],[100,1,"<a href=\"Program.php.html#75\">App\\Component\\Content\\Program::hasAdsOnLandingPage<\/a>"],[100,1,"<a href=\"Program.php.html#80\">App\\Component\\Content\\Program::hasAdsOnArticlePage<\/a>"],[100,2,"<a href=\"Program.php.html#85\">App\\Component\\Content\\Program::isSponsored<\/a>"],[75,3,"<a href=\"Program.php.html#92\">App\\Component\\Content\\Program::hasAdsLazyloaded<\/a>"],[100,3,"<a href=\"Program.php.html#103\">App\\Component\\Content\\Program::hasSwipeProgramLoop<\/a>"],[100,4,"<a href=\"Program.php.html#114\">App\\Component\\Content\\Program::getSwipeProgramListLoop<\/a>"],[100,4,"<a href=\"Program.php.html#127\">App\\Component\\Content\\Program::getProgramCard<\/a>"],[100,6,"<a href=\"Program.php.html#154\">App\\Component\\Content\\Program::hasAdsForKeyAndType<\/a>"],[100,3,"<a href=\"Program.php.html#177\">App\\Component\\Content\\Program::getConfigForProgram<\/a>"],[0,4,"<a href=\"Program.php.html#188\">App\\Component\\Content\\Program::getBonusTypes<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
